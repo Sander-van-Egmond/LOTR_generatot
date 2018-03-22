@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">LOTR Scenario Generator</string>
+    <string name="spider_image">spider</string>
+    <string name="tree_image">tree</string>
+    <string name="orc_image">orc</string>
+    <string name="footprint_image">footprint</string>
+    <string name="river_image">river</string>
+    <string name="eye_image">eye</string>
+    <string name="raven_image">raven</string>
+    <string name="generate">Generate</string>
+    <string name="tower_image">tower</string>
+    <string name="second_activity">Second activity</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="flies_and_spiders_a">Setup: Search the encounter deck for 1 copy of the Forest Spider and 1 copy of the Old Forest Road, and add them to the staging area. Then, shuffle the encounter deck.</string>
+    <string name="flies_and_spiders_b">---</string>
+
+    <string name="ancient_path_a">Setup: Take out Ungoliants Spawn and set him out of play</string>
+    <string name="ancient_path_b"> When all Pogress tokens have been placed on this card, put Ungoliants Spawn into play. Players cannot defeat this stage whilst Ungoliants Spawn is in play</string>
+
+    <string name="to_the_river_a">Setup: Each player reveals 1 card from the top of the encounter deck, and adds it to the staging area.</string>
+    <string name="to_the_river_b">When Revealed: Search the encounter deck for 1 Hill Troll (if one is not already in play), and place it in the staging area. Shuffle the encounter deck.</string>
+
+    <string name="orc_war_party_a">Each player searches the encounter deck for the first Orc card and places it into the staging area. Shuffle the encounter deck.</string>
+    <string name="orc_war_party_b">Players cannot defeat this stage while there are Orc cards in play.</string>
+</resources>

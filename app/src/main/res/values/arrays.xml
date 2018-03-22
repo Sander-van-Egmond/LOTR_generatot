@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spider_1">
+        <item>@string/ancient_path_a</item>
+    </string-array>
+    <string-array name="spider_2">
+        <item>@string/ancient_path_b</item>
+    </string-array>
+    <string-array name="tree_1">
+        <item>@string/flies_and_spiders_a</item>
+    </string-array>
+    <string-array name="tree_2">
+        <item>@string/flies_and_spiders_b</item>
+    </string-array>
+    <string-array name="footprint_1">
+        <item>@string/to_the_river_a</item>
+        <item>@string/orc_war_party_a</item>
+    </string-array>
+    <string-array name="footprint_2">
+        <item>@string/to_the_river_b</item>
+        <item>@string/orc_war_party_b</item>
+    </string-array>
+</resources>
