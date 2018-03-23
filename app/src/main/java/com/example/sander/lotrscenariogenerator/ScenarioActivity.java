@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -16,20 +17,23 @@ public class ScenarioActivity extends AppCompatActivity {
     ListView listView ;
     Integer scenario;
     Button nextButton, previousButton;
+    TextView setupText;
+    Intent caller;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scenario);
         //Retrieve information
-        Intent caller = getIntent();
-        monsterdecks = caller.getStringArrayListExtra("deck");
+        caller = getIntent();
+        monsterdecks = caller.getStringArrayListExtra("scenario_1");
 
         //set variables
-        scenario = 0;
+        scenario = 1;
         nextButton = findViewById(R.id.nextscenario_button);
         previousButton = findViewById(R.id.previousscenario_button);
         previousButton.setEnabled(false);
+        setupText = findViewById(R.id.setup_text);
 
 
         listView = findViewById(R.id.list);
@@ -45,19 +49,20 @@ public class ScenarioActivity extends AppCompatActivity {
     }
 
     public void nextScenario(View v){
-        if (scenario ==0){
+        if (scenario ==1){
             previousButton.setEnabled(true);
-        }else if(scenario == 4){
+        }else if(scenario == 5){
             nextButton.setEnabled(false);
         }
         scenario += 1;
+        setupText.setText(caller.getStringExtra("scenario_"+Integer.toString(scenario)));
     }
 
 
     public void previousScenario(View v){
-        if (scenario==5){
+        if (scenario==6){
             nextButton.setEnabled(true);
-        }else if (scenario == 1){
+        }else if (scenario == 2){
             previousButton.setEnabled(false);
         }
         scenario -= 1;
