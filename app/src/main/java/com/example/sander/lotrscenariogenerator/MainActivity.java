@@ -1,7 +1,6 @@
 package com.example.sander.lotrscenariogenerator;
 
 import android.content.Intent;
-import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -11,7 +10,6 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
@@ -56,6 +54,8 @@ public class MainActivity extends AppCompatActivity {
 
 
             scenario.putStringArrayListExtra("scenario_1",scenarioPicker(chosenDecks,1));
+            scenario.putStringArrayListExtra("scenario_2",scenarioPicker(chosenDecks,2));
+            scenario.putStringArrayListExtra("scenario_3",scenarioPicker(chosenDecks,3));
 
 
             startActivity(scenario);
@@ -65,7 +65,8 @@ public class MainActivity extends AppCompatActivity {
 
     private ArrayList<String> scenarioPicker(ArrayList<String> decks, int scenarioNumber){
 
-        ArrayList<ArrayList<String>> options = new ArrayList<ArrayList<String>>();
+        ArrayList<ArrayList<String>> options = new ArrayList<>();
+        ArrayList<String> result;
 
         for (String deck : decks) {
 
@@ -79,16 +80,16 @@ public class MainActivity extends AppCompatActivity {
                 int id = ta.getResourceId(i, 0);
                 if (id > 0) {
                     options.add(new ArrayList<>(Arrays.asList(getResources().getStringArray(id))));
-                } else {
-                    // something wrong with the XML
                 }
             }
             ta.recycle(); // Important!
         }
-        Collections.shuffle(options);
-        return options.get(0);
-
+        if (options.size() == 0){
+            result = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.general_quest)));
+        }else {
+            Collections.shuffle(options);
+            result = options.get(0);
+        }
+        return result;
     }
-
-
 }

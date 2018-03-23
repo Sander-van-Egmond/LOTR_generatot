@@ -1,5 +1,75 @@
 <resources>
     <string name="app_name">LOTR Scenario Generator</string>
+
+    <string name="generate">Generate</string>
+    <string name="second_activity">Second activity</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="tot_the_river_title">To the River</string>
+    <string name="to_the_river_a">Setup: Each player reveals 1 card from the top of the encounter deck, and adds it to the staging area.</string>
+    <string name="to_the_river_b">When Revealed: Search the encounter deck for 1 Hill Troll (if one is not already in play), and place it in the staging area. Shuffle the encounter deck.</string>
+
+    <string name="orc_war_party_title">Orc War Party</string>
+    <string name="orc_war_party_a">Your Party journeys through the land while suddenly they stumble upon a group of orcs!</string>
+    <string name="orc_war_party_b">Each player searches the encounter deck for the first Orc card and places it into the staging area. Shuffle the encounter deck. Players cannot defeat this stage while there are Orc cards in play.</string>
+
+    <string name="anduin_passage_title">River Passage</string>
+    <string name="anduin_passage_a">You try to cross a river</string>
+    <string name="anduin_passage_b">Reveal 1 additional card from the encounter deck each quest phase. Do not make engagement checks during the encounter phase. (Each player may still optionally engage 1 enemy each encounter phase.)</string>
+
+    <string name="ambush_on_the_shore_title">Ambush!</string>
+    <string name="ambush_on_the_shore_a">You walk a bit further, suddenly.... An ambush!</string>
+    <string name="ambush_on_the_shore_b">When Revealed: Reaveal 2 encounter cards per player, and add them to the staging area. Skip the staging step of the quest for the remainder of the game. Once there are no enemies in play, the players have won the game.</string>
+
+    <string name="the_necromancers_tower_title">Captured!</string>
+    <string name="the_necromancers_tower_a">One of your heroes is captured! You must free your companion. Setup: Search the encounter deck for the first 3 objective cards, reveal and place them in the staging area. Then, shuffle the encounter deck, and attach 1 encounter to each objective card.</string>
+    <string name="the_necromancers_tower_b">When Revealed: Randomly select 1 hero card (among all the heroes controlled by the players) and turn it facedown. That hero is now considered a prisoner and  cannot be used, damaged or collect resources until it is rescued. The players, as a group, cannot play more than 1 ally card each round. Players cannot advance to the next stage of this quest unless they have at least 1 objective card. After the requirements are met to advance to the next stage, flip the prisoner card face-up and place 1 damage token on it. This hero has been rescued and may now be used by its controller.</string>
+
+    <string name="through_the_caverns_title">Through the Caverns</string>
+    <string name="through_the_caverns_a">The passage is narrow, help is hard to find in these caverns. If Nazgul of Dol Guldur is not yet in play, search the encounter deck for Nazgul of Dol Guldur and put him in play.</string>
+    <string name="through_the_caverns_b">The players, as a group, cannot play more than 1 ally card each round. If there are less than 3 objective cards in play, search the encounter deck for the first objective cards, reveal and add them to play until there are 3 objective cards in play. Shuffle the encounter deck and attach 1 encounter card to each newly revealed objective card. Players cannot advance to the next stage of this quest unless they have claimed 3 objective cards.</string>
+
+    <string name="out_of_the_dungeons_title">Towards freedom</string>
+    <string name="out_of_the_dungeons_a">Your party runs to safety but the enemy is prepared.</string>
+    <string name="out_of_the_dungeons_b">If Nazgul of Dol Guldur has not yet been in play, search the encounter deck and put him into the staging area. Shuffle the encounter deck afterwards. Forced: At the beginning of each quest phase, each player places the top card of his deck face down in front of him as if it just engaged him from the staging area. These cards are called orc guard and act as enemy with: 1 hit point 1 attack and 1 defense. Players cannot defeat this stage while Nazgul of Dol Guldur is in play.</string>
+
+    <string name="dark_woods_title">Dark Woods</string>
+    <string name="dark_woods_a">Your party hears rumors about an orc warleader in the woods nearby.</string>
+    <string name="dark_woods_b">If chieftain Ufthak is not yet in play, search the encounter deck for Chieftain Ufthak, put him in the staging area and shuffle the encounter deck. Players cannot defeat this stage while Chieftain Ufthak is in play.</string>
+
+    <string name="daring_rescue_title">Daring Rescue</string>
+    <string name="daring_rescue_a">You discover the lair of the evil brood of Orcs and their Hill Troll Leader. You must destroy their hideout and any captives they have taken.</string>
+    <string name="daring_rescue_b">Search the encounter deck for a Hill Troll card and put it into play. Players cannot defeat this stage while there are Hill Troll cards in play.</string>
+
+    <string name="ancient_path_title">Ancient Path</string>
+    <string name="ancient_path_a">Long has an ancient enemy hidden in the dark wilderness of Mirkwood. The evil within has plagued the land for years. The time has come to put an end to this darkness. Search the encounter deck for Ungoliants Spawn and place it in the staging area.</string>
+    <string name="ancient_path_b">Search the encounter deck for Ungoliants Spawn and place it next to the staging area. Shuffle the encounter deck afterwards. When all progress tokens have been placed on this quest, put Ungoliants Spawn into the staging area. Players cannot defeat this stage while Ungoliants Spawn is in play.</string>
+
+    <string name="deep_catacombs_title">Ancient Crypt</string>
+    <string name="deep_catacombs_a">Before long the twisted trees before you give way to a large, shadowy clearing adorned with the ruins of an old keep. In the centre, a slippery stairwell descends into the gloomy depths of the catacombs. There you find a huge ornate set of double doors leading to an ancient crypt. There is only one way to find out what evil stirs within.</string>
+    <string name="deep_catacombs_b">If the Shadow Key is not yet in play, search the encounter deck for the Shadow Key, place it in the staging area and shuffle the encounter deck. Place one encounter card on the Shadow Key for each player. Players cannot put progress tokens on this stage unless a hero controls the Shadow Key</string>
+
+    <string name="risen_nightmare_title">Risen Nightmare</string>
+    <string name="risen_nightmare_a">Gingerly you open the door and step through. You wind your way to a labyrinthine maze of tunnels, half buried forests, underground rivers and dark caves. From deeper caverns you can hear unearthly shrieking.</string>
+    <string name="risen_nightmare_b">If Nazgul of Dol Guldur is not in play, search the encounter deck and put him next to the staging area. Shuffle the encounter deck afterwards. When all progress tokens have been placed on this quest, put Nazgul of Dol Guldur into the staging area. Players cannot defeat this stage while Nazgul of Dol Guldur is in play. </string>
+
+    <string name="goblin_gate_title">Goblin Gate</string>
+    <string name="goblin_gate_a">From here you must break through the orc phalanx at the dreaded Goblin Gate to get through Mirkwood. An alarm cry goes up and from the gate emerges a swathe of shrieking orcish troops. They have been waiting for you. Each player searches the encounter deck and places the first orc they find in the staging area. Shuffle the encounter deck afterwards.</string>
+    <string name="goblin_gate_b">The swarm of evil orcs seems unending. You quickly realise you must escape through the gate with post haste. Working your way slowly towards the entrance, you see with a sinking heart that a small army stands fast in your way. Each player immediately chooses and engages 1 Orc. Players cannot defeat this stage while there are Orc cards in play.</string>
+
+    <string name="elf_path_title">Elf Path</string>
+    <string name="elf_path_a">You march into the darkness of the woods. From the boughs above you a voice calls out. A nimble Elven figure drops to the leafy ground before you. "Hurry - follow me." Your guide darts down a hidden path through the trees and you struggle to keep up</string>
+    <string name="elf_path_b">You decide to follow the elf through the woods. Behind you evil creatures gather in number and regroup, following hot on your heels. Time is of the essence! Do not make engagement whilst on this stage. Enemies already engaged with you remain engaged. You are neither allowed to engage nor to be engaged by enemies unless you are already engaged with them.</string>
+
+    <string name="the_veil_of_the_lonely_mountain_title">The Veil of the Mountain</string>
+    <string name="the_veil_of_the_lonely_mountain_a">In the distance you can see a mountain. Your pursuers emerge around you as you hasten your way to the mountain. Each player searches the encounter deck and places the first Orc they find into the staging area. Shuffle the encounter deck.</string>
+    <string name="the_veil_of_the_lonely_mountain_b">The Elves have sent help to you. Upon arriving they immediately join you into battle. Each player may immediately place 1 Elf from their hand into play for free and any Elf character may heal 1 wound. Each player immediately chooses and engages 1 Orc. Players cannot defeat this stage while any Orc cards are in play.</string>
+
+    <string name="general_quest_title">Monsters!</string>
+    <string name="general_quest_a">The Enemy is upon you!</string>
+    <string name="general_quest_b">Each player searches the encounter deck and plays the first Enemy card they find in the staging area. Players cannot defeat this stage while any Enemy cards are still in play.</string>
+
     <string name="spider_image">spider</string>
     <string name="tree_image">tree</string>
     <string name="orc_image">orc</string>
@@ -7,20 +77,5 @@
     <string name="river_image">river</string>
     <string name="eye_image">eye</string>
     <string name="raven_image">raven</string>
-    <string name="generate">Generate</string>
     <string name="tower_image">tower</string>
-    <string name="second_activity">Second activity</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
-
-    <string name="ancient_path_a">Setup: Take out Ungoliants Spawn and set him out of play</string>
-    <string name="ancient_path_b"> When all Pogress tokens have been placed on this card, put Ungoliants Spawn into play. Players cannot defeat this stage whilst Ungoliants Spawn is in play</string>
-
-    <string name="tot_the_river_title">To The River</string>
-    <string name="to_the_river_a">Setup: Each player reveals 1 card from the top of the encounter deck, and adds it to the staging area.</string>
-    <string name="to_the_river_b">When Revealed: Search the encounter deck for 1 Hill Troll (if one is not already in play), and place it in the staging area. Shuffle the encounter deck.</string>
-
-    <string name="orc_war_party_title">Orc War Party</string>
-    <string name="orc_war_party_a">Each player searches the encounter deck for the first Orc card and places it into the staging area. Shuffle the encounter deck.</string>
-    <string name="orc_war_party_b">Players cannot defeat this stage while there are Orc cards in play.</string>
 </resources>

@@ -1,26 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string-array name="spider_1">
-
-    </string-array>
-    <string-array name="spider_2">
-
-    </string-array>
-    <string-array name="spider_3">
-
-    </string-array>
-    <string-array name="tree_1">
-    </string-array>
-    <string-array name="tree_2">
-    </string-array>
-    <string-array name="tree_3">
-
-    </string-array>
     <array name="footprint_1">
         <item>@array/to_the_river</item>
-        <item>@array/orc_war_party</item>
     </array>
+    <array name="footprint_2">
+    </array>
+    <array name="footprint_3">
+        <item>@array/daring_rescue</item>
+    </array>
+
+    <array name="river_1">
+    </array>
+    <array name="river_2">
+        <item>@array/anduin_passage</item>
+    </array>
+    <array name="river_3">
+        <item>@array/ambush_on_the_shore</item>
+    </array>
+
+    <array name="tower_1">
+        <item>@array/the_necromancers_tower</item>
+    </array>
+    <array name="tower_2">
+        <item>@array/through_the_caverns</item>
+        <item>@array/deep_catacombs</item>
+    </array>
+    <array name="tower_3">
+        <item>@array/out_of_the_dungeons</item>
+        <item>@array/risen_nightmare</item>
+    </array>
+
+    <array name="orc_1">
+        <item>@array/orc_war_party</item>
+        <item>@array/goblin_gate</item>
+    </array>
+    <array name="orc_2">
+        <item>@array/dark_woods</item>
+        <item>@array/elf_path</item>
+    </array>
+    <array name="orc_3">
+        <item>@array/the_veil_of_the_lonely_mountain</item>
+    </array>
+
+    <array name="spider_1">
+        <item>@array/ancient_path</item>
+    </array>
+    <array name="spider_2">
+    </array>
+    <array name="spider_3">
+    </array>
+
+    <array name="eye_1">
+    </array>
+    <array name="eye_2">
+    </array>
+    <array name="eye_3">
+    </array>
+
+    <array name="raven_1">
+    </array>
+    <array name="raven_2">
+    </array>
+    <array name="raven_3">
+    </array>
+
+    <array name="tree_1">
+    </array>
+    <array name="tree_2">
+    </array>
+    <array name="tree_3">
+    </array>
+
 
     <string-array name="orc_war_party">
         <item>@string/orc_war_party_title</item>
@@ -32,5 +83,90 @@
         <item>@string/tot_the_river_title</item>
         <item>@string/to_the_river_a</item>
         <item>@string/to_the_river_b</item>
+    </string-array>
+
+    <string-array name="anduin_passage">
+        <item>@string/anduin_passage_title</item>
+        <item>@string/anduin_passage_a</item>
+        <item>@string/anduin_passage_b</item>
+    </string-array>
+
+    <string-array name="ambush_on_the_shore">
+        <item>@string/ambush_on_the_shore_title</item>
+        <item>@string/ambush_on_the_shore_a</item>
+        <item>@string/ambush_on_the_shore_b</item>
+    </string-array>
+
+    <string-array name="the_necromancers_tower">
+        <item>@string/the_necromancers_tower_title</item>
+        <item>@string/the_necromancers_tower_a</item>
+        <item>@string/the_necromancers_tower_b</item>
+    </string-array>
+
+
+    <string-array name="through_the_caverns">
+        <item>@string/through_the_caverns_title</item>
+        <item>@string/through_the_caverns_a</item>
+        <item>@string/through_the_caverns_b</item>
+    </string-array>
+
+    <string-array name="out_of_the_dungeons">
+        <item>@string/out_of_the_dungeons_title</item>
+        <item>@string/out_of_the_dungeons_a</item>
+        <item>@string/out_of_the_dungeons_b</item>
+    </string-array>
+
+    <string-array name="dark_woods">
+        <item>@string/dark_woods_title</item>
+        <item>@string/dark_woods_a</item>
+        <item>@string/dark_woods_b</item>
+    </string-array>
+
+    <string-array name="daring_rescue">
+        <item>@string/daring_rescue_title</item>
+        <item>@string/daring_rescue_a</item>
+        <item>@string/daring_rescue_b</item>
+    </string-array>
+
+    <string-array name="ancient_path">
+        <item>@string/ancient_path_title</item>
+        <item>@string/ancient_path_a</item>
+        <item>@string/ancient_path_b</item>
+    </string-array>
+
+    <string-array name="deep_catacombs">
+        <item>@string/deep_catacombs_title</item>
+        <item>@string/deep_catacombs_a</item>
+        <item>@string/deep_catacombs_b</item>
+    </string-array>
+
+    <string-array name="risen_nightmare">
+        <item>@string/risen_nightmare_title</item>
+        <item>@string/risen_nightmare_a</item>
+        <item>@string/risen_nightmare_b</item>
+    </string-array>
+
+    <string-array name="goblin_gate">
+        <item>@string/goblin_gate_title</item>
+        <item>@string/goblin_gate_a</item>
+        <item>@string/goblin_gate_b</item>
+    </string-array>
+
+    <string-array name="elf_path">
+        <item>@string/elf_path_title</item>
+        <item>@string/elf_path_a</item>
+        <item>@string/elf_path_b</item>
+    </string-array>
+
+    <string-array name="the_veil_of_the_lonely_mountain">
+        <item>@string/the_veil_of_the_lonely_mountain_title</item>
+        <item>@string/the_veil_of_the_lonely_mountain_a</item>
+        <item>@string/the_veil_of_the_lonely_mountain_b</item>
+    </string-array>
+
+    <string-array name="general_quest">
+        <item>@string/general_quest_title</item>
+        <item>@string/general_quest_a</item>
+        <item>@string/general_quest_b</item>
     </string-array>
 </resources>
