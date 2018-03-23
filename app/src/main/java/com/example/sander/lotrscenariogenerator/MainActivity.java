@@ -52,11 +52,10 @@ public class MainActivity extends AppCompatActivity {
                 chosenDecks = new ArrayList<>(monsterDecks.subList(0,3));
             }
 
-
             scenario.putStringArrayListExtra("scenario_1",scenarioPicker(chosenDecks,1));
             scenario.putStringArrayListExtra("scenario_2",scenarioPicker(chosenDecks,2));
             scenario.putStringArrayListExtra("scenario_3",scenarioPicker(chosenDecks,3));
-
+            scenario.putStringArrayListExtra("monster_decks", chosenDecks);
 
             startActivity(scenario);
         }

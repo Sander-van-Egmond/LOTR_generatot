@@ -20,7 +20,7 @@
 
     <string name="ambush_on_the_shore_title">Ambush!</string>
     <string name="ambush_on_the_shore_a">You walk a bit further, suddenly.... An ambush!</string>
-    <string name="ambush_on_the_shore_b">When Revealed: Reaveal 2 encounter cards per player, and add them to the staging area. Skip the staging step of the quest for the remainder of the game. Once there are no enemies in play, the players have won the game.</string>
+    <string name="ambush_on_the_shore_b">When Revealed: Reveal 2 encounter cards per player, and add them to the staging area. Skip the staging step of the quest for the remainder of the game. Once there are no enemies in play, the players have won the game.</string>
 
     <string name="the_necromancers_tower_title">Captured!</string>
     <string name="the_necromancers_tower_a">One of your heroes is captured! You must free your companion. Setup: Search the encounter deck for the first 3 objective cards, reveal and place them in the staging area. Then, shuffle the encounter deck, and attach 1 encounter to each objective card.</string>
