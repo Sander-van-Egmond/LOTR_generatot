@@ -52,13 +52,13 @@
     <string name="daring_rescue_points">8</string>
 
     <string name="ancient_path_title">Ancient Path</string>
-    <string name="ancient_path_a">  Long has an ancient enemy hidden in the dark wilderness of Mirkwood. The evil within has plagued the land for years. The time has come to put an end to this darkness.\n\tSearch the encounter deck for Ungoliant\'s Spawn and place it in the staging area.</string>
-    <string name="ancient_path_b">  Search the encounter deck for Ungoliant\'s Spawn and place it next to the staging area. Shuffle the encounter deck afterwards.\n\tWhen all progress tokens have been placed on this quest, put Ungoliant\'s Spawn into the staging area.\n\tPlayers cannot defeat this stage while Ungoliant\'s Spawn is in play.</string>
+    <string name="ancient_path_a">Long has an ancient enemy hidden in the dark wilderness of Mirkwood. The evil within has plagued the land for years. The time has come to put an end to this darkness.\n\tSearch the encounter deck for Ungoliant\'s Spawn and put it out of play.</string>
+    <string name="ancient_path_b">When all progress tokens have been placed on this quest, put Ungoliant\'s Spawn into the staging area.\n\tPlayers cannot defeat this stage while Ungoliant\'s Spawn is in play.</string>
     <string name="ancient_path_points">9</string>
 
     <string name="deep_catacombs_title">Ancient Crypt</string>
-    <string name="deep_catacombs_a">  Before long the twisted trees before you give way to a large, shadowy clearing adorned with the ruins of an old keep. In the centre, a slippery stairwell descends into the gloomy depths of the catacombs. There you find a huge ornate set of double doors leading to an ancient crypt. There is only one way to find out what evil stirs within.</string>
-    <string name="deep_catacombs_b">  If the Shadow Key is not yet in play, search the encounter deck for the Shadow Key, place it in the staging area and shuffle the encounter deck. Place one encounter card on the Shadow Key for each player.\n\tPlayers cannot put progress tokens on this stage unless a hero controls the Shadow Key</string>
+    <string name="deep_catacombs_a">Before long the twisted trees before you give way to a large, shadowy clearing adorned with the ruins of an old keep. In the centre, a slippery stairwell descends into the gloomy depths of the catacombs. There you find a huge ornate set of double doors leading to an ancient crypt. There is only one way to find out what evil stirs within.</string>
+    <string name="deep_catacombs_b">If the Shadow Key is not yet in play, search the encounter deck for the Shadow Key, place it in the staging area and shuffle the encounter deck. Place one encounter card on the Shadow Key for each player.\n\tPlayers cannot put progress tokens on this stage unless a hero controls the Shadow Key</string>
     <string name="deep_catacombs_points">8</string>
 
     <string name="risen_nightmare_title">Risen Nightmare</string>
@@ -116,4 +116,5 @@
     <string name="progress_3a">3a</string>
     <string name="progress_3b">3b</string>
     <string name="information">i</string>
+    <string name="information_scenario">Welcome</string>
 </resources>
