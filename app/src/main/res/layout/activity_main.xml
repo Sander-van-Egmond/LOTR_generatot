@@ -33,7 +33,9 @@
             android:layout_row="0"
             android:contentDescription="@string/tree_image"
             android:onClick="onClickMonsterDeck"
-            app:srcCompat="@drawable/monsterdeck_tree" />
+            app:srcCompat="@drawable/monsterdeck_tree"
+            android:background="@drawable/round"
+            android:layout_margin="8dp"/>
 
         <ImageButton
             android:id="@+id/spider"
@@ -43,7 +45,9 @@
             android:layout_row="0"
             android:contentDescription="@string/spider_image"
             android:onClick="onClickMonsterDeck"
-            app:srcCompat="@drawable/monsterdeck_spider" />
+            app:srcCompat="@drawable/monsterdeck_spider"
+            android:background="@drawable/round"
+            android:layout_margin="8dp"/>
 
         <ImageButton
             android:id="@+id/orc"
@@ -53,7 +57,9 @@
             android:layout_row="0"
             android:contentDescription="@string/orc_image"
             android:onClick="onClickMonsterDeck"
-            app:srcCompat="@drawable/monsterdeck_orc" />
+            app:srcCompat="@drawable/monsterdeck_orc"
+            android:background="@drawable/round"
+            android:layout_margin="8dp"/>
 
         <ImageButton
             android:id="@+id/footprint"
@@ -63,7 +69,9 @@
             android:layout_row="0"
             android:contentDescription="@string/footprint_image"
             android:onClick="onClickMonsterDeck"
-            app:srcCompat="@drawable/monsterdeck_footprint" />
+            app:srcCompat="@drawable/monsterdeck_footprint"
+            android:background="@drawable/round"
+            android:layout_margin="8dp"/>
 
         <ImageButton
             android:id="@+id/river"
@@ -73,7 +81,9 @@
             android:layout_row="1"
             android:contentDescription="@string/river_image"
             android:onClick="onClickMonsterDeck"
-            app:srcCompat="@drawable/monsterdeck_river" />
+            app:srcCompat="@drawable/monsterdeck_river"
+            android:background="@drawable/round"
+            android:layout_margin="8dp"/>
 
         <ImageButton
             android:id="@+id/eye"
@@ -83,7 +93,9 @@
             android:layout_row="1"
             android:contentDescription="@string/eye_image"
             android:onClick="onClickMonsterDeck"
-            app:srcCompat="@drawable/monsterdeck_eye" />
+            app:srcCompat="@drawable/monsterdeck_eye"
+            android:background="@drawable/round"
+            android:layout_margin="8dp"/>
 
         <ImageButton
             android:id="@+id/raven"
@@ -93,7 +105,9 @@
             android:layout_row="1"
             android:contentDescription="@string/raven_image"
             android:onClick="onClickMonsterDeck"
-            app:srcCompat="@drawable/monsterdeck_raven" />
+            app:srcCompat="@drawable/monsterdeck_raven"
+            android:background="@drawable/round"
+            android:layout_margin="8dp"/>
 
         <ImageButton
             android:id="@+id/tower"
@@ -103,7 +117,9 @@
             android:layout_row="1"
             android:contentDescription="@string/tower_image"
             android:onClick="onClickMonsterDeck"
-            app:srcCompat="@drawable/monsterdeck_tower" />
+            app:srcCompat="@drawable/monsterdeck_tower"
+            android:background="@drawable/round"
+            android:layout_margin="8dp"/>
     </GridLayout>
 
     <Button

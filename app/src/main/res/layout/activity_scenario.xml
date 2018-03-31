@@ -1,65 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:weightSum="100">
-
-    <TextView
-        android:id="@+id/title_text"
+    android:weightSum="100"
+    android:keepScreenOn="true">
+    
+    <RelativeLayout
+        android:id="@+id/title_bar"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="15"
-        android:gravity="center"
-        android:textSize="25sp"
-        android:textColor="#000000"/>
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/progress_tv"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:textSize="16sp"
+            android:background="@drawable/empty_symbol"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:textColor="#7b4ce0"
+            android:layout_margin="8dp"/>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="25">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/progress_tv"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_toRightOf="@+id/progress_tv" />
 
         <Button
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:background="@drawable/empty_symbol"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="8dp"
+            android:textColor="#fff"
+            android:onClick="onClickInfo"
+            android:text="@string/information"
+            android:textSize="16sp"
+            android:textAllCaps="false"/>
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/button_bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/title_bar"
+        android:layout_above="@id/quest_bar">
+
+        <ImageButton
             android:id="@+id/previousscenario_button"
-            android:layout_width="0dp"
+            android:layout_width="64dp"
             android:layout_height="match_parent"
-            android:layout_weight="3"
+            android:layout_alignParentStart="true"
             android:onClick="previousScenario"
-            android:text="@string/previous"
+            android:contentDescription="@string/previous"
             style="?android:attr/borderlessButtonStyle"
-            tools:ignore="NestedWeights" />
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/left_arrow"
+            android:alpha="0.5"/>
 
-        <Button
+        <ImageButton
             android:id="@+id/nextscenario_button"
-            android:layout_width="0dp"
+            android:layout_width="64dp"
             android:layout_height="match_parent"
-            android:layout_weight="3"
+            android:layout_alignParentEnd="true"
             android:onClick="nextScenario"
-            android:text="@string/next"
-            style="?android:attr/borderlessButtonStyle"/>
+            android:contentDescription="@string/next"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/right_arrow"
+            android:alpha="0.5"/>
 
 
-    </LinearLayout>
+    </RelativeLayout>
 
-    <LinearLayout
+    <RelativeLayout
+        android:id="@+id/quest_bar"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="15"
-        android:gravity="end">
+        android:layout_height="42dp"
+        android:layout_above="@+id/setup_text">
+        
+        <TextView
+            android:id="@+id/quest_points"
+            android:textSize="16sp"
+            android:layout_marginLeft="32dp"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:textColor="#a31111"
+            android:gravity="center"
+            android:background="@drawable/empty_symbol"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="32dp" />
 
+        <LinearLayout
+            android:id="@+id/quest_symbols_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="32dp"
+            android:layout_marginEnd="32dp">
 
-    </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
 
     <TextView
         android:id="@+id/setup_text"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="45"
+        android:layout_height="256dp"
+        android:layout_alignParentBottom="true"
         android:textColor="#000"
-        android:padding="8dp"/>
+        android:padding="32dp"
+        android:background="@drawable/textview"
+        android:scrollbars = "vertical"/>
 
 
 
 
-</LinearLayout>
+</RelativeLayout>

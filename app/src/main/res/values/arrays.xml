@@ -5,12 +5,14 @@
         <item>@array/to_the_river</item>
     </array>
     <array name="footprint_2">
+        <item>@array/general_quest</item>
     </array>
     <array name="footprint_3">
         <item>@array/daring_rescue</item>
     </array>
 
     <array name="river_1">
+        <item>@array/general_quest</item>
     </array>
     <array name="river_2">
         <item>@array/anduin_passage</item>
@@ -45,31 +47,43 @@
 
     <array name="spider_1">
         <item>@array/ancient_path</item>
+        <item>@array/foul_tower</item>
     </array>
     <array name="spider_2">
+        <item>@array/twisted_caverns</item>
     </array>
     <array name="spider_3">
+        <item>@array/final_stand</item>
     </array>
 
     <array name="eye_1">
+        <item>@array/general_quest</item>
     </array>
     <array name="eye_2">
+        <item>@array/general_quest</item>
     </array>
     <array name="eye_3">
+        <item>@array/general_quest</item>
     </array>
 
     <array name="raven_1">
+        <item>@array/general_quest</item>
     </array>
     <array name="raven_2">
+        <item>@array/general_quest</item>
     </array>
     <array name="raven_3">
+        <item>@array/general_quest</item>
     </array>
 
     <array name="tree_1">
+        <item>@array/general_quest</item>
     </array>
     <array name="tree_2">
+        <item>@array/general_quest</item>
     </array>
     <array name="tree_3">
+        <item>@array/general_quest</item>
     </array>
 
 
@@ -77,30 +91,35 @@
         <item>@string/orc_war_party_title</item>
         <item>@string/orc_war_party_a</item>
         <item>@string/orc_war_party_b</item>
+        <item>@string/orc_war_party_points</item>
     </string-array>
 
     <string-array name="to_the_river">
         <item>@string/tot_the_river_title</item>
         <item>@string/to_the_river_a</item>
         <item>@string/to_the_river_b</item>
+        <item>@string/to_the_river_points</item>
     </string-array>
 
     <string-array name="anduin_passage">
         <item>@string/anduin_passage_title</item>
         <item>@string/anduin_passage_a</item>
         <item>@string/anduin_passage_b</item>
+        <item>@string/anduin_passage_points</item>
     </string-array>
 
     <string-array name="ambush_on_the_shore">
         <item>@string/ambush_on_the_shore_title</item>
         <item>@string/ambush_on_the_shore_a</item>
         <item>@string/ambush_on_the_shore_b</item>
+        <item>@string/ambush_on_the_shore_points</item>
     </string-array>
 
     <string-array name="the_necromancers_tower">
         <item>@string/the_necromancers_tower_title</item>
         <item>@string/the_necromancers_tower_a</item>
         <item>@string/the_necromancers_tower_b</item>
+        <item>@string/the_necromancers_tower_points</item>
     </string-array>
 
 
@@ -108,65 +127,97 @@
         <item>@string/through_the_caverns_title</item>
         <item>@string/through_the_caverns_a</item>
         <item>@string/through_the_caverns_b</item>
+        <item>@string/through_the_caverns_points</item>
     </string-array>
 
     <string-array name="out_of_the_dungeons">
         <item>@string/out_of_the_dungeons_title</item>
         <item>@string/out_of_the_dungeons_a</item>
         <item>@string/out_of_the_dungeons_b</item>
+        <item>@string/out_of_the_dungeons_points</item>
     </string-array>
 
     <string-array name="dark_woods">
         <item>@string/dark_woods_title</item>
         <item>@string/dark_woods_a</item>
         <item>@string/dark_woods_b</item>
+        <item>@string/dark_woods_points</item>
     </string-array>
 
     <string-array name="daring_rescue">
         <item>@string/daring_rescue_title</item>
         <item>@string/daring_rescue_a</item>
         <item>@string/daring_rescue_b</item>
+        <item>@string/daring_rescue_points</item>
     </string-array>
 
     <string-array name="ancient_path">
         <item>@string/ancient_path_title</item>
         <item>@string/ancient_path_a</item>
         <item>@string/ancient_path_b</item>
+        <item>@string/ancient_path_points</item>
     </string-array>
 
     <string-array name="deep_catacombs">
         <item>@string/deep_catacombs_title</item>
         <item>@string/deep_catacombs_a</item>
         <item>@string/deep_catacombs_b</item>
+        <item>@string/deep_catacombs_points</item>
     </string-array>
 
     <string-array name="risen_nightmare">
         <item>@string/risen_nightmare_title</item>
         <item>@string/risen_nightmare_a</item>
         <item>@string/risen_nightmare_b</item>
+        <item>@string/risen_nightmare_points</item>
     </string-array>
 
     <string-array name="goblin_gate">
         <item>@string/goblin_gate_title</item>
         <item>@string/goblin_gate_a</item>
         <item>@string/goblin_gate_b</item>
+        <item>@string/goblin_gate_points</item>
     </string-array>
 
     <string-array name="elf_path">
         <item>@string/elf_path_title</item>
         <item>@string/elf_path_a</item>
         <item>@string/elf_path_b</item>
+        <item>@string/elf_path_points</item>
     </string-array>
 
     <string-array name="the_veil_of_the_lonely_mountain">
         <item>@string/the_veil_of_the_lonely_mountain_title</item>
         <item>@string/the_veil_of_the_lonely_mountain_a</item>
         <item>@string/the_veil_of_the_lonely_mountain_b</item>
+        <item>@string/the_veil_of_the_lonely_mountain_points</item>
+    </string-array>
+
+    <string-array name="foul_tower">
+        <item>@string/foul_tower_title</item>
+        <item>@string/foul_tower_a</item>
+        <item>@string/foul_tower_b</item>
+        <item>@string/foul_tower_points</item>
+    </string-array>
+
+    <string-array name="twisted_caverns">
+        <item>@string/twisted_caverns_title</item>
+        <item>@string/twisted_caverns_a</item>
+        <item>@string/twisted_caverns_b</item>
+        <item>@string/twisted_caverns_points</item>
+    </string-array>
+
+    <string-array name="final_stand">
+        <item>@string/final_stand_title</item>
+        <item>@string/final_stand_a</item>
+        <item>@string/final_stand_b</item>
+        <item>@string/final_stand_points</item>
     </string-array>
 
     <string-array name="general_quest">
         <item>@string/general_quest_title</item>
         <item>@string/general_quest_a</item>
         <item>@string/general_quest_b</item>
+        <item>@string/general_quest_points</item>
     </string-array>
 </resources>

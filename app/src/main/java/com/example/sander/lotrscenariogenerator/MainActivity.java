@@ -89,6 +89,16 @@ public class MainActivity extends AppCompatActivity {
             Collections.shuffle(options);
             result = options.get(0);
         }
+
+        result.set(3,generatePoints(result.get(3)));
+        return result;
+    }
+
+    private String generatePoints(String init){
+        String result;
+        Random r = new Random();
+        int old = Integer.parseInt(init);
+        result = Integer.toString(old - old / 3 + r.nextInt((old / 3 * 2) + 1));
         return result;
     }
 }
