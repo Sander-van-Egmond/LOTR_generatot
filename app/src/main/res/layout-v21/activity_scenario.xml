@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="100"
-    android:keepScreenOn="true">
+    android:keepScreenOn="true"
+    android:background="#d8ad82">
     
     <RelativeLayout
         android:id="@+id/title_bar"
@@ -13,14 +14,25 @@
         android:layout_height="64dp"
         android:layout_alignParentTop="true"
         android:orientation="horizontal">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/progress_image"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/empty_symbol"
+            android:contentDescription="@string/progress_image"
+            android:layout_alignParentStart="true"
+            android:layout_margin="8dp"/>
         <TextView
             android:id="@+id/progress_tv"
             android:layout_width="42dp"
             android:layout_height="42dp"
             android:textSize="16sp"
-            android:background="@drawable/empty_symbol"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
+            android:layout_alignStart="@+id/progress_image"
+            android:layout_alignTop="@+id/progress_image"
+            android:layout_alignEnd="@+id/progress_image"
+            android:layout_alignBottom="@+id/progress_image"
             android:gravity="center"
             android:textColor="#7b4ce0"
             android:layout_margin="8dp"/>
@@ -34,20 +46,28 @@
             android:gravity="center"
             android:textSize="18sp"
             android:textColor="#000000"
-            android:layout_toRightOf="@+id/progress_tv"
-            android:layout_marginRight="48dp"
             android:layout_marginEnd="48dp" />
 
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/information_image"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/empty_symbol"
+            android:contentDescription="@string/progress_image"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="8dp"/>
         <Button
             android:layout_width="42dp"
             android:layout_height="42dp"
-            android:background="@drawable/empty_symbol"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
+            android:layout_alignStart="@id/information_image"
+            android:layout_alignTop="@id/information_image"
+            android:layout_alignEnd="@id/information_image"
+            android:layout_alignBottom="@id/information_image"
             android:layout_margin="8dp"
             android:textColor="#fff"
             android:onClick="onClickInfo"
             android:text="@string/information"
+            android:background="@android:color/transparent"
             android:textSize="16sp"
             android:textAllCaps="false"/>
 
@@ -71,7 +91,6 @@
             android:onClick="previousScenario"
             android:contentDescription="@string/previous"
             style="?android:attr/borderlessButtonStyle"
-            android:layout_alignParentLeft="true"
             android:src="@drawable/left_arrow"
             android:alpha="0.5"/>
 
@@ -83,7 +102,6 @@
             android:onClick="nextScenario"
             android:contentDescription="@string/next"
             style="?android:attr/borderlessButtonStyle"
-            android:layout_alignParentRight="true"
             android:src="@drawable/right_arrow"
             android:alpha="0.5"/>
 
@@ -95,19 +113,25 @@
         android:layout_width="match_parent"
         android:layout_height="42dp"
         android:layout_above="@+id/setup_text">
-        
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/qp_image"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/empty_symbol"
+            android:contentDescription="@string/progress_image"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="32dp"/>
         <TextView
             android:id="@+id/quest_points"
+            android:layout_alignStart="@id/qp_image"
+            android:layout_alignTop="@id/qp_image"
+            android:layout_alignEnd="@id/qp_image"
+            android:layout_alignBottom="@id/qp_image"
             android:textSize="16sp"
-            android:layout_marginLeft="32dp"
             android:layout_width="42dp"
             android:layout_height="match_parent"
             android:textColor="#a31111"
-            android:gravity="center"
-            android:background="@drawable/empty_symbol"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_marginStart="32dp" />
+            android:gravity="center"/>
 
         <LinearLayout
             android:id="@+id/quest_symbols_ll"
@@ -115,8 +139,6 @@
             android:layout_height="match_parent"
             android:orientation="horizontal"
             android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="32dp"
             android:layout_marginEnd="32dp">
 
         </LinearLayout>
@@ -129,12 +151,10 @@
         android:layout_height="256dp"
         android:layout_alignParentBottom="true"
         android:textColor="#000"
-        android:padding="32dp"
-        android:background="@drawable/fantasy_border"
+        android:padding="40dp"
         android:scrollbars = "vertical"
-        android:backgroundTint="#6d5339"/>
-
-
-
+        android:background="@drawable/victorian_border"
+        android:backgroundTint="#d8ad82"
+        android:backgroundTintMode="multiply"/>
 
 </RelativeLayout>

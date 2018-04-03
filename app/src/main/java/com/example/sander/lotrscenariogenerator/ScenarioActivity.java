@@ -22,6 +22,7 @@ public class ScenarioActivity extends AppCompatActivity {
     ImageButton nextButton, previousButton;
     TextView setupText, titleText, points, progress;
     Intent caller;
+    CircleImageView qpImage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +36,7 @@ public class ScenarioActivity extends AppCompatActivity {
         monsterSymbols = caller.getStringArrayListExtra("monster_decks");
 
 
+
         //set variables
         scenario = 1;
         nextButton = findViewById(R.id.nextscenario_button);
@@ -44,6 +46,7 @@ public class ScenarioActivity extends AppCompatActivity {
         progress = findViewById(R.id.progress_tv);
         setupText.setMovementMethod(new ScrollingMovementMethod());
         titleText = findViewById(R.id.title_text);
+        qpImage = findViewById(R.id.qp_image);
 
 
         LinearLayout ll = findViewById(R.id.quest_symbols_ll);
@@ -79,6 +82,7 @@ public class ScenarioActivity extends AppCompatActivity {
                 setupText.setText(quest1.get(1));
                 titleText.setText(quest1.get(0));
                 points.setVisibility(View.INVISIBLE);
+                qpImage.setVisibility(View.INVISIBLE);
                 progress.setText(R.string.progress_1a);
 
                 break;
@@ -89,12 +93,14 @@ public class ScenarioActivity extends AppCompatActivity {
                 titleText.setText(quest1.get(0));
                 points.setVisibility(View.VISIBLE);
                 points.setText(quest1.get(3));
+                qpImage.setVisibility(View.VISIBLE);
                 progress.setText(R.string.progress_1b);
                 break;
             case 3:
                 setupText.setText(quest2.get(1));
                 titleText.setText(quest2.get(0));
                 points.setVisibility(View.INVISIBLE);
+                qpImage.setVisibility(View.INVISIBLE);
                 progress.setText(R.string.progress_2a);
                 break;
             case 4:
@@ -102,6 +108,7 @@ public class ScenarioActivity extends AppCompatActivity {
                 titleText.setText(quest2.get(0));
                 points.setVisibility(View.VISIBLE);
                 points.setText(quest2.get(3));
+                qpImage.setVisibility(View.VISIBLE);
                 progress.setText(R.string.progress_2b);
                 break;
             case 5:
@@ -110,6 +117,7 @@ public class ScenarioActivity extends AppCompatActivity {
                 setupText.setText(quest3.get(1));
                 titleText.setText(quest3.get(0));
                 points.setVisibility(View.INVISIBLE);
+                qpImage.setVisibility(View.INVISIBLE);
                 progress.setText(R.string.progress_3a);
                 break;
             case 6:
@@ -119,6 +127,7 @@ public class ScenarioActivity extends AppCompatActivity {
                 titleText.setText(quest3.get(0));
                 points.setVisibility(View.VISIBLE);
                 points.setText(quest3.get(3));
+                qpImage.setVisibility(View.VISIBLE);
                 progress.setText(R.string.progress_3b);
                 break;
         }

@@ -82,8 +82,8 @@
     <string name="the_veil_of_the_lonely_mountain_points">10</string>
 
     <string name="foul_tower_title">Foul Tower</string>
-    <string name="foul_tower_a">  Your party stumbles upon a dark tower hidden in the thickest undergrowth. With great trepidation you approach the entrance.\n\tSetup: Take out Ungoliant\'s Spawn from the encounter deck and set it to the side out of play.</string>
-    <string name="foul_tower_b">  As you work your way through the bushes towards the entrance, Spiders hiss and spit at you from all sides. The thunder pf their giant leader coming closer can be heard as you quicken your pace.\n\tWhen 5 progress tokens have been placed on this card, put Ungoliant\'s Spawn into play.\n\tPlayers cannot defeat this stage while Ungoliant\'s Spawn is in play.</string>
+    <string name="foul_tower_a">Your party stumbles upon a dark tower hidden in the thickest undergrowth. With great care you approach the entrance.\n\tSetup: Take out Ungoliant\'s Spawn from the encounter deck and set it to the side out of play.</string>
+    <string name="foul_tower_b">As you work your way through the bushes towards the entrance, Spiders hiss and spit at you from all sides. The thunder of their giant leader coming closer can be heard as you quicken your pace.\n\tWhen 5 progress tokens have been placed on this card, put Ungoliant\'s Spawn into play.\n\tPlayers cannot defeat this stage while Ungoliant\'s Spawn is in play.</string>
     <string name="foul_tower_points">10</string>
 
     <string name="twisted_caverns_title">Twisted Caverns</string>
@@ -97,8 +97,8 @@
     <string name="final_stand_points">10</string>
 
     <string name="general_quest_title">Monsters!</string>
-    <string name="general_quest_a">  The Enemy is upon you!</string>
-    <string name="general_quest_b">  Each player searches the encounter deck and plays the first Enemy card they find in the staging area.\n\tPlayers cannot defeat this stage while any Enemy cards are still in play.</string>
+    <string name="general_quest_a">The presence of the enemy is getting stronger. You press on but you can feel dark powers nearby.</string>
+    <string name="general_quest_b">Each player draw a card from the encounter deck and adds it to the staging area.</string>
     <string name="general_quest_points">8</string>
 
     <string name="spider_image">spider</string>
@@ -117,4 +117,5 @@
     <string name="progress_3b">3b</string>
     <string name="information">i</string>
     <string name="information_scenario">Welcome</string>
+    <string name="progress_image">image</string>
 </resources>
