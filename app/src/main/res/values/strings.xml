@@ -33,7 +33,7 @@
 
     <string name="out_of_the_dungeons_title">Out Into the Open</string>
     <string name="out_of_the_dungeons_a">  Following the sunlight, you discover an opening leading out to the side of a hill. Stationed in the open, however, is a large group of Orcs.</string>
-    <string name="out_of_the_dungeons_b">  If Nazgul of Dol Guldur has not yet been in play, search the encounter deck and put him into the staging area. Shuffle the encounter deck afterwards.\n\tForced: At the beginning of each quest phase, each player places the top card of his deck face down in front of him as if it just engaged him from the staging area. These cards are called orc guard and act as enemy with: 1 hit point 1 attack and 1 defense.\n\tPlayers cannot defeat this stage while Nazgul of Dol Guldur is in play.</string>
+    <string name="out_of_the_dungeons_b">  If Nazgul of Dol Guldur has not yet been in play, search the encounter deck and put it into the staging area. Shuffle the encounter deck afterwards.\n\tForced: At the beginning of each quest phase, each player places the top card of his deck face down in front of him as if it just engaged him from the staging area. These cards are called orc guard and act as enemy with: 1 hit point 1 attack and 1 defense.\n\tPlayers cannot defeat this stage while Nazgul of Dol Guldur is in play.</string>
     <string name="out_of_the_dungeons_points">7</string>
 
     <string name="orc_war_party_title">Orc War Party</string>
@@ -67,7 +67,7 @@
     <string name="risen_nightmare_points">6</string>
 
     <string name="goblin_gate_title">Goblin Gate</string>
-    <string name="goblin_gate_a">  From here you must break through the orc phalanx at the dreaded Goblin Gate to get through Mirkwood. An alarm cry goes up and from the gate emerges a swathe of shrieking orcish troops. They have been waiting for you.\n\tEach player searches the encounter deck and places the first orc they find in the staging area. Shuffle the encounter deck afterwards.</string>
+    <string name="goblin_gate_a">  From here you must break through the dreaded Goblin Gate to get through the woods. An alarm cry goes up and from the gate emerges a swathe of shrieking orcish troops. They have been waiting for you.\n\tEach player searches the encounter deck and places the first orc they find in the staging area. Shuffle the encounter deck afterwards.</string>
     <string name="goblin_gate_b">  The swarm of evil orcs seems unending. You quickly realise you must escape through the gate with post haste. Working your way slowly towards the entrance, you see with a sinking heart that a small army stands fast in your way.\n\tEach player immediately chooses and engages 1 Orc.\n\tPlayers cannot defeat this stage while there are Orc cards in play.</string>
     <string name="goblin_gate_points">12</string>
 
@@ -82,7 +82,7 @@
     <string name="the_veil_of_the_lonely_mountain_points">10</string>
 
     <string name="foul_tower_title">Foul Tower</string>
-    <string name="foul_tower_a">Your party stumbles upon a dark tower hidden in the thickest undergrowth. With great care you approach the entrance.\n\tSetup: Take out Ungoliant\'s Spawn from the encounter deck and set it to the side out of play.</string>
+    <string name="foul_tower_a">Your party stumbles upon a dark tower hidden in the thickest undergrowth. With great care you approach the entrance.\n\tSetup: Take out Ungoliant\'s Spawn from the encounter deck and set it to the side out of play. Shuffle the encounter deck afterwards.</string>
     <string name="foul_tower_b">As you work your way through the bushes towards the entrance, Spiders hiss and spit at you from all sides. The thunder of their giant leader coming closer can be heard as you quicken your pace.\n\tWhen 5 progress tokens have been placed on this card, put Ungoliant\'s Spawn into play.\n\tPlayers cannot defeat this stage while Ungoliant\'s Spawn is in play.</string>
     <string name="foul_tower_points">10</string>
 
@@ -96,7 +96,17 @@
     <string name="final_stand_b">  A massive silver thread descends from the ceiling and the spiders around you begin to frenzy as a huge dark shadows fall over you.\n\tWhen 5 progress tokens have been placed on this card, put Ungoliant\'s Spawn into play.\n Players cannot defeat this stage while Ungoliant\'s Spawn is in play.</string>
     <string name="final_stand_points">10</string>
 
-    <string name="general_quest_title">Monsters!</string>
+    <string name="the_wounded_eagle_title">The Wounded Eagle</string>
+    <string name="the_wounded_eagle_a"> After a fierce conflict with a group of Trolls, you come across a fallen Eagle, grievously wounded and on the verge of death\.\.\.\n\tSetup: Search the encounter deck for Rhosgobel and Wilyador, and add them to the staging area. Then, shuffle the encounter deck.</string>
+    <string name="the_wounded_eagle_b">The Eagle\'s wounds cannot be tended in the wilderness, so you attempt to bring the creature to a safe place.</string>
+    <string name="the_wounded_eagle_points">8</string>
+
+    <string name="radagasts_request_title">A Dire Request</string>
+    <string name="radagasts_request_a">You are asked to head out into the wilderness to find the healing plant, Athelas for the wounded Eagle Wilyador. Meantime, any healing lore or supplies your party has at its disposal could be used to assist in comforting the Eagle until you return.\n\tSetup: If Wilyador is not play, search the encounter deck for Wilyador and place it under control of the first player. Shuffle the encounter deck afterwards. </string>
+    <string name="radagasts_request_b">Response: After the quest phase begins, the first player may place X damage tokens on Wilyador to look at the top 3 cards of the encounter deck. Reveal and add 1 of these cards to the staging area, and discard the other 2. X is the number of players in the game.\n\tAction: Once per round, the players may remove claimed Athelas from the game. For each removed Athelas, heal 5 wounds from Wilyador.\n\tPlayers cannot advance this quest phase while Wilyador is wounded.</string>
+    <string name="radagasts_request_points">12</string>
+
+    <string name="general_quest_title">The Enemy Draws Near\.\.\.</string>
     <string name="general_quest_a">The presence of the enemy is getting stronger. You press on but you can feel dark powers nearby.</string>
     <string name="general_quest_b">Each player draw a card from the encounter deck and adds it to the staging area.</string>
     <string name="general_quest_points">8</string>
@@ -116,6 +126,12 @@
     <string name="progress_3a">3a</string>
     <string name="progress_3b">3b</string>
     <string name="information">i</string>
-    <string name="information_scenario">Welcome</string>
+
+    <string name="scenario_popup_information">These are scenarios similar to the scenario quest cards of the physical game. Before you start to play the generated scenario, you will have to mix the encounter decks with the corresponding symbols as depicted on the screen. Once you have done so, you are ready to play!</string>
+    <string name="scenario_popup_title">Scenario Information</string>
+    <string name="main_popup_information">This application will generate scenarios to play with The Lord of the Rings Card Game. The application was created with the intent of creating scenarios with a combination of all the possible encounter cards to have a unique experience every game. To get started, click all the symbols of the encounter deck you want to play with. The generator will randomly select 3 to 4 encounter decks from your selection and will create a scenario based on this selection. The generated scenarios are based on already existing scenarios. Note that the quests may not always flow naturally into each other story-wise, so use your creativity to create a coherent story! The difficulty of the generated scenarios should be around level 5 and 6 but this can also vary due to randomness.</string>
+    <string name="main_popup_title">Generator Information</string>
+
     <string name="progress_image">image</string>
+    <string name="information_button">information</string>
 </resources>

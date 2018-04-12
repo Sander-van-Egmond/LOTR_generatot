@@ -1,4 +1,4 @@
-package com.example.sander.lotrscenariogenerator;
+package com.lotrapp.sander.lotrscenariogenerator;
 
 import org.junit.Test;
 

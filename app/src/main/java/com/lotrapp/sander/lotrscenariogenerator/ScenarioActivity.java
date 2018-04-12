@@ -1,4 +1,4 @@
-package com.example.sander.lotrscenariogenerator;
+package com.lotrapp.sander.lotrscenariogenerator;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -134,8 +134,8 @@ public class ScenarioActivity extends AppCompatActivity {
     }
 
     public void onClickInfo(View v){
-        PopupWindow popUp = new PopupWindow(this);
-        popUp.setContentView(findViewById(R.id.popup_scenario_information));
-        popUp.showAtLocation(v, Gravity.CENTER,0,0);
+        Intent i = new Intent(ScenarioActivity.this, InformationPopUp.class);
+        i.putExtra("source",v.getTag().toString());
+        startActivity(i);
     }
 }

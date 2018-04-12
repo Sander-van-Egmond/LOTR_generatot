@@ -47,6 +47,7 @@
             android:layout_margin="8dp"
             android:textColor="#fff"
             android:onClick="onClickInfo"
+            android:tag="scenario"
             android:text="@string/information"
             android:textSize="16sp"
             android:textAllCaps="false"/>

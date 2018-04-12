@@ -1,4 +1,4 @@
-package com.example.sander.lotrscenariogenerator;
+package com.lotrapp.sander.lotrscenariogenerator;
 
 import android.content.Intent;
 import android.content.res.TypedArray;
@@ -100,5 +100,11 @@ public class MainActivity extends AppCompatActivity {
         int old = Integer.parseInt(init);
         result = Integer.toString(old - old / 3 + r.nextInt((old / 3 * 2) + 1));
         return result;
+    }
+
+    public void showInfo(View v){
+        Intent i = new Intent(MainActivity.this, InformationPopUp.class);
+        i.putExtra("source",v.getTag().toString());
+        startActivity(i);
     }
 }

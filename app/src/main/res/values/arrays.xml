@@ -63,14 +63,14 @@
         <item>@array/general_quest</item>
     </array>
     <array name="eye_3">
-        <item>@array/general_quest</item>
+        <item>@array/ambush_on_the_shore</item>
     </array>
 
     <array name="raven_1">
-        <item>@array/general_quest</item>
+        <item>@array/the_wounded_eagle</item>
     </array>
     <array name="raven_2">
-        <item>@array/general_quest</item>
+        <item>@array/radagasts_request</item>
     </array>
     <array name="raven_3">
         <item>@array/general_quest</item>
@@ -83,7 +83,7 @@
         <item>@array/general_quest</item>
     </array>
     <array name="tree_3">
-        <item>@array/general_quest</item>
+        <item>@array/ambush_on_the_shore</item>
     </array>
 
 
@@ -212,6 +212,20 @@
         <item>@string/final_stand_a</item>
         <item>@string/final_stand_b</item>
         <item>@string/final_stand_points</item>
+    </string-array>
+
+    <string-array name="the_wounded_eagle">
+        <item>@string/the_wounded_eagle_title</item>
+        <item>@string/the_wounded_eagle_a</item>
+        <item>@string/the_wounded_eagle_b</item>
+        <item>@string/the_wounded_eagle_points</item>
+    </string-array>
+
+    <string-array name="radagasts_request">
+        <item>@string/radagasts_request_title</item>
+        <item>@string/radagasts_request_a</item>
+        <item>@string/radagasts_request_b</item>
+        <item>@string/radagasts_request_points</item>
     </string-array>
 
     <string-array name="general_quest">

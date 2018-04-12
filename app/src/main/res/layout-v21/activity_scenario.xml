@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:weightSum="100"
     android:keepScreenOn="true"
-    android:background="#d8ad82">
+    android:background="@drawable/scenario_gradient_background">
     
     <RelativeLayout
         android:id="@+id/title_bar"
@@ -57,19 +57,19 @@
             android:layout_alignParentEnd="true"
             android:layout_margin="8dp"/>
         <Button
-            android:layout_width="42dp"
-            android:layout_height="42dp"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
             android:layout_alignStart="@id/information_image"
             android:layout_alignTop="@id/information_image"
             android:layout_alignEnd="@id/information_image"
             android:layout_alignBottom="@id/information_image"
-            android:layout_margin="8dp"
             android:textColor="#fff"
             android:onClick="onClickInfo"
             android:text="@string/information"
             android:background="@android:color/transparent"
             android:textSize="16sp"
-            android:textAllCaps="false"/>
+            android:textAllCaps="false"
+            android:tag="scenario"/>
 
     </RelativeLayout>
 
@@ -153,8 +153,6 @@
         android:textColor="#000"
         android:padding="40dp"
         android:scrollbars = "vertical"
-        android:background="@drawable/victorian_border"
-        android:backgroundTint="#d8ad82"
-        android:backgroundTintMode="multiply"/>
+        android:background="@drawable/victorian_border"/>
 
 </RelativeLayout>
