@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     public void generate(View v){
         if (monsterDecks.size() < 3){
             Toast.makeText(getApplicationContext(),
-                    "Select at least 3 monster decks",
+                    R.string.mainToast,
                     Toast.LENGTH_LONG).show();
         }else{
             Intent scenario = new Intent();

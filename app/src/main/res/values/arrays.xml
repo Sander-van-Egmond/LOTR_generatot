@@ -5,10 +5,11 @@
         <item>@array/to_the_river</item>
     </array>
     <array name="footprint_2">
-        <item>@array/general_quest</item>
+        <item>@array/enchanted_vines</item>
     </array>
     <array name="footprint_3">
         <item>@array/daring_rescue</item>
+        <item>@array/treason</item>
     </array>
 
     <array name="river_1">
@@ -27,10 +28,12 @@
     <array name="tower_2">
         <item>@array/through_the_caverns</item>
         <item>@array/deep_catacombs</item>
+        <item>@array/the_secret_tunnel</item>
     </array>
     <array name="tower_3">
         <item>@array/out_of_the_dungeons</item>
         <item>@array/risen_nightmare</item>
+        <item>@array/an_ancient_evil</item>
     </array>
 
     <array name="orc_1">
@@ -43,6 +46,7 @@
     </array>
     <array name="orc_3">
         <item>@array/the_veil_of_the_lonely_mountain</item>
+        <item>@array/treason</item>
     </array>
 
     <array name="spider_1">
@@ -60,7 +64,7 @@
         <item>@array/general_quest</item>
     </array>
     <array name="eye_2">
-        <item>@array/general_quest</item>
+        <item>@array/unhallowed</item>
     </array>
     <array name="eye_3">
         <item>@array/ambush_on_the_shore</item>
@@ -77,10 +81,10 @@
     </array>
 
     <array name="tree_1">
-        <item>@array/general_quest</item>
+        <item>@array/in_the_forest</item>
     </array>
     <array name="tree_2">
-        <item>@array/general_quest</item>
+        <item>@array/unhallowed</item>
     </array>
     <array name="tree_3">
         <item>@array/ambush_on_the_shore</item>
@@ -228,10 +232,54 @@
         <item>@string/radagasts_request_points</item>
     </string-array>
 
+    <string-array name="in_the_forest">
+        <item>@string/in_the_forest_title</item>
+        <item>@string/in_the_forest_a</item>
+        <item>@string/in_the_forest_b</item>
+        <item>@string/in_the_forest_points</item>
+    </string-array>
+
+    <string-array name="treason">
+        <item>@string/treason_title</item>
+        <item>@string/treason_a</item>
+        <item>@string/treason_b</item>
+        <item>@string/treason_points</item>
+    </string-array>
+
+    <string-array name="enchanted_vines">
+        <item>@string/enchanted_vines_title</item>
+        <item>@string/enchanted_vines_a</item>
+        <item>@string/enchanted_vines_b</item>
+        <item>@string/enchanted_vines_points</item>
+    </string-array>
+    
+    <string-array name="the_secret_tunnel">
+        <item>@string/the_secret_tunnel_title</item>
+        <item>@string/the_secret_tunnel_a</item>
+        <item>@string/the_secret_tunnel_b</item>
+        <item>@string/the_secret_tunnel_points</item>
+    </string-array>
+
+    <string-array name="an_ancient_evil">
+        <item>@string/an_ancient_evil_title</item>
+        <item>@string/an_ancient_evil_a</item>
+        <item>@string/an_ancient_evil_b</item>
+        <item>@string/an_ancient_evil_points</item>
+    </string-array>
+
+    <string-array name="unhallowed">
+        <item>@string/unhallowed_title</item>
+        <item>@string/unhallowed_a</item>
+        <item>@string/unhallowed_b</item>
+        <item>@string/unhallowed_points</item>
+    </string-array>
+
     <string-array name="general_quest">
         <item>@string/general_quest_title</item>
         <item>@string/general_quest_a</item>
         <item>@string/general_quest_b</item>
         <item>@string/general_quest_points</item>
     </string-array>
+
+
 </resources>

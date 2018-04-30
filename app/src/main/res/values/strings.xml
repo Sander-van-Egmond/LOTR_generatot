@@ -16,11 +16,6 @@
     <string name="anduin_passage_b">  As your enemies harass the raft, it is difficult to maintain balance and effectively fight them off.\n\tReveal 1 additional card from the encounter deck each quest phase. Do not make engagement checks during the encounter phase. (Each player may still optionally engage 1 enemy each encounter phase.)</string>
     <string name="anduin_passage_points">16</string>
 
-    <string name="ambush_on_the_shore_title">Ambush!</string>
-    <string name="ambush_on_the_shore_a">  Your enemies have forced you into an ambush! If you survive this, the path to safety should be open.</string>
-    <string name="ambush_on_the_shore_b">  When Revealed: Reveal 2 encounter cards per player, and add them to the staging area.\n\tSkip the staging step of the quest for the remainder of the game.\n\tOnce there are no enemies in play, the players have won the game.</string>
-    <string name="ambush_on_the_shore_points">0</string>
-
     <string name="the_necromancers_tower_title">Captured!</string>
     <string name="the_necromancers_tower_a">  While scouting near the enemies former lair, one of your allies was ambushed by orcs, captured and is now held in a dungeon cell.\n\tSetup: Search the encounter deck for the first 3 objective cards, reveal and place them in the staging area. Then, shuffle the encounter deck, and attach 1 encounter to each objective card.</string>
     <string name="the_necromancers_tower_b">  When Revealed: Randomly select 1 hero card (among all the heroes controlled by the players) and turn it facedown. That hero is now considered a prisoner and cannot be used, damaged or collect resources until it is rescued.\n The players, as a group, cannot play more than 1 ally card each round.\n\tPlayers cannot advance to the next stage of this quest unless they have at least 1 objective card.\n\tAfter the requirements are met to advance to the next stage, flip the prisoner card face-up and place 1 damage token on it. This hero has been rescued and may now be used by its controller.</string>
@@ -62,8 +57,8 @@
     <string name="deep_catacombs_points">8</string>
 
     <string name="risen_nightmare_title">Risen Nightmare</string>
-    <string name="risen_nightmare_a">  Gingerly you open the door and step through. You wind your way to a labyrinthine maze of tunnels, half buried forests, underground rivers and dark caves. From deeper caverns you can hear unearthly shrieking.</string>
-    <string name="risen_nightmare_b">  If Nazgul of Dol Guldur is not in play, search the encounter deck and put him next to the staging area. Shuffle the encounter deck afterwards.\n\tWhen all progress tokens have been placed on this quest, put Nazgul of Dol Guldur into the staging area.\n\tPlayers cannot defeat this stage while Nazgul of Dol Guldur is in play. </string>
+    <string name="risen_nightmare_a">  Gingerly you open the door and step through. You wind your way to a labyrinth of tunnels, half buried forests, underground rivers and dark caves. From deeper caverns you can hear unearthly shrieking.</string>
+    <string name="risen_nightmare_b">  If Nazgul of Dol Guldur is not in play, search the encounter deck or discard pile and put him next to the staging area. Shuffle the encounter deck afterwards.\n\tWhen all progress tokens have been placed on this quest, put Nazgul of Dol Guldur into the staging area.\n\tPlayers cannot defeat this stage while Nazgul of Dol Guldur is in play. </string>
     <string name="risen_nightmare_points">6</string>
 
     <string name="goblin_gate_title">Goblin Gate</string>
@@ -106,6 +101,45 @@
     <string name="radagasts_request_b">Response: After the quest phase begins, the first player may place X damage tokens on Wilyador to look at the top 3 cards of the encounter deck. Reveal and add 1 of these cards to the staging area, and discard the other 2. X is the number of players in the game.\n\tAction: Once per round, the players may remove claimed Athelas from the game. For each removed Athelas, heal 5 wounds from Wilyador.\n\tPlayers cannot advance this quest phase while Wilyador is wounded.</string>
     <string name="radagasts_request_points">12</string>
 
+    <string name="treason_title">Treason</string>
+    <string name="treason_a">You found the pass, but it is guarded and closely watched. Obviously the Orcs are looking for you here. Could the be a traitor among you?\n\tSetup: Each player places one of his active allies, randomly chosen, in the staging area. He is now an enemy with Engagement Cost 0 and +1 attack. His Willpower Strength is his Threat Strength. Ignore any special abilities on him.</string>
+    <string name="treason_b">You found the traitor, but he alarmed the enemy. This stage can only be defeated when no enemies are in the game.</string>
+    <string name="treason_points">0</string>
+
+    <string name="in_the_forest_title">In the Forest</string>
+    <string name="in_the_forest_a">You just defeated some Orcs when you notice more of them incoming. The Orcs have called allies for help as well, and cut off your way back home. You may hide in the forests and recover your strength but you need to find a path to pass the Orcs unnoticed.</string>
+    <string name="in_the_forest_b">Forced: Every time 10 cards are drawn from the encounter deck, every player increases his threat by 10.\n\tThis stage can only be defeated if there is no active location.</string>
+    <string name="in_the_forest_points">8</string>
+
+    <string name="enchanted_vines_title">Enchanted Vines</string>
+    <string name="enchanted_vines_a">Your party finds many hanging vines bearing delicious golden fruit which give off a heady and intoxicating scent. However, the leaves of the vine are covered with a powerful toxin which causes anyone touching them to fall into a deep enchanted sleep. Will any of your group fall victim to the vines?\n\tDraw and discard 1 card from the encounter deck for each ally in play. If the card has a shadow effect listed, return the ally to its controller's hand.</string>
+    <string name="enchanted_vines_b">If there is currently no Hill Troll in the staging area, search the encounter deck and then the discard pile for a Hill Troll and add it to the staging area. Shuffle the encounter deck.\n\tWhenever you reveal a location from the encounter deck, discard it. Then, each player chooses 1 ally he controls and return it to his hand.\n\tYou may not complete this stage while there is a Hill Troll in play.</string>
+    <string name="enchanted_vines_points">2</string>
+
+    <string name="the_secret_tunnel_title">The Secret Tunnel</string>
+    <string name="the_secret_tunnel_a">You have reached some old ruins. You find a secret entrance leading to the tunnels below - and hopefully this is not known to the orcs.\n\tIf not yet in play, Search the encounter deck or discard pile for Gandalf\'s map and 2 Cavern Guardians. Place them in the staging area without resolving the guarded keyword. Then shuffle all the treachery and Orc cards currently in the discard pile back into the encounter deck.</string>
+    <string name="the_secret_tunnel_b">You force open a secret door, clearly undisturbed for years, and enter the disused tunnel below. Suddenly your path is blocked by two undead guards!\n\tThe players, as a group, may not play more than 1 ally card each round.\n\tIf Gandalf\'s Map is not attached to a questing hero, each questing character has his willpower reduced by 1 during quest resolution.</string>
+    <string name="the_secret_tunnel_points">10</string>
+
+    <string name="an_ancient_evil_title">An Ancient Evil</string>
+    <string name="an_ancient_evil_a">You are searching through the tunnels, while suddenly your scout comes hurrying back with grim news - a dreadful evil approaches, an undead spirit from a long-past age. It is accompanied by a bodyguard of armoured orc warriors\.\.\.are you strong enough to defeat them?\n\tIf not yet in play, search the encounter deck or discard pile for 2 Dungeon Jailors and Nazgul of Dol Guldur and place them in the staging area.</string>
+    <string name="an_ancient_evil_b">The players, as a group, may not play more than 1 ally card each round.\n\tWhile Nazgul of Dol Guldur is in play, all treachery cards gain surge and players may not place progress tokens on this quest stage by any means. You may still place progress tokens on locations as normal.</string>
+    <string name="an_ancient_evil_points">12</string>
+
+
+
+
+
+    <string name="ambush_on_the_shore_title">Ambush!</string>
+    <string name="ambush_on_the_shore_a">Your enemies have forced you into an ambush! If you survive this, the path to safety should be open.</string>
+    <string name="ambush_on_the_shore_b">When Revealed: Reveal 2 encounter cards per player, and add them to the staging area.\n\tSkip the staging step of the quest for the remainder of the game.\n\tOnce there are no enemies in play, the players have won the game.</string>
+    <string name="ambush_on_the_shore_points">0</string>
+
+    <string name="unhallowed_title">Uninvited</string>
+    <string name="unhallowed_a">You enter the enemy\'s lair. You can now explore the lair but a large party might attract undue attention.</string>
+    <string name="unhallowed_b">When Revealed: You may discard any number of allies. Afterwards, reveal 1 encounter card per ally left in play and add them to the staging area.</string>
+    <string name="unhallowed_points">4</string>
+
     <string name="general_quest_title">The Enemy Draws Near\.\.\.</string>
     <string name="general_quest_a">The presence of the enemy is getting stronger. You press on but you can feel dark powers nearby.</string>
     <string name="general_quest_b">Each player draw a card from the encounter deck and adds it to the staging area.</string>
@@ -134,4 +168,5 @@
 
     <string name="progress_image">image</string>
     <string name="information_button">information</string>
+    <string name="mainToast">Select at least 3 encounter sets</string>
 </resources>
