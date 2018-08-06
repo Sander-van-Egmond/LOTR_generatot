@@ -101,11 +101,6 @@
     <string name="radagasts_request_b">Response: After the quest phase begins, the first player may place X damage tokens on Wilyador to look at the top 3 cards of the encounter deck. Reveal and add 1 of these cards to the staging area, and discard the other 2. X is the number of players in the game.\n\tAction: Once per round, the players may remove claimed Athelas from the game. For each removed Athelas, heal 5 wounds from Wilyador.\n\tPlayers cannot advance this quest phase while Wilyador is wounded.</string>
     <string name="radagasts_request_points">12</string>
 
-    <string name="treason_title">Treason</string>
-    <string name="treason_a">You found the pass, but it is guarded and closely watched. Obviously the Orcs are looking for you here. Could the be a traitor among you?\n\tSetup: Each player places one of his active allies, randomly chosen, in the staging area. He is now an enemy with Engagement Cost 0 and +1 attack. His Willpower Strength is his Threat Strength. Ignore any special abilities on him.</string>
-    <string name="treason_b">You found the traitor, but he alarmed the enemy. This stage can only be defeated when no enemies are in the game.</string>
-    <string name="treason_points">0</string>
-
     <string name="in_the_forest_title">In the Forest</string>
     <string name="in_the_forest_a">You just defeated some Orcs when you notice more of them incoming. The Orcs have called allies for help as well, and cut off your way back home. You may hide in the forests and recover your strength but you need to find a path to pass the Orcs unnoticed.</string>
     <string name="in_the_forest_b">Forced: Every time 10 cards are drawn from the encounter deck, every player increases his threat by 10.\n\tThis stage can only be defeated if there is no active location.</string>
@@ -126,24 +121,88 @@
     <string name="an_ancient_evil_b">The players, as a group, may not play more than 1 ally card each round.\n\tWhile Nazgul of Dol Guldur is in play, all treachery cards gain surge and players may not place progress tokens on this quest stage by any means. You may still place progress tokens on locations as normal.</string>
     <string name="an_ancient_evil_points">12</string>
 
+    <string name="the_hills_of_emyn_muil_title">The Forgotten Hills</string>
+    <string name="the_hills_of_emyn_muil_a">Your hunt for the enemy has led you to great waterfalls into jagged unforgiving hills.\n\tSetup: Search the encounter deck for Amon Hen and Amon Lhaw, and add them to the staging area. Then shuffle the encounter deck.</string>
+    <string name="the_hills_of_emyn_muil_b">You are certain that the enemy has fled into this area, and you are resolved to explore until you find the fresh trail.\n\tForced: If there are no location cards in the staging area, the first treachery card revealed during the quest phase gains surge.\n\tPlayers cannot defeat this stage unless there are no Emyn Muil locations in play, and they have collected at least 10 victory points</string>
+    <string name="the_hills_of_emyn_muil_points">1</string>
+
+    <string name="the_hills_of_emyn_muil_2_title">The Forsaken Hills</string>
+    <string name="the_hills_of_emyn_muil_2_a">Your travels have led you into these twisting unnavigable rocky hills.\n\tSetup: Reveal the first X location cards drawn from the encounter deck and add them to the staging area. Discard other cards drawn. X is the amount of players.</string>
+    <string name="the_hills_of_emyn_muil_2_b">You are uncertain which way to go, but you are pressing on, intent on finding a way out of this unforgivable maze.\n\tForced: If there are no location cards in the staging area, the first treachery card revealed during the quest phase gains surge.\n\tPlayers cannot defeat this stage unless there are no Emyn Muil locations in play, and they have collected at least 20 victory points</string>
+    <string name="the_hills_of_emyn_muil_2_points">1</string>
+
+    <string name="search_for_the_chamber_title">Search in the Depths</string>
+    <string name="search_for_the_chamber_a">You are investigating the deep dungeons, searching for a sign of your lost relative. In the heavy twilight of a hall, a bulky tomb is discovered in the grip of a skeleton. You carefully take possession of the book. Perhaps it will give you some answers.\..\n\tSetup: Search the encounter deck for Book of Mazarbul and have the first player attach it to a hero of his choice. Shuffle the encounter deck.</string>
+    <string name="search_for_the_chamber_b">The runes of the book appear to hold a detailed record of the fledgling colony. But there is some Elvish script at the end which seems out of place. You begin to decipher the runes but are interrupted by a sound from the deep.\..\n\tWhen Revealed: Reveal 1 encounter card per player and add it to the staging area.\n\tWhen this stage is defeated: The final portion of the book tells a grim tale. Your family is slain when they were trapped in the mines. It seems as if there no survivors but you decide to press on. \n\tRemove Book of Mazarbul from the game.</string>
+    <string name="search_for_the_chamber_points">15</string>
+
+    <string name="entering_the_mines_title">Entering the Mines</string>
+    <string name="entering_the_mines_a">You have been sent to the mines to deliver a message to your allies. Although nobody has seen them for a while./../n/tSetup: Search the encounter deck for East-gate, First Hall and Bridge of Khazad-dûm. Put the East-gate into play as the active location, and put the First Hall and the Bridge of Khazad-dûm aside, out of play. Shuffle the encounter deck.</string>
+    <string name="entering_the_mines_b">The doors of the East-gate hang crooked on their hinges. The darkness inside the doorway is still and impenetrable, shutting the last beams of a sinking sun.\n\tWhen Revealed: Reveal 1 encounter card per player, and add it to the staging area.\n\tPlayers cannot advance to the next stage of the scenario unless Bridge of Khazad-dûm is in their victory display.</string>
+    <string name="entering_the_mines_points">7</string>
+
+    <string name="a_presence_in_the_dark_title">A Presence in the Dark</string>
+    <string name="a_presence_in_the_dark_a">You have discovered the fate of your allies, and seek to leave this dreadful place. But exiting may not be as simple as entering.\..\n\tSetup: Search the encounter deck for The Nameless Fear and all copies of A Foe from Beyond. Add The Nameless Fear to the staging area and shuffle 1 copy of A Foe From Beyond for each player back into the encounter deck.. Shuffle the encounter deck afterwards.</string>
+    <string name="a_presence_in_the_dark_b">As you leave, the air grows thick and drums begin to roll from the deeps. A man-shape shadow, yet greater, masses in the distance, and begins to head straight for you.\n\tWhen Revealed: Reveal 1 encounter card per player, and add it to the staging area. Then, add 2 victory points to your victory display count.</string>
+    <string name="a_presence_in_the_dark_points">0</string>
+
+    <string name="escape_from_the_darkness_title">Escape from Darkness</string>
+    <string name="escape_from_the_darkness_b">There is a weakness in the wall. You can practically taste the freedom beyond.\n\tWhen Revealed: Each player chooses 1 questing character he controls. Each character not chosen does not count its Willpower Strength until the end of the turn. Search the encounter deck and discard pile for Abandoned Tools and add it to the staging area, if able.\n]tAbandoned Tools gains: Refresh Action: Exhaust attached hero to put a progress token on this quest.\n\tProgress tokens cannot be placed on this quest except by Abandoned Tools.</string>
+    <string name="escape_from_the_darkness_points">4</string>
 
 
 
+<!--General quests-->
+    <string name="general_quest_title">The Enemy Draws Near\.\.\.</string>
+    <string name="general_quest_a">The presence of the enemy is getting stronger. You press on but you can feel dark powers nearby.</string>
+    <string name="general_quest_b">Each player draw a card from the encounter deck and adds it to the staging area.</string>
+    <string name="general_quest_points">8</string>
+
+    <!--progress 1-->
+    <string name="prisoner_title">Captured!</string>
+    <string name="prisoner_a">  While scouting near the enemies former lair, one of your allies was ambushed, captured and is now held in a dungeon cell!</string>
+    <string name="prisoner_b">  When Revealed: Randomly select 1 hero card (among all the heroes controlled by the players) and turn it facedown. That hero is now considered a prisoner and cannot be used, damaged or collect resources until it is rescued.\n The players, as a group, cannot play more than 1 ally card each round.\n\tAfter the requirements are met to advance to the next stage, flip the prisoner card face-up and place 1 damage token on it. This hero has been rescued and may now be used by its controller.</string>
+    <string name="prisoner_points">10</string>
+
+    <!--progress 2-->
+    <string name="unhallowed_title">Uninvited</string>
+    <string name="unhallowed_a">You enter the enemy\'s lair. You can now explore the lair but a large party might attract undue attention.</string>
+    <string name="unhallowed_b">When Revealed: You may discard any number of allies. Afterwards, reveal 1 encounter card per ally left in play and add them to the staging area.</string>
+    <string name="unhallowed_points">4</string>
+
+    <string name="the_fate_of_balin_title">Have Faith!</string>
+    <string name="the_fate_of_balin_a">As your party takes a moment to contemplate the impact of your recent experiences, Orc war cries and horns sound close. You cannot tarry and prepare to fight your way out.</string>
+    <string name="the_fate_of_balin_b">Forced: At the end of the staging step, reveal the top X cards of the encounter deck, adding all enemies to the staging area. Discard the other revealed cards without resolving them. X is the number of players.</string>
+    <string name="the_fate_of_balin_points">17</string>
+
+    <string name="goblin_patrol_title">Goblin Patrol</string>
+    <string name="goblin_patrol_a">The skeletons lie undisturbed, but you have discovered no recent signs of allies nearby. The sound of scampering feet travels to your ears, and you move in that direction to investigate. There is a patrol of Goblins, marching in a loose formation through the shadows.</string>
+    <string name="goblin_patrol_b1">When Revealed: Each player must search the discard pile for 1 enemy of his choice, and add it to the staging area. One choice must be Patrol Leader, if able.\n\tForced: After an enemy is revealed from the encounter deck, discard it instead of adding it to the staging area.\n\tIf there are no enemies in play, immediately advance to the next stage of the scenario (Players can also advance normally by placing quest tokens on this quest.)</string>
+    <string name="goblin_patrol_b2">When Revealed: Each player reveals the first enemy from the encounter deck. Discard other cards drawn.\n\tIf there are no enemies in play, immediately advance to the next stage of the scenario (Players can also advance normally by placing quest tokens on this quest.)</string>
+    <string name="goblin_patrol_b3">When Revealed: Each player searches the encounter deck and adds the first goblin enemy to the staging area. Shuffle the encounter deck afterwards. \n\tIf there are no enemies in play, immediately advance to the next stage of the scenario (Players can also advance normally by placing quest tokens on this quest.)</string>
+    <string name="goblin_patrol_points">11</string>
+
+
+    <!--progress 3-->
+    <string name="treason_title">Treason</string>
+    <string name="treason_a">You found the pass, but it is guarded and closely watched. Obviously the Orcs are looking for you here. Could the be a traitor among you?</string>
+    <string name="treason_b">You found the traitor, but he alarmed the enemy! \n\tSetup: Each player places one of his active allies, randomly chosen, in the staging area. He is now an enemy with Engagement Cost 0 and +1 attack. His Willpower Strength is his Threat Strength. Ignore any special abilities on him. \n\tThis stage can only be defeated when no enemies are in the game.</string>
+    <string name="treason_points">0</string>
 
     <string name="ambush_on_the_shore_title">Ambush!</string>
     <string name="ambush_on_the_shore_a">Your enemies have forced you into an ambush! If you survive this, the path to safety should be open.</string>
     <string name="ambush_on_the_shore_b">When Revealed: Reveal 2 encounter cards per player, and add them to the staging area.\n\tSkip the staging step of the quest for the remainder of the game.\n\tOnce there are no enemies in play, the players have won the game.</string>
     <string name="ambush_on_the_shore_points">0</string>
 
-    <string name="unhallowed_title">Uninvited</string>
-    <string name="unhallowed_a">You enter the enemy\'s lair. You can now explore the lair but a large party might attract undue attention.</string>
-    <string name="unhallowed_b">When Revealed: You may discard any number of allies. Afterwards, reveal 1 encounter card per ally left in play and add them to the staging area.</string>
-    <string name="unhallowed_points">4</string>
+    <string name="a_way_up_title">A Way Up</string>
+    <string name="a_way_up_a">You are heading up to the light. The way is treacherous, and you are accompanied by a sense of unease and vague dread.</string>
+    <string name="a_way_up_b">Heroes do not collect resources during the resource phase.</string>
+    <string name="a_way_up_points">12</string>
 
-    <string name="general_quest_title">The Enemy Draws Near\.\.\.</string>
-    <string name="general_quest_a">The presence of the enemy is getting stronger. You press on but you can feel dark powers nearby.</string>
-    <string name="general_quest_b">Each player draw a card from the encounter deck and adds it to the staging area.</string>
-    <string name="general_quest_points">8</string>
+    <string name="blocked_by_shadow_title">Search for an Exit</string>
+    <string name="blocked_by_shadow_a">As the presence draws near, doubt and fear surround you like a vast shadow. You must find daylight, you must escape.\..\n\tWhile this is the active quest, only click/flip to 2B at the beginning of the staging step.</string>
+    <string name="blocked_by_shadow_b">This is a dangerous part of the Mines, but is that light up ahead?\n\tWhen Revealed: Reveal 1 encounter card per player, and add it to the staging area.</string>
+    <string name="blocked_by_shadow_points">10</string>
 
     <string name="spider_image">spider</string>
     <string name="tree_image">tree</string>
@@ -153,6 +212,7 @@
     <string name="eye_image">eye</string>
     <string name="raven_image">raven</string>
     <string name="tower_image">tower</string>
+    <string name="hills_image">hills</string>
     <string name="progress_1a">1a</string>
     <string name="progress_1b">1b</string>
     <string name="progress_2a">2a</string>
@@ -163,10 +223,20 @@
 
     <string name="scenario_popup_information">These are scenarios similar to the scenario quest cards of the physical game. Before you start to play the generated scenario, you will have to mix the encounter decks with the corresponding symbols as depicted on the screen. Once you have done so, you are ready to play!</string>
     <string name="scenario_popup_title">Scenario Information</string>
-    <string name="main_popup_information">This application will generate scenarios to play with The Lord of the Rings Card Game. The application was created with the intent of creating scenarios with a combination of all the possible encounter cards to have a unique experience every game. To get started, click all the symbols of the encounter deck you want to play with. The generator will randomly select 3 to 4 encounter decks from your selection and will create a scenario based on this selection. The generated scenarios are based on already existing scenarios. Note that the quests may not always flow naturally into each other story-wise, so use your creativity to create a coherent story! The difficulty of the generated scenarios should be around level 5 and 6 but this can also vary due to randomness.</string>
+    <string name="main_popup_information">This application will generate scenarios to play with The Lord of the Rings Card Game. The application was created with the intent of creating scenarios with a variable combination of encounter sets to have a unique experience every game. To get started, tap all the symbols of the encounter deck you want to play with. You can lock the encounter set by tapping them again. The generator will randomly select 3 to 4 encounter decks from your selection (always including the locked sets) and will create a scenario based on this selection. The generated scenarios are based on already existing scenarios. Note that the quests may not always flow naturally into each other story-wise, so use your creativity to create a coherent story! The difficulty of the generated scenarios should be around level 5 and 6 but this can also vary due to randomness.</string>
     <string name="main_popup_title">Generator Information</string>
 
     <string name="progress_image">image</string>
     <string name="information_button">information</string>
-    <string name="mainToast">Select at least 3 encounter sets</string>
+    <string name="notEnoughToast">Select at least 3 encounter sets</string>
+    <string name="tooMuchToast">You cannot lock more than 4 sets</string>
+    <string name="spearman_image">spearman</string>
+    <string name="goblin_image">goblin</string>
+    <string name="book_image">book</string>
+    <string name="torch_image">torch</string>
+    <string name="fracture_image">fracture</string>
+    <string name="pickaxe_image">pickaxe</string>
+    <string name="chain_image">chain</string>
+    <string name="map_image">map</string>
+
 </resources>

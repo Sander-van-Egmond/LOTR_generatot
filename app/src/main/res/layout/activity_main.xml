@@ -17,26 +17,17 @@
         android:layout_height="0dp"
         android:layout_width="wrap_content"
         android:padding="16dp"
-        android:columnCount="4"
-        android:rowCount="2"
+        android:columnCount="3"
+        android:rowCount="6"
         android:layout_weight="80"
         app:layout_constraintBottom_toTopOf="@+id/generate_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:scrollbars = "vertical">
 
 
-        <ImageButton
-            android:id="@+id/tree"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_column="1"
-            android:layout_row="0"
-            android:contentDescription="@string/tree_image"
-            android:onClick="onClickMonsterDeck"
-            android:src="@drawable/monsterdeck_tree"
-            android:background="@null"
-            android:layout_margin="8dp"/>
+
 
         <ImageButton
             android:id="@+id/spider"
@@ -46,9 +37,25 @@
             android:layout_row="0"
             android:contentDescription="@string/spider_image"
             android:onClick="onClickMonsterDeck"
-            app:srcCompat="@drawable/monsterdeck_spider"
-            android:background="@null"
-            android:layout_margin="8dp"/>
+            app:srcCompat="@drawable/encounterdeck_spider"
+            android:background="@drawable/circular_button_bg"
+            android:layout_margin="4dp"
+            android:padding="4dp"
+            android:alpha="0.5"/>
+
+        <ImageButton
+            android:id="@+id/tree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:contentDescription="@string/tree_image"
+            android:onClick="onClickMonsterDeck"
+            android:src="@drawable/encounterdeck_tree"
+            android:background="@drawable/circular_button_bg"
+            android:layout_margin="4dp"
+            android:padding="4dp"
+            android:alpha="0.5"/>
 
         <ImageButton
             android:id="@+id/orc"
@@ -58,69 +65,207 @@
             android:layout_row="0"
             android:contentDescription="@string/orc_image"
             android:onClick="onClickMonsterDeck"
-            app:srcCompat="@drawable/monsterdeck_orc"
-            android:background="@null"
-            android:layout_margin="8dp"/>
+            app:srcCompat="@drawable/encounterdeck_orc"
+            android:background="@drawable/circular_button_bg"
+            android:layout_margin="4dp"
+            android:padding="4dp"
+            android:alpha="0.5"/>
 
         <ImageButton
             android:id="@+id/footprint"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_column="3"
-            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_row="1"
             android:contentDescription="@string/footprint_image"
             android:onClick="onClickMonsterDeck"
-            app:srcCompat="@drawable/monsterdeck_footprint"
-            android:background="@null"
-            android:layout_margin="8dp"/>
+            app:srcCompat="@drawable/encounterdeck_footprint"
+            android:background="@drawable/circular_button_bg"
+            android:layout_margin="4dp"
+            android:padding="4dp"
+            android:alpha="0.5"/>
 
         <ImageButton
             android:id="@+id/river"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_column="2"
+            android:layout_column="1"
             android:layout_row="1"
             android:contentDescription="@string/river_image"
             android:onClick="onClickMonsterDeck"
-            app:srcCompat="@drawable/monsterdeck_river"
-            android:background="@null"
-            android:layout_margin="8dp"/>
+            app:srcCompat="@drawable/encounterdeck_river"
+            android:background="@drawable/circular_button_bg"
+            android:layout_margin="4dp"
+            android:padding="4dp"
+            android:alpha="0.5"/>
 
         <ImageButton
             android:id="@+id/eye"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_column="0"
+            android:layout_column="2"
             android:layout_row="1"
             android:contentDescription="@string/eye_image"
             android:onClick="onClickMonsterDeck"
-            app:srcCompat="@drawable/monsterdeck_eye"
-            android:background="@null"
-            android:layout_margin="8dp"/>
+            app:srcCompat="@drawable/encounterdeck_eye"
+            android:background="@drawable/circular_button_bg"
+            android:layout_margin="4dp"
+            android:padding="4dp"
+            android:alpha="0.5"/>
+
+        <ImageButton
+            android:id="@+id/tower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:contentDescription="@string/tower_image"
+            android:onClick="onClickMonsterDeck"
+            app:srcCompat="@drawable/encounterdeck_tower"
+            android:background="@drawable/circular_button_bg"
+            android:layout_margin="4dp"
+            android:padding="4dp"
+            android:alpha="0.5"/>
 
         <ImageButton
             android:id="@+id/raven"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1"
-            android:layout_row="1"
+            android:layout_row="2"
             android:contentDescription="@string/raven_image"
             android:onClick="onClickMonsterDeck"
-            app:srcCompat="@drawable/monsterdeck_raven"
-            android:background="@null"
-            android:layout_margin="8dp"/>
+            app:srcCompat="@drawable/encounterdeck_raven"
+            android:background="@drawable/circular_button_bg"
+            android:layout_margin="4dp"
+            android:padding="4dp"
+            android:alpha="0.5"/>
 
         <ImageButton
-            android:id="@+id/tower"
+            android:id="@+id/hills"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_column="3"
-            android:layout_row="1"
-            android:contentDescription="@string/tower_image"
+            android:layout_column="2"
+            android:layout_row="2"
+            android:contentDescription="@string/hills_image"
             android:onClick="onClickMonsterDeck"
-            app:srcCompat="@drawable/monsterdeck_tower"
-            android:background="@null"
-            android:layout_margin="8dp"/>
+            app:srcCompat="@drawable/encounterdeck_hills"
+            android:background="@drawable/circular_button_bg"
+            android:layout_margin="4dp"
+            android:padding="4dp"
+            android:alpha="0.5"/>
+
+        <ImageButton
+            android:id="@+id/spearman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:contentDescription="@string/spearman_image"
+            android:onClick="onClickMonsterDeck"
+            app:srcCompat="@drawable/encounterdeck_spearman"
+            android:background="@drawable/circular_button_bg"
+            android:layout_margin="4dp"
+            android:padding="4dp"
+            android:alpha="0.5"/>
+
+        <ImageButton
+            android:id="@+id/goblin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:contentDescription="@string/goblin_image"
+            android:onClick="onClickMonsterDeck"
+            app:srcCompat="@drawable/encounterdeck_goblin"
+            android:background="@drawable/circular_button_bg"
+            android:layout_margin="4dp"
+            android:padding="4dp"
+            android:alpha="0.5"/>
+
+        <ImageButton
+            android:id="@+id/book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="3"
+            android:contentDescription="@string/book_image"
+            android:onClick="onClickMonsterDeck"
+            app:srcCompat="@drawable/encounterdeck_book"
+            android:background="@drawable/circular_button_bg"
+            android:layout_margin="4dp"
+            android:padding="4dp"
+            android:alpha="0.5"/>
+
+        <ImageButton
+            android:id="@+id/torch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:contentDescription="@string/torch_image"
+            android:onClick="onClickMonsterDeck"
+            app:srcCompat="@drawable/encounterdeck_torch"
+            android:background="@drawable/circular_button_bg"
+            android:layout_margin="4dp"
+            android:padding="4dp"
+            android:alpha="0.5"/>
+
+        <ImageButton
+        android:id="@+id/fracture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="4"
+        android:contentDescription="@string/fracture_image"
+        android:onClick="onClickMonsterDeck"
+        app:srcCompat="@drawable/encounterdeck_fracture"
+        android:background="@drawable/circular_button_bg"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:alpha="0.5"/>
+
+        <ImageButton
+            android:id="@+id/pickaxe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="4"
+            android:contentDescription="@string/pickaxe_image"
+            android:onClick="onClickMonsterDeck"
+            app:srcCompat="@drawable/encounterdeck_pickaxe"
+            android:background="@drawable/circular_button_bg"
+            android:layout_margin="4dp"
+            android:padding="4dp"
+            android:alpha="0.5"/>
+
+        <ImageButton
+            android:id="@+id/chain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="5"
+            android:contentDescription="@string/chain_image"
+            android:onClick="onClickMonsterDeck"
+            app:srcCompat="@drawable/encounterdeck_chain"
+            android:background="@drawable/circular_button_bg"
+            android:layout_margin="4dp"
+            android:padding="4dp"
+            android:alpha="0.5"/>
+
+        <ImageButton
+            android:id="@+id/map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="5"
+            android:contentDescription="@string/map_image"
+            android:onClick="onClickMonsterDeck"
+            app:srcCompat="@drawable/encounterdeck_map"
+            android:background="@drawable/circular_button_bg"
+            android:layout_margin="4dp"
+            android:padding="4dp"
+            android:alpha="0.5"/>
     </GridLayout>
 
     <Button

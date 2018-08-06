@@ -52,7 +52,7 @@ public class ScenarioActivity extends AppCompatActivity {
         LinearLayout ll = findViewById(R.id.quest_symbols_ll);
         for(String symbol : monsterSymbols)
         {
-            int holderId = getResources().getIdentifier("monsterdeck_" + symbol,
+            int holderId = getResources().getIdentifier("encounterdeck_" + symbol,
                     "drawable",
                     this.getPackageName());
             CircleImageView ii = new CircleImageView(this);

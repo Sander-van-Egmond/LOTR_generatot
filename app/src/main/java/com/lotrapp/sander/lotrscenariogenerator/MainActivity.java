@@ -2,6 +2,8 @@ package com.lotrapp.sander.lotrscenariogenerator;
 
 import android.content.Intent;
 import android.content.res.TypedArray;
+import android.graphics.Color;
+import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -14,42 +16,63 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
-    ArrayList<String> monsterDecks;
+    ArrayList<String> includedDecks;
+    ArrayList<String> optionalDecks;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        monsterDecks = new ArrayList<>();
+        optionalDecks = new ArrayList<>();
+        includedDecks = new ArrayList<>();
     }
 
     public void onClickMonsterDeck(View v){
-        if (monsterDecks.contains(v.getContentDescription().toString())){
-            v.setAlpha((float) 1.0);
-            monsterDecks.remove(v.getContentDescription().toString());
-
-        }else {
+        GradientDrawable gd = new GradientDrawable();
+        gd.setShape(GradientDrawable.OVAL);
+        if (optionalDecks.contains(v.getContentDescription().toString())){
+            optionalDecks.remove(v.getContentDescription().toString());
+            gd.setColor(Color.BLACK);
+            v.setBackground(gd);
+            includedDecks.add(v.getContentDescription().toString());
+        }else if (includedDecks.contains(v.getContentDescription().toString())){
             v.setAlpha((float) 0.5);
-            monsterDecks.add(v.getContentDescription().toString());
+            gd.setColor(Color.TRANSPARENT);
+            v.setBackground(gd);
+            includedDecks.remove(v.getContentDescription().toString());
+
+        }else{
+            v.setAlpha((float) 1.0);
+            optionalDecks.add(v.getContentDescription().toString());
         }
     }
 
     public void generate(View v){
-        if (monsterDecks.size() < 3){
+        if (optionalDecks.size() + includedDecks.size() < 3){
             Toast.makeText(getApplicationContext(),
-                    R.string.mainToast,
+                    R.string.notEnoughToast,
+                    Toast.LENGTH_LONG).show();
+        }else if(includedDecks.size() > 4) {
+            Toast.makeText(getApplicationContext(),
+                    R.string.tooMuchToast,
                     Toast.LENGTH_LONG).show();
         }else{
             Intent scenario = new Intent();
             scenario.setClass(this, ScenarioActivity.class);
-            Random r = new Random();
-            Collections.shuffle(monsterDecks);
 
-            ArrayList<String> chosenDecks;
-            if (r.nextBoolean() && monsterDecks.size() > 3){
-                chosenDecks =  new ArrayList<>(monsterDecks.subList(0,4));
-            }else{
-                chosenDecks = new ArrayList<>(monsterDecks.subList(0,3));
+            ArrayList<String> chosenDecks = new ArrayList<>(includedDecks);
+
+            if (chosenDecks.size() != 4) {
+                Random r = new Random();
+                Collections.shuffle(optionalDecks);
+
+
+
+                if (r.nextBoolean() && optionalDecks.size() + includedDecks.size() > 3) {
+                    chosenDecks.addAll(optionalDecks.subList(0, 4 - chosenDecks.size()));
+                } else if(chosenDecks.size() != 3){
+                    chosenDecks.addAll(optionalDecks.subList(0, 3 -chosenDecks.size()));
+                }
             }
 
             scenario.putStringArrayListExtra("scenario_1",scenarioPicker(chosenDecks,1));
@@ -68,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<String> result;
 
         for (String deck : decks) {
-
+            ArrayList<ArrayList<String>> subOptions = new ArrayList<>();
             int holderId = getResources().getIdentifier(deck + "_" + Integer.toString(scenarioNumber),
                     "array",
                     this.getPackageName());
@@ -78,10 +101,14 @@ public class MainActivity extends AppCompatActivity {
             for (int i = 0; i < n; ++i) {
                 int id = ta.getResourceId(i, 0);
                 if (id > 0) {
-                    options.add(new ArrayList<>(Arrays.asList(getResources().getStringArray(id))));
+                    subOptions.add(new ArrayList<>(Arrays.asList(getResources().getStringArray(id))));
                 }
             }
             ta.recycle(); // Important!
+
+            // zorgt ervoor dat alle encounter sets een evengrote kans hebben om gekozen te worden
+            Collections.shuffle(subOptions);
+            options.add(subOptions.get(0));
         }
         if (options.size() == 0){
             result = new ArrayList<>(Arrays.asList(getResources().getStringArray(R.array.general_quest)));

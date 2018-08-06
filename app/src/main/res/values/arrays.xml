@@ -70,6 +70,16 @@
         <item>@array/ambush_on_the_shore</item>
     </array>
 
+    <array name="tree_1">
+        <item>@array/in_the_forest</item>
+    </array>
+    <array name="tree_2">
+        <item>@array/unhallowed</item>
+    </array>
+    <array name="tree_3">
+        <item>@array/ambush_on_the_shore</item>
+    </array>
+
     <array name="raven_1">
         <item>@array/the_wounded_eagle</item>
     </array>
@@ -80,14 +90,100 @@
         <item>@array/general_quest</item>
     </array>
 
-    <array name="tree_1">
-        <item>@array/in_the_forest</item>
+    <array name="hills_1">
+        <item>@array/the_hills_of_emyn_muil</item>
     </array>
-    <array name="tree_2">
+    <array name="hills_2">
         <item>@array/unhallowed</item>
     </array>
-    <array name="tree_3">
-        <item>@array/ambush_on_the_shore</item>
+    <array name="hills_3">
+        <item>@array/the_hills_of_emyn_muil_b</item>
+    </array>
+
+    <array name="spearman_1">
+        <item>@array/prisoner</item>
+    </array>
+    <array name="spearman_2">
+        <item>@array/the_fate_of_balin</item>
+    </array>
+    <array name="spearman_3">
+        <item>@array/blocked_by_shadow</item>
+    </array>
+
+    <array name="goblin_1">
+        <item>@array/prisoner</item>
+    </array>
+    <array name="goblin_2">
+        <item>@array/the_fate_of_balin</item>
+        <item>@array/goblin_patrol_2</item>
+        <item>@array/goblin_patrol_3</item>
+    </array>
+    <array name="goblin_3">
+        <item>@array/a_way_up</item>
+        <item>@array/blocked_by_shadow</item>
+    </array>
+
+    <array name="book_1">
+        <item>@array/search_for_the_chamber</item>
+    </array>
+    <array name="book_2">
+        <item>@array/the_fate_of_balin</item>
+    </array>
+    <array name="book_3">
+        <item>@array/treason</item>
+    </array>
+
+    <array name="torch_1">
+        <item>@array/general_quest</item>
+    </array>
+    <array name="torch_2">
+        <item>@array/goblin_patrol_3</item>
+    </array>
+    <array name="torch_3">
+        <item>@array/a_way_up</item>
+    </array>
+
+    <array name="fracture_1">
+        <item>@array/general_quest</item>
+    </array>
+    <array name="fracture_2">
+        <item>@array/unhallowed</item>
+    </array>
+    <array name="fracture_3">
+        <item>@array/a_way_up</item>
+        <item>@array/blocked_by_shadow</item>
+    </array>
+
+    <array name="pickaxe_1">
+        <item>@array/entering_the_mines</item>
+    </array>
+    <array name="pickaxe_2">
+        <item>@array/goblin_patrol_1</item>
+        <item>@array/goblin_patrol_2</item>
+        <item>@array/goblin_patrol_3</item>
+    </array>
+    <array name="pickaxe_3">
+        <item>@array/a_way_up</item>
+    </array>
+
+    <array name="map_1">
+        <item>@array/a_presence_in_the_dark</item>
+    </array>
+    <array name="map_2">
+        <item>@array/unhallowed</item>
+    </array>
+    <array name="map_3">
+        <item>@array/escape_from_darkness</item>
+    </array>
+
+    <array name="chain_1">
+        <item>@array/prisoner</item>
+    </array>
+    <array name="chain_2">
+        <item>@array/goblin_patrol_2</item>
+    </array>
+    <array name="chain_3">
+        <item>@array/blocked_by_shadow</item>
     </array>
 
 
@@ -274,6 +370,27 @@
         <item>@string/unhallowed_points</item>
     </string-array>
 
+    <string-array name="the_hills_of_emyn_muil">
+        <item>@string/the_hills_of_emyn_muil_title</item>
+        <item>@string/the_hills_of_emyn_muil_a</item>
+        <item>@string/the_hills_of_emyn_muil_b</item>
+        <item>@string/the_hills_of_emyn_muil_points</item>
+    </string-array>
+
+    <string-array name="the_hills_of_emyn_muil_b">
+        <item>@string/the_hills_of_emyn_muil_2_title</item>
+        <item>@string/the_hills_of_emyn_muil_2_a</item>
+        <item>@string/the_hills_of_emyn_muil_2_b</item>
+        <item>@string/the_hills_of_emyn_muil_2_points</item>
+    </string-array>
+
+    <string-array name="search_for_the_chamber">
+        <item>@string/search_for_the_chamber_title</item>
+        <item>@string/search_for_the_chamber_a</item>
+        <item>@string/search_for_the_chamber_b</item>
+        <item>@string/search_for_the_chamber_points</item>
+    </string-array>
+
     <string-array name="general_quest">
         <item>@string/general_quest_title</item>
         <item>@string/general_quest_a</item>
@@ -281,5 +398,73 @@
         <item>@string/general_quest_points</item>
     </string-array>
 
+    <array name="the_fate_of_balin">
+        <item>@string/the_fate_of_balin_title</item>
+        <item>@string/the_fate_of_balin_a</item>
+        <item>@string/the_fate_of_balin_b</item>
+        <item>@string/the_fate_of_balin_points</item>
+    </array>
 
+    <array name="entering_the_mines">
+        <item>@string/entering_the_mines_title</item>
+        <item>@string/entering_the_mines_a</item>
+        <item>@string/entering_the_mines_b</item>
+        <item>@string/entering_the_mines_points</item>
+    </array>
+
+    <array name="goblin_patrol_1">
+        <item>@string/goblin_patrol_title</item>
+        <item>@string/goblin_patrol_a</item>
+        <item>@string/goblin_patrol_b1</item>
+        <item>@string/goblin_patrol_points</item>
+    </array>
+
+    <array name="goblin_patrol_2">
+        <item>@string/goblin_patrol_title</item>
+        <item>@string/goblin_patrol_a</item>
+        <item>@string/goblin_patrol_b2</item>
+        <item>@string/goblin_patrol_points</item>
+    </array>
+
+    <array name="goblin_patrol_3">
+        <item>@string/goblin_patrol_title</item>
+        <item>@string/goblin_patrol_a</item>
+        <item>@string/goblin_patrol_b3</item>
+        <item>@string/goblin_patrol_points</item>
+    </array>
+
+    <array name="a_way_up">
+        <item>@string/a_way_up_title</item>
+        <item>@string/a_way_up_a</item>
+        <item>@string/a_way_up_b</item>
+        <item>@string/a_way_up_points</item>
+    </array>
+
+    <array name="a_presence_in_the_dark">
+        <item>@string/a_presence_in_the_dark_title</item>
+        <item>@string/a_presence_in_the_dark_a</item>
+        <item>@string/a_presence_in_the_dark_b</item>
+        <item>@string/a_presence_in_the_dark_points</item>
+    </array>
+
+    <array name="escape_from_darkness">
+        <item>@string/escape_from_the_darkness_title</item>
+        <item>@string/blocked_by_shadow_a</item>
+        <item>@string/escape_from_the_darkness_b</item>
+        <item>@string/escape_from_the_darkness_points</item>
+    </array>
+
+    <array name="blocked_by_shadow">
+        <item>@string/blocked_by_shadow_title</item>
+        <item>@string/blocked_by_shadow_a</item>
+        <item>@string/blocked_by_shadow_b</item>
+        <item>@string/blocked_by_shadow_points</item>
+    </array>
+
+    <array name="prisoner">
+        <item>@string/prisoner_title</item>
+        <item>@string/prisoner_a</item>
+        <item>@string/prisoner_b</item>
+        <item>@string/prisoner_points</item>
+    </array>
 </resources>
