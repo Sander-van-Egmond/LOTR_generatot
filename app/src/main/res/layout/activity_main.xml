@@ -13,13 +13,42 @@
 
 
 
+    <LinearLayout
+        android:id="@+id/button_bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+>
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/select_all"
+            android:tag="main"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:onClick="showInfo"
+            android:text="@string/select_all"/>
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/deselect_all"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="match_parent"
+            android:onClick="generate"
+            android:text="@string/deselect_all" />
+
+    </LinearLayout>
+
+
     <GridLayout
         android:layout_height="0dp"
         android:layout_width="wrap_content"
         android:padding="16dp"
         android:columnCount="3"
         android:rowCount="6"
-        android:layout_weight="80"
+        android:layout_weight="76"
         app:layout_constraintBottom_toTopOf="@+id/generate_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -273,7 +302,7 @@
         android:tag="main"
         android:layout_width="300dp"
         android:layout_height="0dp"
-        android:layout_weight="10"
+        android:layout_weight="8"
         android:onClick="showInfo"
         android:text="@string/information_button"/>
 
@@ -281,7 +310,7 @@
         android:id="@+id/generate_button"
         android:layout_width="300dp"
         android:layout_height="0dp"
-        android:layout_weight="10"
+        android:layout_weight="8"
         android:onClick="generate"
         android:text="@string/generate" />
 

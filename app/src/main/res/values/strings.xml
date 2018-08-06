@@ -238,5 +238,7 @@
     <string name="pickaxe_image">pickaxe</string>
     <string name="chain_image">chain</string>
     <string name="map_image">map</string>
+    <string name="select_all">Select All</string>
+    <string name="deselect_all">Deselect All</string>
 
 </resources>
