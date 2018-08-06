@@ -48,7 +48,6 @@ public class ScenarioActivity extends AppCompatActivity {
         titleText = findViewById(R.id.title_text);
         qpImage = findViewById(R.id.qp_image);
 
-
         LinearLayout ll = findViewById(R.id.quest_symbols_ll);
         for(String symbol : monsterSymbols)
         {
@@ -74,41 +73,41 @@ public class ScenarioActivity extends AppCompatActivity {
         updateScenario();
     }
 
+
     private void updateScenario(){
+        if (scenario % 2 == 0){
+            points.setVisibility(View.VISIBLE);
+            qpImage.setVisibility(View.VISIBLE);
+        }else{
+            points.setVisibility(View.INVISIBLE);
+            qpImage.setVisibility(View.INVISIBLE);
+        }
+
         switch (scenario) {
             case 1:
                 previousButton.setEnabled(false);
                 previousButton.setVisibility(View.INVISIBLE);
                 setupText.setText(quest1.get(1));
                 titleText.setText(quest1.get(0));
-                points.setVisibility(View.INVISIBLE);
-                qpImage.setVisibility(View.INVISIBLE);
                 progress.setText(R.string.progress_1a);
-
                 break;
             case 2:
                 previousButton.setEnabled(true);
                 previousButton.setVisibility(View.VISIBLE);
                 setupText.setText(quest1.get(2));
                 titleText.setText(quest1.get(0));
-                points.setVisibility(View.VISIBLE);
                 points.setText(quest1.get(3));
-                qpImage.setVisibility(View.VISIBLE);
                 progress.setText(R.string.progress_1b);
                 break;
             case 3:
                 setupText.setText(quest2.get(1));
                 titleText.setText(quest2.get(0));
-                points.setVisibility(View.INVISIBLE);
-                qpImage.setVisibility(View.INVISIBLE);
                 progress.setText(R.string.progress_2a);
                 break;
             case 4:
                 setupText.setText(quest2.get(2));
                 titleText.setText(quest2.get(0));
-                points.setVisibility(View.VISIBLE);
                 points.setText(quest2.get(3));
-                qpImage.setVisibility(View.VISIBLE);
                 progress.setText(R.string.progress_2b);
                 break;
             case 5:
@@ -116,8 +115,6 @@ public class ScenarioActivity extends AppCompatActivity {
                 nextButton.setVisibility(View.VISIBLE);
                 setupText.setText(quest3.get(1));
                 titleText.setText(quest3.get(0));
-                points.setVisibility(View.INVISIBLE);
-                qpImage.setVisibility(View.INVISIBLE);
                 progress.setText(R.string.progress_3a);
                 break;
             case 6:
@@ -125,12 +122,11 @@ public class ScenarioActivity extends AppCompatActivity {
                 nextButton.setVisibility(View.INVISIBLE);
                 setupText.setText(quest3.get(2));
                 titleText.setText(quest3.get(0));
-                points.setVisibility(View.VISIBLE);
                 points.setText(quest3.get(3));
-                qpImage.setVisibility(View.VISIBLE);
                 progress.setText(R.string.progress_3b);
                 break;
         }
+        setupText.setTextIsSelectable(true);
     }
 
     public void onClickInfo(View v){
