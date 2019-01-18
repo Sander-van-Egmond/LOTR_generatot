@@ -16,8 +16,8 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
-    ArrayList<String> includedDecks;
-    ArrayList<String> optionalDecks;
+    ArrayList<View> includedDecks;
+    ArrayList<View> optionalDecks;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,24 +28,44 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickMonsterDeck(View v){
+        if (optionalDecks.contains(v)){
+            optionalDecks.remove(v);
+            includedDecks.add(v);
+            updateVisual(v);
+        }else if (includedDecks.contains(v)){
+            includedDecks.remove(v);
+            updateVisual(v);
+        }else{
+            optionalDecks.add(v);
+            updateVisual(v);
+        }
+    }
+
+    private void updateVisual(View v){
         GradientDrawable gd = new GradientDrawable();
         gd.setShape(GradientDrawable.OVAL);
-        if (optionalDecks.contains(v.getContentDescription().toString())){
-            optionalDecks.remove(v.getContentDescription().toString());
+        if (optionalDecks.contains(v)){
+            gd.setColor(Color.TRANSPARENT);
+            v.setAlpha((float) 1.0);
+        }else if (includedDecks.contains(v)){
+            v.setAlpha((float) 1.0);
             gd.setColor(Color.BLACK);
             v.setBackground(gd);
-            includedDecks.add(v.getContentDescription().toString());
-        }else if (includedDecks.contains(v.getContentDescription().toString())){
+        }else{
             v.setAlpha((float) 0.5);
             gd.setColor(Color.TRANSPARENT);
             v.setBackground(gd);
-            includedDecks.remove(v.getContentDescription().toString());
-
-        }else{
-            v.setAlpha((float) 1.0);
-            optionalDecks.add(v.getContentDescription().toString());
         }
     }
+
+    private void clearVisual(View v){
+        GradientDrawable gd = new GradientDrawable();
+        gd.setShape(GradientDrawable.OVAL);
+        v.setAlpha((float) 0.5);
+        gd.setColor(Color.TRANSPARENT);
+        v.setBackground(gd);
+    }
+
 
     public void generate(View v){
         if (optionalDecks.size() + includedDecks.size() < 3){
@@ -60,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
             Intent scenario = new Intent();
             scenario.setClass(this, ScenarioActivity.class);
 
-            ArrayList<String> chosenDecks = new ArrayList<>(includedDecks);
+            ArrayList<View> chosenDecks = new ArrayList<>(includedDecks);
 
             if (chosenDecks.size() != 4) {
                 Random r = new Random();
@@ -78,20 +98,29 @@ public class MainActivity extends AppCompatActivity {
             scenario.putStringArrayListExtra("scenario_1",scenarioPicker(chosenDecks,1));
             scenario.putStringArrayListExtra("scenario_2",scenarioPicker(chosenDecks,2));
             scenario.putStringArrayListExtra("scenario_3",scenarioPicker(chosenDecks,3));
-            scenario.putStringArrayListExtra("monster_decks", chosenDecks);
+            scenario.putStringArrayListExtra("monster_decks",viewToString(chosenDecks));
 
             startActivity(scenario);
         }
     }
 
+    private ArrayList<String> viewToString(ArrayList<View> inViews){
+        ArrayList<String> outStrings = new ArrayList<>();
+        for (View v : inViews){
+            outStrings.add(v.getContentDescription().toString());
+        }
+        return outStrings;
+    }
 
-    private ArrayList<String> scenarioPicker(ArrayList<String> decks, int scenarioNumber){
+
+    private ArrayList<String> scenarioPicker(ArrayList<View> decks, int scenarioNumber){
 
         ArrayList<ArrayList<String>> options = new ArrayList<>();
         ArrayList<String> result;
 
-        for (String deck : decks) {
+        for (View v : decks) {
             ArrayList<ArrayList<String>> subOptions = new ArrayList<>();
+            String deck = v.getContentDescription().toString();
             int holderId = getResources().getIdentifier(deck + "_" + Integer.toString(scenarioNumber),
                     "array",
                     this.getPackageName());
@@ -134,4 +163,16 @@ public class MainActivity extends AppCompatActivity {
         i.putExtra("source",v.getTag().toString());
         startActivity(i);
     }
+
+    public void deselectAll(View input){
+        for (View v : includedDecks){
+            clearVisual(v);
+        }
+        for (View v : optionalDecks){
+            clearVisual(v);
+        }
+        includedDecks.clear();
+        optionalDecks.clear();
+    }
+
 }
