@@ -109,16 +109,10 @@
     <string name="in_the_forest_b">Obligados: Cada vez que se sacan 10 cartas del mazo de encuentros, todos los jugadores aumentan su amenaza en 10.\n\tEsta etapa s&#243;lo puede superarse si no hay ning&#250;n Lugar activo.</string>
     <string name="in_the_forest_points">8</string>
 
-    <!--&lt;!&ndash; Attention. Translator on duty &ndash;&gt;-->
-    <!--<string name="enchanted_vines_title">Enchanted Vines</string>-->
-    <!--<string name="enchanted_vines_a">Your party finds many hanging vines bearing delicious golden fruit which give off a heady and intoxicating scent. However, the leaves of the vine are covered with a powerful toxin which causes anyone touching them to fall into a deep enchanted sleep. Will any of your group fall victim to the vines?\n\tDraw and discard 1 card from the encounter deck for each ally in play. If the card has a shadow effect listed, return the ally to its controller's hand.</string>-->
-    <!--<string name="enchanted_vines_b">If there is currently no Hill Troll in the staging area, busca en el mazo de encuentros and then the discard pile for a Hill Troll and add it to the staging area. Mezcla el mazo de encuentros.\n\tWhenever you reveal a location from the encounter deck, discard it. Then, each player chooses 1 ally he controls and return it to his hand.\n\tYou may not complete this stage while there is a Hill Troll in play.</string>-->
-    <!--<string name="enchanted_vines_points">2</string>-->
-    <!--&lt;!&ndash; Attention. Translator on duty &ndash;&gt;-->
 
     <string name="enchanted_vines_title">Enchanted Vines</string>
     <string name="enchanted_vines_a">Your party finds many hanging vines bearing delicious golden fruit which give off a heady and intoxicating scent. However, the leaves of the vine are covered with a powerful toxin which causes anyone touching them to fall into a deep enchanted sleep. Will any of your group fall victim to the vines?\n\tDraw and discard 1 card from the encounter deck for each ally in play. If the card has a shadow effect listed, return the ally to its controller\'s hand.</string>
-    <string name="enchanted_vines_b">If there is currently no Hill Troll in the staging area, search the encounter deck and then the discard pile for a Hill Troll and add it to the staging area. Shuffle the encounter deck.\n\tWhenever you reveal a location from the encounter deck, discard it. Then, each player chooses 1 ally he controls and return it to his hand.\n\tYou may not complete this stage while there is a Hill Troll in play.</string>
+    <string name="enchanted_vines_b">If there is currently no Hill Troll in the staging area, busca en el mazo de encuentros and then the discard pile for a Hill Troll and add it to the staging area. Mezcla el mazo de encuentros.\n\tWhenever you reveal a location from the encounter deck, discard it. Then, each player chooses 1 ally he controls and return it to his hand.\n\tYou may not complete this stage while there is a Hill Troll in play.</string>
     <string name="enchanted_vines_points">2</string>
 
     <string name="the_secret_tunnel_title">The Secret Tunnel</string>
@@ -219,15 +213,6 @@
     <string name="blocked_by_shadow_b">Es una zona peligrosa de las Minas pero, &#191;es luz aquello ante nosotros?\n\tAl ser Revelada: reveal 1 carta de encuentro por cada uno de los jugadores y a&#241;&#225;delas al &#225;rea de preparaci&#243;n.</string>
     <string name="blocked_by_shadow_points">10</string>
 
-    <string name="spider_image">ara&#241;a</string>
-    <string name="tree_image">&#225;rbol</string>
-    <string name="orc_image">orco</string>
-    <string name="footprint_image">huella</string>
-    <string name="river_image">r&#237;o</string>
-    <string name="eye_image">ojo</string>
-    <string name="raven_image">cuervo</string>
-    <string name="tower_image">torre</string>
-    <string name="hills_image">colinas</string>
     <string name="progress_1a">1a</string>
     <string name="progress_1b">1b</string>
     <string name="progress_2a">2a</string>
@@ -235,25 +220,34 @@
     <string name="progress_3a">3a</string>
     <string name="progress_3b">3b</string>
     <string name="information">i</string>
+    <string name="select_all">Selecciona Todos</string>
+    <string name="deselect_all">Deselecciona Todos</string>
+    <string name="information_button">informaci&#243;n</string>
+    <string name="notEnoughToast">Selecciona al menos 3 grupos de encuentros</string>
+    <string name="tooMuchToast">No puedes bloquear m&#225;s de 4 grupos</string>
 
     <string name="scenario_popup_information">Estos son escenarios semejantes a los escenarios de las cartas de misi&#243;n del juego f&#237;sico. Antes de que comiences a jugar el escenario generado, deber&#225;s barajar los mazos de encuentros con los s&#237;mbolos correspondientes tal y como aparecen representados en la pantalla. Una vez hayas hecho eso, ¡est&#225; todo listo para jugar!</string>
     <string name="scenario_popup_title">Informaci&#243;n del Escenario</string>
     <string name="main_popup_information">Esta aplicaci&#243;n generar&#225; escenarios para jugar con El Se&#241;or De Los Anillos El Juego de Cartas. La aplicaci&#243;n fue creada con la intenci&#243;n de crear escenarios con una combinaci&#243;n variable de grupos de Encuentros para obtener una experiencia &#250;nica en cada partida. Para empezar, pulsa todos los s&#237;mbolos del mazo de encuentros con los que quieres jugar. Puedes bloquear cada grupo de encuentros puls&#225;ndolo de nuevo. El generador escoger&#225; aleatoriamente de 3 a 4 mazos de encuentros de tu selecci&#243;n (incluyendo siempre los grupos bloqueados) y crear&#225; un escenario basado en esa selecci&#243;n. Los escenarios generados est&#225;n basados en escenarios que ya existen. Date cuenta que las b&#250;squedas puede que no siempre fluyan con naturalidad entre las l&#237;neas argumentales, ¡as&#237; que usa tu creatividad para elaborar una historia coherente! La dificultad de los escenarios generados deber&#237;a estar alrededor del nivel 5 o 6, pero puede variar por la aleatoriedad.</string>
     <string name="main_popup_title">Informaci&#243;n del Generador</string>
-
-    <string name="progress_image">imagen</string>
-    <string name="information_button">informaci&#243;n</string>
-    <string name="notEnoughToast">Selecciona al menos 3 grupos de encuentros</string>
-    <string name="tooMuchToast">No puedes bloquear m&#225;s de 4 grupos</string>
-    <string name="spearman_image">lancero</string>
+    <string name="spearman_image">spearman</string>
     <string name="goblin_image">goblin</string>
-    <string name="book_image">libro</string>
-    <string name="torch_image">antorcha</string>
-    <string name="fracture_image">fractura</string>
-    <string name="pickaxe_image">pico</string>
-    <string name="chain_image">cadena</string>
-    <string name="map_image">mapa</string>
-    <string name="select_all">Selecciona Todos</string>
-    <string name="deselect_all">Deselecciona Todos</string>
+    <string name="book_image">book</string>
+    <string name="torch_image">torch</string>
+    <string name="fracture_image">fracture</string>
+    <string name="pickaxe_image">pickaxe</string>
+    <string name="chain_image">chain</string>
+    <string name="map_image">map</string>
+    <string name="spider_image">spider</string>
+    <string name="tree_image">tree</string>
+    <string name="orc_image">orc</string>
+    <string name="footprint_image">footprint</string>
+    <string name="river_image">river</string>
+    <string name="eye_image">eye</string>
+    <string name="raven_image">raven</string>
+    <string name="tower_image">tower</string>
+    <string name="hills_image">hills</string>
+    <string name="progress_image">image</string>
+
 
 </resources>

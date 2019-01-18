@@ -204,6 +204,35 @@
     <string name="blocked_by_shadow_b">This is a dangerous part of the Mines, but is that light up ahead?\n\tWhen Revealed: Reveal 1 encounter card per player, and add it to the staging area.</string>
     <string name="blocked_by_shadow_points">10</string>
 
+
+    <string name="progress_1a">1a</string>
+    <string name="progress_1b">1b</string>
+    <string name="progress_2a">2a</string>
+    <string name="progress_2b">2b</string>
+    <string name="progress_3a">3a</string>
+    <string name="progress_3b">3b</string>
+    <string name="information">i</string>
+    <string name="select_all">Select All</string>
+    <string name="deselect_all">Deselect All</string>
+
+    <string name="scenario_popup_information">These are scenarios similar to the scenario quest cards of the physical game. Before you start to play the generated scenario, you will have to mix the encounter decks with the corresponding symbols as depicted on the screen. Once you have done so, you are ready to play!</string>
+    <string name="scenario_popup_title">Scenario Information</string>
+    <string name="main_popup_information">This application will generate scenarios to play with The Lord of the Rings Card Game. The application was created with the intent of creating scenarios with a variable combination of encounter sets to have a unique experience every game. To get started, tap all the symbols of the encounter deck you want to play with. You can lock the encounter set by tapping them again. The generator will randomly select 3 to 4 encounter decks from your selection (always including the locked sets) and will create a scenario based on this selection. The generated scenarios are based on already existing scenarios. Note that the quests may not always flow naturally into each other story-wise, so use your creativity to create a coherent story! The difficulty of the generated scenarios should be around level 5 and 6 but this can also vary due to randomness.</string>
+    <string name="main_popup_title">Generator Information</string>
+
+
+    <string name="information_button">information</string>
+    <string name="notEnoughToast">Select at least 3 encounter sets</string>
+    <string name="tooMuchToast">You cannot lock more than 4 sets</string>
+
+    <string name="spearman_image">spearman</string>
+    <string name="goblin_image">goblin</string>
+    <string name="book_image">book</string>
+    <string name="torch_image">torch</string>
+    <string name="fracture_image">fracture</string>
+    <string name="pickaxe_image">pickaxe</string>
+    <string name="chain_image">chain</string>
+    <string name="map_image">map</string>
     <string name="spider_image">spider</string>
     <string name="tree_image">tree</string>
     <string name="orc_image">orc</string>
@@ -213,32 +242,7 @@
     <string name="raven_image">raven</string>
     <string name="tower_image">tower</string>
     <string name="hills_image">hills</string>
-    <string name="progress_1a">1a</string>
-    <string name="progress_1b">1b</string>
-    <string name="progress_2a">2a</string>
-    <string name="progress_2b">2b</string>
-    <string name="progress_3a">3a</string>
-    <string name="progress_3b">3b</string>
-    <string name="information">i</string>
-
-    <string name="scenario_popup_information">These are scenarios similar to the scenario quest cards of the physical game. Before you start to play the generated scenario, you will have to mix the encounter decks with the corresponding symbols as depicted on the screen. Once you have done so, you are ready to play!</string>
-    <string name="scenario_popup_title">Scenario Information</string>
-    <string name="main_popup_information">This application will generate scenarios to play with The Lord of the Rings Card Game. The application was created with the intent of creating scenarios with a variable combination of encounter sets to have a unique experience every game. To get started, tap all the symbols of the encounter deck you want to play with. You can lock the encounter set by tapping them again. The generator will randomly select 3 to 4 encounter decks from your selection (always including the locked sets) and will create a scenario based on this selection. The generated scenarios are based on already existing scenarios. Note that the quests may not always flow naturally into each other story-wise, so use your creativity to create a coherent story! The difficulty of the generated scenarios should be around level 5 and 6 but this can also vary due to randomness.</string>
-    <string name="main_popup_title">Generator Information</string>
-
     <string name="progress_image">image</string>
-    <string name="information_button">information</string>
-    <string name="notEnoughToast">Select at least 3 encounter sets</string>
-    <string name="tooMuchToast">You cannot lock more than 4 sets</string>
-    <string name="spearman_image">spearman</string>
-    <string name="goblin_image">goblin</string>
-    <string name="book_image">book</string>
-    <string name="torch_image">torch</string>
-    <string name="fracture_image">fracture</string>
-    <string name="pickaxe_image">pickaxe</string>
-    <string name="chain_image">chain</string>
-    <string name="map_image">map</string>
-    <string name="select_all">Select All</string>
-    <string name="deselect_all">Deselect All</string>
+
 
 </resources>
