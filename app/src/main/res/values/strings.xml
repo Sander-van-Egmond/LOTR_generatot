@@ -107,7 +107,7 @@
     <string name="in_the_forest_points">8</string>
 
     <string name="enchanted_vines_title">Enchanted Vines</string>
-    <string name="enchanted_vines_a">Your party finds many hanging vines bearing delicious golden fruit which give off a heady and intoxicating scent. However, the leaves of the vine are covered with a powerful toxin which causes anyone touching them to fall into a deep enchanted sleep. Will any of your group fall victim to the vines?\n\tDraw and discard 1 card from the encounter deck for each ally in play. If the card has a shadow effect listed, return the ally to its controller's hand.</string>
+    <string name="enchanted_vines_a">Your party finds many hanging vines bearing delicious golden fruit which give off a heady and intoxicating scent. However, the leaves of the vine are covered with a powerful toxin which causes anyone touching them to fall into a deep enchanted sleep. Will any of your group fall victim to the vines?\n\tDraw and discard 1 card from the encounter deck for each ally in play. If the card has a shadow effect listed, return the ally to its controller\'s hand.</string>
     <string name="enchanted_vines_b">If there is currently no Hill Troll in the staging area, search the encounter deck and then the discard pile for a Hill Troll and add it to the staging area. Shuffle the encounter deck.\n\tWhenever you reveal a location from the encounter deck, discard it. Then, each player chooses 1 ally he controls and return it to his hand.\n\tYou may not complete this stage while there is a Hill Troll in play.</string>
     <string name="enchanted_vines_points">2</string>
 

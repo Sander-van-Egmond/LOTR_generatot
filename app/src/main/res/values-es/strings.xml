@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LOTR Scenario Generator</string>
+
+    <string name="generate">Generar</string>
+    <string name="second_activity">Segunda actividad</string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Previa</string>
+
+    <string name="tot_the_river_title">Hacia el R&#237;o</string>
+    <string name="to_the_river_a">  Tras emerger del bosque, ahora debes encontrar el camino hacia el r&#237;o. Al dejar el bosque atr&#225;s te das cuenta de que te est&#225;n siguiendo y aprietas el paso.\n\tPreparaci&#243;n: Cada jugador descubre 1 carta de encima del mazo de encuentros y la a&#241;ade a su zona de concentraci&#243;n.</string>
+
+    <string name="to_the_river_b">  Al aproximarte a la ribera del r&#237;o, un temible Troll de las Colinas surge tras un grupo de rocas y ¡se lanza al ataque!\n\tAl ser Revelada: Busca 1 Troll de las Colinas en el mazo de encuentros (si no hay uno ya en juego), y col&#243;calo en el &#225;rea de preparaci&#243;n. Baraja el mazo de encuentros.\n\tLos jugadores no pueden superar esta etapa mientras haya cartas de Troll de las Colinas en juego.</string>
+
+    <string name="to_the_river_points">8</string>
+
+    <string name="anduin_passage_title">El Paso del R&#237;o</string>
+    <string name="anduin_passage_a">  Eres capaz de embarcar en una balsa en una singladura por el r&#237;o. Al partir tus enemigos te persiguen, hostigando tu precaria embarcaci&#243;n mientras tratas de surcar el r&#237;o.</string>
+    <string name="anduin_passage_b">  Al acosarte sobre la balsa es dif&#237;cil mantener el equilibrio y combatirlos con efectividad.\n\tRevela 1 carta adicional del mazo de encuentros cada fase de la b&#250;squeda. No hagas chequeos de enfrentamiento durante la fase de encuentro (Aunque cada jugador puede enfrentar 1 enemigo en cada fase de encuentro).</string>
+    <string name="anduin_passage_points">16</string>
+
+    <string name="the_necromancers_tower_title">¡Capturado!</string>
+    <string name="the_necromancers_tower_a">  Mientras exploraba cerca de la antigua guarida del enemigo uno de tus aliados ha ca&#237;do en una emboscada orca, ha sido capturado y conducido a una celda en una mazmorra.\n\tInicio: Search en el mazo de encuentros las 3 primeras cartas de objetivo, rev&#233;lalas y col&#243;calas en el &#225;rea de preparaci&#243;n. Despu&#233;s baraja el mazo de encuentros y vincula 1 encuentro a cada carta de objetivo.</string>
+    <string name="the_necromancers_tower_b">  Al ser Revelada: Selecciona al azar 1 carta de h&#233;roe (entre todos los h&#233;roes controlados por el jugador) y col&#243;cala boca abajo. Ese h&#233;roe ahora se considera un prisionero y no puede utilizarse, recibir da&#241;o o recoger recursos hasta que sea rescatado.\n Los jugadores, como grupo, no pueden jugar m&#225;s de 1 carta de aliado cada turno.\n\tLos jugadores no pueden avanzar a la siguiente etapa de esta misi&#243;n salvo que tengan al menos 1 carta de objetivo.\n\tTras cumplir los requisitos para avanzar a la siguiente etapa, vuelve el prisionero boca arriba y coloca 1 marcador de da&#241;o sobre la carta. Este h&#233;roe ha sido rescatado y ya puede utilizarse de nuevo por quien la controla.</string>
+    <string name="the_necromancers_tower_points">9</string>
+
+    <string name="through_the_caverns_title">A trav&#233;s de las Cavernas</string>
+    <string name="through_the_caverns_a">  Tras encontrar una entrada oculta que se adentra en las l&#243;bregas mazmorras, intent&#225;is abriros paso a trav&#233;s de las cavernas. Necesit&#225;is todos los recursos que pod&#225;is encontrar para abriros paso.\n\tSi el Nazgul de Dol Guldur no est&#225; en juego, b&#250;scalo en el mazo de encuentros o en la pila de descartes y ponlo en juego.</string>
+    <string name="through_the_caverns_b">  Los jugadores, como grupo, no pueden jugar m&#225;s de 1 carta de aliado cada turno.\n\tSi hay menos de 3 cartas de objetivo en juego busca en el mazo de encuentros las primeras cartas de objetivo. Rev&#233;lalas y a&#241;&#225;delas al juego hasta que haya 3 cartas de objetivo en juego. Mezcla el mazo de encuentros y vincula 1 carta de encuentro a cada nueva carta de objetivo reci&#233;n revelada.\n\tLos jugadores no pueden avanzar a la siguiente etapa de esta misi&#243;n a menos que hayan reclamado 3 cartas de objetivo.</string>
+    <string name="through_the_caverns_points">15</string>
+
+    <string name="out_of_the_dungeons_title">Al aire libre</string>
+    <string name="out_of_the_dungeons_a">  Siguiendo los rayos del sol, descubr&#237;s una abertura que te dirige a la ladera de una colina. Apostados en la boca, sin embargo, hay un gran n&#250;mero de Orcos.</string>
+    <string name="out_of_the_dungeons_b">  Si el Nazgul de Dol Guldur todav&#237;a no ha estado en juego, b&#250;scalo en el mazo de encuentros y ponlo en el &#225;rea de preparaci&#243;n. Despu&#233;s mezcla el mazo de encuentros.\n\tObligados: Al inicio de cada fase de misi&#243;n, cada jugador coloca la carta superior de su mazo boca abajo como si lo hubiera enfrentado desde el &#225;rea de preparaci&#243;n. Estas cartas se llaman Guardia Orca y act&#250;an como enemigos con: 1 punto de impacto 1 ataque y 1 defensa.\n\tLos jugadores no pueden superar esta etapa mientras el Nazgul de Dol Guldur est&#233; en juego.</string>
+    <string name="out_of_the_dungeons_points">7</string>
+
+    <string name="orc_war_party_title">Grupo de Guerra Orco</string>
+    <string name="orc_war_party_a">  Tu grupo viaja a trav&#233;s del territorio cuando se pronto ¡tropiezan con un grupo de orcos!</string>
+    <string name="orc_war_party_b">  Cada jugador busca en el mazo de encuentros la primera carta de Orco y la coloca en el &#225;rea de preparaci&#243;n. Mezcla el mazo de encuentros.\n\tLos jugadores no pueden superar esta etapa mientras haya cartas Orco en juego.</string>
+    <string name="orc_war_party_points">8</string>
+
+    <string name="dark_woods_title">Bosque Oscuro</string>
+    <string name="dark_woods_a">  Tu grupo oye rumores acerca de un cabecilla guerrero que se esconde en los bosques cercanos.</string>
+    <string name="dark_woods_b">  Si el jefe Ufthak no est&#225; en juego todav&#237;a, b&#250;scalo en el mazo de encuentros, col&#243;calo en el &#225;rea de encuentros y mezcla el mazo de encuentros.\n\tLos jugadores no pueden superar esta etapa mientras el Jefe Ufthak est&#233; en juego.</string>
+    <string name="dark_woods_points">8</string>
+
+    <string name="daring_rescue_title">Rescate Osado</string>
+    <string name="daring_rescue_a">  Descubr&#237;s la guarida de la p&#233;rfida estirpe de Orcos y el Troll de las Colinas que es su l&#237;der. Deb&#233;is destruir su escondite y rescatar a cualquier cautivo que hayan tomado.</string>
+    <string name="daring_rescue_b">  Busca en el mazo de encuentros un Troll de las Colinas y ponlo en juego.\n\tLos jugadores no pueden superar esta etapa mientras haya cartas de Troll de las Colinas en juego.</string>
+    <string name="daring_rescue_points">8</string>
+
+    <string name="ancient_path_title">El Antiguo Sendero</string>
+    <string name="ancient_path_a">Desde hace mucho tiempo un antiguo enemigo se ha ocultado en las oscuras tierras salvajes de Mirkwood. El mal ha campado a sus anchas por la tierra durante a&#241;os. La hora ha llegado de poner fin a esta oscuridad.\n\tBusca en el mazo de encuentros el V&#225;stago de Ungoliant y ponlo fuera de juego.</string>
+    <string name="ancient_path_b">Cuando todas las fichas de progreso se han colocado en esta misi&#243;n, coloca el V&#225;stago de Ungoliant en el &#225;rea de preparaci&#243;n.\n\tLos jugadores no pueden superar esta etapa mientras el V&#225;stago de Ungoliant est&#233; en juego.</string>
+    <string name="ancient_path_points">9</string>
+
+    <string name="deep_catacombs_title">La Antigua Cripta</string>
+    <string name="deep_catacombs_a">Poco despu&#233;s los retorcidos &#225;rboles ante vosotros dan paso a un gran claro sumido en la penumbra, adornado con las ruinas de una antigua fortaleza. En el centro, una escalera resbaladiza desciende en las l&#250;gubres profundidades de las catacumbas. All&#237;, encontr&#225;is unas enormes y ornamentadas puertas dobles que os conducen a una antigua cripta. S&#243;lo hay una forma de descubrir el mal que se revuelve en su interior.</string>
+    <string name="deep_catacombs_b">Si la Llave Sombra no est&#225; todav&#237;a en juego, If the Shadow Key is not yet in play, b&#250;scala en el mazo de encuentros, col&#243;cala en el &#225;rea de preparaci&#243;n y mezcla el mazo de encuentros. Coloca una carta de encuentro sobre la Llave Sombra por cada jugador.\n\tLos jugadores no pueden poner fichas de progreso en esta etapa a menos que un h&#233;roe controle la Llave Sombra.</string>
+    <string name="deep_catacombs_points">8</string>
+
+    <string name="risen_nightmare_title">Pesadilla Resucitada</string>
+    <string name="risen_nightmare_a">  Abr&#237;s la puerta con cautela y atraves&#225;is el umbral. Os dej&#225;is llevar hasta un laberinto de t&#250;neles, bosques semi enterrados, r&#237;os subterr&#225;neos y oscuras galer&#237;as. Desde las m&#225;s profundas cavernas pod&#233;is oir un chirrido sobrenatural.</string>
+    <string name="risen_nightmare_b">  Si el Nazgul de Dol Guldur no est&#225; en juego, b&#250;scalo en el mazo de encuentros o en la pila de descartes y ponlo junto al &#225;rea de preparaci&#243;n. Despu&#233;s mezcla el mazo de encuentros.\n\tCuando todos los marcadores de progreso se hayan puesto en esta misi&#243;n, coloca el Nazgul de Dol Guldur en el &#225;rea de preparaci&#243;n.\n\tLos jugadores no pueden superar esta etapa mientras el Nazgul de Dol Guldur est&#233; en juego. </string>
+    <string name="risen_nightmare_points">6</string>
+
+    <string name="goblin_gate_title">Puerta Goblin</string>
+    <string name="goblin_gate_a">  Desde este lugar deb&#233;is avanzar a trav&#233;s de la temible Puerta Goblin para atravesar los bosques. Un grito de alarma asciende y desde la puerta surge una bullente masa vociferante de tropas orcas que todo lo cubre. Os estaban esperando.\n\tCada jugador busca en el mazo de encuentros y coloca el primer orco que encuentren en el &#225;rea de preparaci&#243;n. Despu&#233;s, mezclad el mazo de encuentros.</string>
+    <string name="goblin_gate_b">  El enjambre de malvados orcos parece no tener fin. R&#225;pidamente os percat&#225;is de que deb&#233;is escapar a trav&#233;s de la puerta sin demora. Abri&#233;ndoos paso lentamente hacia la entrada os sent&#237;s desfallecer al ver un peque&#241;o ej&#233;rcito que se mantiene firme en vuestro camino.\n\tCada jugador escoge y se enfrenta inmediatamente con 1 Orco.\n\tLos jugadores no pueden superar esta etapa mientras haya cartas de Orco en juego.</string>
+    <string name="goblin_gate_points">12</string>
+
+    <string name="elf_path_title">Ruta &#201;lfica</string>
+    <string name="elf_path_a">  March&#225;is hacia la oscuridad de los bosques. Desde las enormes ramas sobre vuestra cabezas una voz os grita. La &#225;gil figura de un Elfo cae ante vosotros sobre el suelo cubierto de hojas. "R&#225;pido - seguidme". Vuestro gu&#237;a desaparece r&#225;pidamente por un pasaje oculto entre los &#225;rboles y os esforz&#225;is por seguirle.</string>
+    <string name="elf_path_b">  Decid&#237;s seguir al elfo a trav&#233;s de los &#225;rboles. Tras vosotros las criaturas se reagrupan, persigui&#233;ndoos. ¡El tiempo apremia!\n\tNo os enfrent&#233;is mientras est&#233;is en esta etapa. Los enemigos que est&#233;n en enfrentamiento con vosotros permanecer&#225;n enfrentados.\n\tNo se permite que enfrentes ni te enfrenten enemigos a menos que ya est&#233;s en un enfrentamiento con ellos.</string>
+    <string name="elf_path_points">5</string>
+
+    <string name="the_veil_of_the_lonely_mountain_title">El Velo de las Monta&#241;as</string>
+    <string name="the_veil_of_the_lonely_mountain_a">  En la distancia pod&#233;is ver una monta&#241;a. Vuestros perseguidores emergen de entre los &#225;rboles a vuestro alrededor y os apresur&#225;is hacia la monta&#241;a.\n\tCada jugador busca en el mazo de encuentros y coloca el primer Orco que encuentren en el &#225;rea de preparaci&#243;n. Mezcla el mazo de encuentros.</string>
+    <string name="the_veil_of_the_lonely_mountain_b">  Los Elfos os han enviado ayuda. Al llegar se unen inmediatamente a vosotros en la batalla.\n\tCada jugador puede colocar inmediatamente 1 Elfo de su mano en juego gratuitamente, y cualquier personaje &#201;lfico puede curar 1 herida. Cada jugador escoge y enfrenta inmediatamente 1 Orco.\n\tLos jugadores no pueden superar esta etapa mientras haya cartas de Orco en juego.</string>
+    <string name="the_veil_of_the_lonely_mountain_points">10</string>
+
+    <string name="foul_tower_title">Torre Infame</string>
+    <string name="foul_tower_a">Vuestro grupo se encuentra con una torre oscura oculta en el sotobosque m&#225;s tupido. Con gran cuidado os aproxim&#225;is a la entrada.\n\tInicio: Saca el V&#225;stago de Ungoliant del mazo de encuentros y ponlo aparte y fuera de juego. Despu&#233;s, mezclad el mazo de encuentros.</string>
+    <string name="foul_tower_b">Conforme avanz&#225;is a trav&#233;s de los arbustos hacia la entrada, las Ara&#241;as os sisean y escupen desde todos lados. El sonido atronador de su l&#237;der acerc&#225;ndose puede oirse mientras aceler&#225;is el paso.\n\tCuando se hayan puesto 5 fichas de progreso sobre esta carta, pon el V&#225;stago de Ungoliant en juego.\n\tLos jugadores no pueden superar esta etapa mientras el V&#225;stago de Ungoliant est&#233; en juego.</string>
+    <string name="foul_tower_points">10</string>
+
+    <string name="twisted_caverns_title">Las Cavernas Retorcidas</string>
+    <string name="twisted_caverns_a">  Os apresur&#225;is hacia las oscurecidas cavernas. Os mov&#233;is con cuidado a trav&#233;s de la red de t&#250;neles. Vuestra ruta hacia la superficie est&#225; cerrada.\n\tSi el V&#225;stago de Ungoliant no est&#225; en juego, b&#250;scalo en el mazo de encuentros o en la pila de descartes y ponlo aparte y fuera de juego.\n\tLos aliados no pueden entrar en juego o ponerse en juego durante el resto de la partida.</string>
+    <string name="twisted_caverns_b">  Desde la oscuridad de los pasajes frente a vosotros, una enorme forma se escabulle de all&#225; para ac&#225;.\n\tCuando se hayan puesto 5 fichas de progreso sobre esta carta, pon el V&#225;stago de Ungoliant en juego.\n\tLos jugadores no pueden superar esta etapa mientras el V&#225;stago de Ungoliant est&#233; en juego.</string>
+    <string name="twisted_caverns_points">10</string>
+
+    <string name="final_stand_title">Prueba Final</string>
+    <string name="final_stand_a">  Las cavernas se abren a una inmensa guarida de ara&#241;as bajo tierra.\n\tSi el V&#225;stago de Ungoliant no est&#225; en juego b&#250;scalo en el mazo de encuentros o la pila de descartes y ponlo aparte y fuera de juego.\n\tLos Aliados y las Vinculadas no pueden entrar en juego m&#225;s o ponerse en juego durante el resto de la partida.</string>
+    <string name="final_stand_b">  Un enorme hilo de plata desciende desde el techo de la gruta y las ara&#241;as a vuestro alrededor comienzan a agitarse fren&#233;ticamente cuando una descomunal sombra oscura cae sobre vosotros.\n\tCuando se hayan puesto 5 fichas de progreso sobre esta carta, pon el V&#225;stago de Ungoliant en juego.\n\tLos jugadores no pueden superar esta etapa mientras el V&#225;stago de Ungoliant est&#233; en juego.</string>
+    <string name="final_stand_points">10</string>
+
+    <string name="the_wounded_eagle_title">El &#193;guila Herida</string>
+    <string name="the_wounded_eagle_a"> Tras un fiero conflicto con un grupo de Trolls, os top&#225;is con un &#193;guila ca&#237;da, gravemente herida y al borde de la muerte\.\.\.\n\tInicio: Busca a Rhosgobel y Wilyadoren en el mazo de encuentros, y a&#241;&#225;delos al &#225;rea de preparaci&#243;n. Entonces, mezcla el mazo de encuentros.</string>
+    <string name="the_wounded_eagle_b">Las heridas del &#193;guila no se pueden atender en plena naturaleza, as&#237; que intent&#225;is llevar a la criatura a un lugar seguro.</string>
+    <string name="the_wounded_eagle_points">8</string>
+
+    <string name="radagasts_request_title">Una Petici&#243;n Urgente</string>
+    <string name="radagasts_request_a">Te piden que te adentres en la espesura para encontrar Athelas, la planta curativa, para Wilyador el &#193;guila herida. Mientras tanto, cualquier conocimiento o suministro de curaci&#243;n que tenga el grupo podr&#225; usarse para ayudar a confortar al &#225;guila hasta que vuelvas.\n\tInicio: Si Wilyador no est&#225; en juego, b&#250;scalo en el mazo de encuentros y ponlo bajo el control del primer jugador. Despu&#233;s, mezclad el mazo de encuentros. </string>
+    <string name="radagasts_request_b">Respuesta: Despu&#233;s de comenzar la fase de la misi&#243;n, el primer jugador puede colocar X fichas de da&#241;o sobre Wilyador mirando las 3 cartas superiores del mazo de encuentros. Revela y a&#241;ade 1 de esas cartas al &#225;rea de preparaci&#243;n y descarta las otras 2. X es el n&#250;mero de jugadores que hay en la partida.\n\tAcci&#243;n: Una vez por ronda, los jugadores pueden retirar del juego el Athelas recogido. Por cada Athelas eliminada, cura 5 heridas de Wilyador.\n\tLos jugadores no pueden superar esta fase mientras Wilyador est&#233; herido.</string>
+    <string name="radagasts_request_points">12</string>
+
+    <string name="in_the_forest_title">En Los Bosques</string>
+    <string name="in_the_forest_a">Acab&#225;is de derrotar algunos Orcos cuando os percat&#225;is de que hay m&#225;s en camino. Los Orcos tambi&#233;n han pedido ayuda a sus aliados, y os impiden alcanzar el camino de regreso. Pod&#233;is esconderos en los bosques y recobrar vuestras fuerzas, pero necesit&#225;is encontrar un camino para pasar desapercibidos a los Orcos.</string>
+    <string name="in_the_forest_b">Obligados: Cada vez que se sacan 10 cartas del mazo de encuentros, todos los jugadores aumentan su amenaza en 10.\n\tEsta etapa s&#243;lo puede superarse si no hay ning&#250;n Lugar activo.</string>
+    <string name="in_the_forest_points">8</string>
+
+    <!--&lt;!&ndash; Attention. Translator on duty &ndash;&gt;-->
+    <!--<string name="enchanted_vines_title">Enchanted Vines</string>-->
+    <!--<string name="enchanted_vines_a">Your party finds many hanging vines bearing delicious golden fruit which give off a heady and intoxicating scent. However, the leaves of the vine are covered with a powerful toxin which causes anyone touching them to fall into a deep enchanted sleep. Will any of your group fall victim to the vines?\n\tDraw and discard 1 card from the encounter deck for each ally in play. If the card has a shadow effect listed, return the ally to its controller's hand.</string>-->
+    <!--<string name="enchanted_vines_b">If there is currently no Hill Troll in the staging area, busca en el mazo de encuentros and then the discard pile for a Hill Troll and add it to the staging area. Mezcla el mazo de encuentros.\n\tWhenever you reveal a location from the encounter deck, discard it. Then, each player chooses 1 ally he controls and return it to his hand.\n\tYou may not complete this stage while there is a Hill Troll in play.</string>-->
+    <!--<string name="enchanted_vines_points">2</string>-->
+    <!--&lt;!&ndash; Attention. Translator on duty &ndash;&gt;-->
+
+    <string name="enchanted_vines_title">Enchanted Vines</string>
+    <string name="enchanted_vines_a">Your party finds many hanging vines bearing delicious golden fruit which give off a heady and intoxicating scent. However, the leaves of the vine are covered with a powerful toxin which causes anyone touching them to fall into a deep enchanted sleep. Will any of your group fall victim to the vines?\n\tDraw and discard 1 card from the encounter deck for each ally in play. If the card has a shadow effect listed, return the ally to its controller\'s hand.</string>
+    <string name="enchanted_vines_b">If there is currently no Hill Troll in the staging area, search the encounter deck and then the discard pile for a Hill Troll and add it to the staging area. Shuffle the encounter deck.\n\tWhenever you reveal a location from the encounter deck, discard it. Then, each player chooses 1 ally he controls and return it to his hand.\n\tYou may not complete this stage while there is a Hill Troll in play.</string>
+    <string name="enchanted_vines_points">2</string>
+
+    <string name="the_secret_tunnel_title">The Secret Tunnel</string>
+    <string name="the_secret_tunnel_a">You have reached some old ruins. You find a secret entrance leading to the tunnels below - and hopefully this is not known to the orcs.\n\tIf not yet in play, Busca en el mazo de encuentros or discard pile for Gandalf\'s map and 2 Cavern Guardians. Place them in the staging area without resolving the guarded keyword. Then shuffle all the treachery and Orc cards currently in the discard pile back into the encounter deck.</string>
+    <string name="the_secret_tunnel_b">You force open a secret door, clearly undisturbed for years, and enter the disused tunnel below. Suddenly your path is blocked by two undead guards!\n\tThe players, as a group, may not play more than 1 ally card each round.\n\tIf Gandalf\'s Map is not attached to a questing hero, each questing character has his willpower reduced by 1 during quest resolution.</string>
+    <string name="the_secret_tunnel_points">10</string>
+
+    <string name="an_ancient_evil_title">An Ancient Evil</string>
+    <string name="an_ancient_evil_a">You are searching through the tunnels, while suddenly your scout comes hurrying back with grim news - a dreadful evil approaches, an undead spirit from a long-past age. It is accompanied by a bodyguard of armoured orc warriors\.\.\.are you strong enough to defeat them?\n\tIf not yet in play, busca en el mazo de encuentros or discard pile for 2 Dungeon Jailors and Nazgul of Dol Guldur and place them in the staging area.</string>
+    <string name="an_ancient_evil_b">The players, as a group, may not play more than 1 ally card each round.\n\tWhile Nazgul of Dol Guldur est&#233; en juego, all treachery cards gain surge and players may not place progress tokens on this quest stage by any means. You may still place progress tokens on locations as normal.</string>
+    <string name="an_ancient_evil_points">12</string>
+
+    <string name="the_hills_of_emyn_muil_title">The Forgotten Hills</string>
+    <string name="the_hills_of_emyn_muil_a">Your hunt for the enemy has led you to great waterfalls into jagged unforgiving hills.\n\tInicio: Busca en el mazo de encuentros for Amon Hen and Amon Lhaw, and add them to the staging area. Then mezcla el mazo de encuentros.</string>
+    <string name="the_hills_of_emyn_muil_b">You are certain that the enemy has fled into this area, and you are resolved to explore until you find the fresh trail.\n\tObligados: If there are no location cards in the staging area, the first treachery card revealed during the quest phase gains surge.\n\tLos jugadores no pueden superar esta etapa unless there are no Emyn Muil locations in play, and they have collected at least 10 victory points</string>
+    <string name="the_hills_of_emyn_muil_points">1</string>
+
+    <string name="the_hills_of_emyn_muil_2_title">The Forsaken Hills</string>
+    <string name="the_hills_of_emyn_muil_2_a">Your travels have led you into these twisting unnavigable rocky hills.\n\tInicio: Reveal the first X location cards drawn from the encounter deck and add them to the staging area. Discard other cards drawn. X is the amount of players.</string>
+    <string name="the_hills_of_emyn_muil_2_b">You are uncertain which way to go, but you are pressing on, intent on finding a way out of this unforgivable maze.\n\tObligados: If there are no location cards in the staging area, the first treachery card revealed during the quest phase gains surge.\n\tLos jugadores no pueden superar esta etapa unless there are no Emyn Muil locations in play, and they have collected at least 20 victory points</string>
+    <string name="the_hills_of_emyn_muil_2_points">1</string>
+
+    <string name="search_for_the_chamber_title">Search in the Depths</string>
+    <string name="search_for_the_chamber_a">You are investigating the deep dungeons, searching for a sign of your lost relative. In the heavy twilight of a hall, a bulky tomb is discovered in the grip of a skeleton. You carefully take possession of the book. Perhaps it will give you some answers.\..\n\tInicio: Busca en el mazo de encuentros for Book of Mazarbul and have the first player attach it to a hero of his choice. Mezcla el mazo de encuentros.</string>
+    <string name="search_for_the_chamber_b">The runes of the book appear to hold a detailed record of the fledgling colony. But there is some Elvish script at the end which seems out of place. You begin to decipher the runes but are interrupted by a sound from the deep.\..\n\tAl ser Revelada: Reveal 1 encounter card per player and add it to the staging area.\n\tWhen this stage is defeated: The final portion of the book tells a grim tale. Your family is slain when they were trapped in the mines. It seems as if there no survivors but you decide to press on. \n\tRemove Book of Mazarbul from the game.</string>
+    <string name="search_for_the_chamber_points">15</string>
+
+    <string name="entering_the_mines_title">Entering the Mines</string>
+    <string name="entering_the_mines_a">You have been sent to the mines to deliver a message to your allies. Although nobody has seen them for a while./../n/tInicio: Busca en el mazo de encuentros for East-gate, First Hall and Bridge of Khazad-dûm. Put the East-gate into play as the active location, and put the First Hall and the Bridge of Khazad-dûm aside, out of play. Mezcla el mazo de encuentros.</string>
+    <string name="entering_the_mines_b">The doors of the East-gate hang crooked on their hinges. The darkness inside the doorway is still and impenetrable, shutting the last beams of a sinking sun.\n\tAl ser Revelada: Reveal 1 encounter card per player, and add it to the staging area.\n\tLos jugadores no pueden advance to the next stage of the scenario unless Bridge of Khazad-dûm is in their victory display.</string>
+    <string name="entering_the_mines_points">7</string>
+
+    <string name="a_presence_in_the_dark_title">A Presence in the Dark</string>
+    <string name="a_presence_in_the_dark_a">You have discovered the fate of your allies, and seek to leave this dreadful place. But exiting may not be as simple as entering.\..\n\tInicio: Busca en el mazo de encuentros for The Nameless Fear and all copies of A Foe from Beyond. Add The Nameless Fear to the staging area and shuffle 1 copy of A Foe From Beyond for each player back into the encounter deck.. Despu&#233;s, mezclad el mazo de encuentros.</string>
+    <string name="a_presence_in_the_dark_b">As you leave, the air grows thick and drums begin to roll from the deeps. A man-shape shadow, yet greater, masses in the distance, and begins to head straight for you.\n\tAl ser Revelada: Reveal 1 encounter card per player, and add it to the staging area. Then, add 2 victory points to your victory display count.</string>
+    <string name="a_presence_in_the_dark_points">0</string>
+
+    <string name="escape_from_the_darkness_title">Escape from Darkness</string>
+    <string name="escape_from_the_darkness_b">There is a weakness in the wall. You can practically taste the freedom beyond.\n\tAl ser Revelada: Each player chooses 1 questing character he controls. Each character not chosen does not count its Willpower Strength until the end of the turn. Busca en el mazo de encuentros and discard pile for Abandoned Tools and add it to the staging area, if able.\n]tAbandoned Tools gains: Refresh Action: Exhaust attached hero to put a progress token on this quest.\n\tProgress tokens cannot be placed on this quest except by Abandoned Tools.</string>
+    <string name="escape_from_the_darkness_points">4</string>
+
+
+
+    ------
+    ------
+
+
+    ======
+
+    <!--General quests-->
+    <string name="general_quest_title">El Enemigo se Acerca\.\.\.</string>
+    <string name="general_quest_a">La presencia del enemigo est&#225; fortaleci&#233;ndose. Presion&#225;is pero pod&#233;is sentir el poder oscuro en las proximidades.</string>
+    <string name="general_quest_b">Cada jugador saca una carta del mazo de encuentros y la a&#241;ade al &#225;rea de preparaci&#243;n.</string>
+    <string name="general_quest_points">8</string>
+
+    <!--progress 1-->
+    <string name="prisoner_title">¡Capturado!</string>
+    <string name="prisoner_a">  Mientras exploraba en las postrimer&#237;as de la antigua guarida enemiga, uno de vuestros aliados ha sido emboscado y capturado. ¡Lo retienen en una celda de la mazmorra!</string>
+    <string name="prisoner_b">  Al ser Revelada: Selecciona aleatoriamente 1 carta de h&#233;roe (entre todos los h&#233;roes controlados por los jugadores) y vu&#233;lvela boca abajo. Ese h&#233;roe ahora es considerado como un prisionero y no se puede utilizar hasta que sea rescatado.\n Los jugadores, como grupo, no pueden jugar m&#225;s que 1 carta de aliado por turno.\n\tDespu&#233;s de cumplir los requisitos para avanzar hasta la siguiente etapa, gira la carta del prisionero boca arriba y coloca 1 marcador de da&#241;o sobre ella. Este h&#233;roe ha sido rescatado y puede ser utilizado de nuevo por su controlador.</string>
+    <string name="prisoner_points">10</string>
+
+    <!--progress 2-->
+    <string name="unhallowed_title">Sin Invitaci&#243;n</string>
+    <string name="unhallowed_a">Entr&#225;is en la guarida del enemigo. Ahora pod&#233;is explorarla pero un grupo grande puede atraer atenci&#243;n indeseada.</string>
+    <string name="unhallowed_b">Al ser Revelada: Puedes descartar cualquier n&#250;mero de aliados. Una vez hecho esto, revela 1 carta de encuentros por cada uno de los aliados que quedan en juego y an&#225;delos al &#225;rea de preparaci&#243;n.</string>
+    <string name="unhallowed_points">4</string>
+
+    <string name="the_fate_of_balin_title">¡Tened F&#233;!</string>
+    <string name="the_fate_of_balin_a">Cuando vuestro grupo se toma un momento para considerar el impacto de vuestras recientes experiencias, los gritos de guerra y los cuernos Orcos retumban en las cercan&#237;as. Os prepar&#225;is sin tandanza para luchar por salir con vida.</string>
+    <string name="the_fate_of_balin_b">Obligados: Al final de la etapa de preparaci&#243;n, revela las X cartas de la parte superior del mazo de encuentros. A&#241;ade todos los enemigos al &#225;rea de preparaci&#243;n. Descarta el resto de cartas reveladas sin resolverlas. X es el n&#250;mero de jugadores.</string>
+    <string name="the_fate_of_balin_points">17</string>
+
+    <string name="goblin_patrol_title">Patrulla Goblin</string>
+    <string name="goblin_patrol_a">Los esqueletos descansan impert&#233;rritos, no hay signos recientes de aliados en las cercan&#237;as.	El sonido de pies apresurados llega a vuestros o&#237;dos y os dirig&#237;s hacia &#233;l para investigar. Hay una patrulla de Goblins marchando en formaci&#243;n abierta a trav&#233;s de las sombras.</string>
+    <string name="goblin_patrol_b1">Al ser Revelada: Cada jugador debe buscar 1 enemigo de su elecci&#243;n en la pila de descartes y a&#241;adirlo al &#225;rea de preparaci&#243;n. Uno de los elegidos debe ser L&#237;der de Patrulla si es posible.\n\tObligados: Despu&#233;s de que un enemigo es revelado desde el mazo de encuentros, desc&#225;rtalo en lugar de a&#241;adirlo al &#225;rea de preparaci&#243;n.\n\tSi no quedan enemigos en juego, avanzad inmediatamente a la siguiente etapa del escenario (los jugadores tambi&#233;n pueden avanzar normalmente colocando marcadores de misi&#243;n en la misi&#243;n).</string>
+    <string name="goblin_patrol_b2">Al ser Revelada: Cada jugador revela el primer enemigo del mazod e encuentros. Descartar las otras cartas que aparezcan.\n\tSi no hay enemigos en juego, avanzar inmedaitamente a la siguiente etapa del escenario (los jugadores tambi&#233;n pueden avanzar normalmente colocando marcadores de misi&#243;n en esta misi&#243;n).</string>
+    <string name="goblin_patrol_b3">Al ser Revelada: Cada jugador busca en el mazo de encuentros y a&#241;ade el primer enemigo goblin al &#225;rea de preparaci&#243;n. Mezcla despu&#233;s el mazo de encuentros. \n\tSi no quedan enemigos en juego avanza inmediatamente a la siguiente etapa del escenario (los jugadores tambi&#233;n pueden avanzar normalmente colocando marcadores de misi&#243;n en esta misi&#243;n).</string>
+    <string name="goblin_patrol_points">11</string>
+
+    <!--progress 3-->
+    <string name="treason_title">Traici&#243;n</string>
+    <string name="treason_a">Encontr&#225;is el paso, pero est&#225; guardado y estrechamente vigilado. Obviamente los Orcos os est&#225;n buscando aqu&#237;. &#191;Podr&#237;a haber un traidor entre vosotros?</string>
+    <string name="treason_b">Encontrasteis al traidor, ¡pero dio la alarma! \n\tInicio: Cada jugador coloca uno de sus aliados activos, escogidos al azar, en el &#225;rea de preparaci&#243;n. Ahora es un enemigo con Coste de Enfrentamiento 0 y ataque +1. Su Fuerza de Voluntad es su Fuerza de Amenaza. Ignora cualquier habilidad especial que posea. \n\tEsta etapa s&#243;lo puede superarse cuando no queden enemigos en juego.</string>
+    <string name="treason_points">0</string>
+
+    <string name="ambush_on_the_shore_title">¡Emboscada!</string>
+    <string name="ambush_on_the_shore_a">¡Vuestros enemigos os han dirigido a una emboscada! Si sobreviv&#237;s a esto, el camino hacia la salvaci&#243;n deber&#237;a despejarse.</string>
+    <string name="ambush_on_the_shore_b">Al ser Revelada: revela 2 cartas de encuentro por cada jugador y a&#241;&#225;delas al &#225;rea de preparaci&#243;n.\n\tSalta el paso de preparaci&#243;n de la misi&#243;n durante el resto de la partida.\n\tUna vez que no queden enemigos en juego, los jugadores han ganado la partida.</string>
+    <string name="ambush_on_the_shore_points">0</string>
+
+    <string name="a_way_up_title">El Ascenso</string>
+    <string name="a_way_up_a">Est&#225;is ascendiendo hacia la luz. El sendero es traicionero, pos&#225;ndose sobre vuestros hombros una vaga amenaza y una sensaci&#243;n de inquietud.</string>
+    <string name="a_way_up_b">Los h&#233;roes no recogen recursos durante la fase de recursos.</string>
+    <string name="a_way_up_points">12</string>
+
+    <string name="blocked_by_shadow_title">Buscando una Salida</string>
+    <string name="blocked_by_shadow_a">Al aproximarse la presencia, la duda y el miedo os envuelve como una vasta sombra. Deb&#233;is encontrar la luz del d&#237;a, deb&#233;is escapar.\..\n\tMientras esta sea la misi&#243;n activa, pulsa/voltea &#250;nicamente 2B al inicio de la etapa de preparaci&#243;n.</string>
+    <string name="blocked_by_shadow_b">Es una zona peligrosa de las Minas pero, &#191;es luz aquello ante nosotros?\n\tAl ser Revelada: reveal 1 carta de encuentro por cada uno de los jugadores y a&#241;&#225;delas al &#225;rea de preparaci&#243;n.</string>
+    <string name="blocked_by_shadow_points">10</string>
+
+    <string name="spider_image">ara&#241;a</string>
+    <string name="tree_image">&#225;rbol</string>
+    <string name="orc_image">orco</string>
+    <string name="footprint_image">huella</string>
+    <string name="river_image">r&#237;o</string>
+    <string name="eye_image">ojo</string>
+    <string name="raven_image">cuervo</string>
+    <string name="tower_image">torre</string>
+    <string name="hills_image">colinas</string>
+    <string name="progress_1a">1a</string>
+    <string name="progress_1b">1b</string>
+    <string name="progress_2a">2a</string>
+    <string name="progress_2b">2b</string>
+    <string name="progress_3a">3a</string>
+    <string name="progress_3b">3b</string>
+    <string name="information">i</string>
+
+    <string name="scenario_popup_information">Estos son escenarios semejantes a los escenarios de las cartas de misi&#243;n del juego f&#237;sico. Antes de que comiences a jugar el escenario generado, deber&#225;s barajar los mazos de encuentros con los s&#237;mbolos correspondientes tal y como aparecen representados en la pantalla. Una vez hayas hecho eso, ¡est&#225; todo listo para jugar!</string>
+    <string name="scenario_popup_title">Informaci&#243;n del Escenario</string>
+    <string name="main_popup_information">Esta aplicaci&#243;n generar&#225; escenarios para jugar con El Se&#241;or De Los Anillos El Juego de Cartas. La aplicaci&#243;n fue creada con la intenci&#243;n de crear escenarios con una combinaci&#243;n variable de grupos de Encuentros para obtener una experiencia &#250;nica en cada partida. Para empezar, pulsa todos los s&#237;mbolos del mazo de encuentros con los que quieres jugar. Puedes bloquear cada grupo de encuentros puls&#225;ndolo de nuevo. El generador escoger&#225; aleatoriamente de 3 a 4 mazos de encuentros de tu selecci&#243;n (incluyendo siempre los grupos bloqueados) y crear&#225; un escenario basado en esa selecci&#243;n. Los escenarios generados est&#225;n basados en escenarios que ya existen. Date cuenta que las b&#250;squedas puede que no siempre fluyan con naturalidad entre las l&#237;neas argumentales, ¡as&#237; que usa tu creatividad para elaborar una historia coherente! La dificultad de los escenarios generados deber&#237;a estar alrededor del nivel 5 o 6, pero puede variar por la aleatoriedad.</string>
+    <string name="main_popup_title">Informaci&#243;n del Generador</string>
+
+    <string name="progress_image">imagen</string>
+    <string name="information_button">informaci&#243;n</string>
+    <string name="notEnoughToast">Selecciona al menos 3 grupos de encuentros</string>
+    <string name="tooMuchToast">No puedes bloquear m&#225;s de 4 grupos</string>
+    <string name="spearman_image">lancero</string>
+    <string name="goblin_image">goblin</string>
+    <string name="book_image">libro</string>
+    <string name="torch_image">antorcha</string>
+    <string name="fracture_image">fractura</string>
+    <string name="pickaxe_image">pico</string>
+    <string name="chain_image">cadena</string>
+    <string name="map_image">mapa</string>
+    <string name="select_all">Selecciona Todos</string>
+    <string name="deselect_all">Deselecciona Todos</string>
+
+</resources>
