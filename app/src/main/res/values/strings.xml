@@ -42,7 +42,7 @@
     <string name="dark_woods_points">8</string>
 
     <string name="daring_rescue_title">Daring Rescue</string>
-    <string name="daring_rescue_a">  You discover the lair of the evil brood of Orcs and their Hill Troll Leader. You must destroy their hideout and any captives they have taken.</string>
+    <string name="daring_rescue_a">  You discover the lair of the evil brood of Orcs and their Hill Troll Leader. You must destroy their hideout and rescue any captives they have taken.</string>
     <string name="daring_rescue_b">  Search the encounter deck for a Hill Troll card and put it into play.\n\tPlayers cannot defeat this stage while there are Hill Troll cards in play.</string>
     <string name="daring_rescue_points">8</string>
 
@@ -82,7 +82,7 @@
     <string name="foul_tower_points">10</string>
 
     <string name="twisted_caverns_title">Twisted Caverns</string>
-    <string name="twisted_caverns_a">  You rush into the darkened caverns. Moving carefully through the webbed tunnels. Your route to the surface is cut off.\n\tIf Ungoliant\'s Spawn is not in play, search the encounter deck or discard pile for Ungoliant\'s Spawn and place it to one side out of play.\n\tAllies may no longer enter play or be put into play for the remainder of the game.</string>
+    <string name="twisted_caverns_a">  You rush into the darkened caverns. Moving carefully through the webbed tunnels. Your route to the surface is cut off.\n\tIf Ungoliant\'s Spawn is not in play, search the encounter deck or discard pile for Ungoliant\'s Spawn and place it to one side out of play.\n\tAllies may no longer enter play or be put into play for the remainder of the whole game.</string>
     <string name="twisted_caverns_b">  From the darkness of the twisting passageways ahead, an enormous shape scuttles to and fro.\n\tWhen 5 progress tokens have been placed on this card, put Ungoliant\'s Spawn into play.\n\tPlayers cannot defeat this stage while Ungoliant\'s Spawn is in play.</string>
     <string name="twisted_caverns_points">10</string>
 
@@ -132,7 +132,7 @@
     <string name="the_hills_of_emyn_muil_2_points">1</string>
 
     <string name="search_for_the_chamber_title">Search in the Depths</string>
-    <string name="search_for_the_chamber_a">You are investigating the deep dungeons, searching for a sign of your lost relative. In the heavy twilight of a hall, a bulky tomb is discovered in the grip of a skeleton. You carefully take possession of the book. Perhaps it will give you some answers.\..\n\tSetup: Search the encounter deck for Book of Mazarbul and have the first player attach it to a hero of his choice. Shuffle the encounter deck.</string>
+    <string name="search_for_the_chamber_a">You are investigating the deep dungeons, searching for a sign of your lost relative. In the heavy twilight of a hall, a bulky tome is discovered in the grip of a skeleton. You carefully take possession of the book. Perhaps it will give you some answers.\..\n\tSetup: Search the encounter deck for Book of Mazarbul and have the first player attach it to a hero of his choice. Shuffle the encounter deck.</string>
     <string name="search_for_the_chamber_b">The runes of the book appear to hold a detailed record of the fledgling colony. But there is some Elvish script at the end which seems out of place. You begin to decipher the runes but are interrupted by a sound from the deep.\..\n\tWhen Revealed: Reveal 1 encounter card per player and add it to the staging area.\n\tWhen this stage is defeated: The final portion of the book tells a grim tale. Your family is slain when they were trapped in the mines. It seems as if there no survivors but you decide to press on. \n\tRemove Book of Mazarbul from the game.</string>
     <string name="search_for_the_chamber_points">15</string>
 
@@ -147,7 +147,7 @@
     <string name="a_presence_in_the_dark_points">0</string>
 
     <string name="escape_from_the_darkness_title">Escape from Darkness</string>
-    <string name="escape_from_the_darkness_b">There is a weakness in the wall. You can practically taste the freedom beyond.\n\tWhen Revealed: Each player chooses 1 questing character he controls. Each character not chosen does not count its Willpower Strength until the end of the turn. Search the encounter deck and discard pile for Abandoned Tools and add it to the staging area, if able.\n]tAbandoned Tools gains: Refresh Action: Exhaust attached hero to put a progress token on this quest.\n\tProgress tokens cannot be placed on this quest except by Abandoned Tools.</string>
+    <string name="escape_from_the_darkness_b">There is a weakness in the wall. You can practically taste the freedom beyond.\n\tWhen Revealed: Each player chooses 1 questing character he controls. Each character not chosen does not count its Willpower Strength until the end of the turn. Search the encounter deck and discard pile for Abandoned Tools and add it to the staging area, if able.\n\tAbandoned Tools gains: Refresh Action: Exhaust attached hero to put a progress token on this quest.\n\tProgress tokens cannot be placed on this quest except by Abandoned Tools.</string>
     <string name="escape_from_the_darkness_points">4</string>
 
 
@@ -185,7 +185,7 @@
 
     <!--progress 3-->
     <string name="treason_title">Treason</string>
-    <string name="treason_a">You found the pass, but it is guarded and closely watched. Obviously the Orcs are looking for you here. Could the be a traitor among you?</string>
+    <string name="treason_a">You found the pass, but it is guarded and closely watched. Obviously the Orcs are looking for you here. Could there be a traitor among you?</string>
     <string name="treason_b">You found the traitor, but he alarmed the enemy! \n\tSetup: Each player places one of his active allies, randomly chosen, in the staging area. He is now an enemy with Engagement Cost 0 and +1 attack. His Willpower Strength is his Threat Strength. Ignore any special abilities on him. \n\tThis stage can only be defeated when no enemies are in the game.</string>
     <string name="treason_points">0</string>
 
