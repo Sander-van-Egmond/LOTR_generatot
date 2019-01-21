@@ -27,7 +27,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="50"
-            android:onClick="showInfo"
+            android:onClick="selectAll"
             android:text="@string/select_all"/>
 
         <Button
@@ -43,6 +43,7 @@
 
 
     <GridLayout
+        android:id="@+id/button_grid"
         android:layout_height="0dp"
         android:layout_width="wrap_content"
         android:padding="16dp"
@@ -60,6 +61,7 @@
 
         <ImageButton
             android:id="@+id/spider"
+            android:tag="image_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="0"
@@ -74,6 +76,7 @@
 
         <ImageButton
             android:id="@+id/tree"
+            android:tag="image_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1"
@@ -88,6 +91,7 @@
 
         <ImageButton
             android:id="@+id/orc"
+            android:tag="image_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="2"
@@ -102,6 +106,7 @@
 
         <ImageButton
             android:id="@+id/footprint"
+            android:tag="image_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="0"
@@ -116,6 +121,7 @@
 
         <ImageButton
             android:id="@+id/river"
+            android:tag="image_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1"
@@ -130,6 +136,7 @@
 
         <ImageButton
             android:id="@+id/eye"
+            android:tag="image_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="2"
@@ -144,6 +151,7 @@
 
         <ImageButton
             android:id="@+id/tower"
+            android:tag="image_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="0"
@@ -158,6 +166,7 @@
 
         <ImageButton
             android:id="@+id/raven"
+            android:tag="image_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1"
@@ -172,6 +181,7 @@
 
         <ImageButton
             android:id="@+id/hills"
+            android:tag="image_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="2"
@@ -186,6 +196,7 @@
 
         <ImageButton
             android:id="@+id/spearman"
+            android:tag="image_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="0"
@@ -200,6 +211,7 @@
 
         <ImageButton
             android:id="@+id/goblin"
+            android:tag="image_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1"
@@ -214,6 +226,7 @@
 
         <ImageButton
             android:id="@+id/book"
+            android:tag="image_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="2"
@@ -228,6 +241,7 @@
 
         <ImageButton
             android:id="@+id/torch"
+            android:tag="image_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="0"
@@ -241,21 +255,23 @@
             android:alpha="0.5"/>
 
         <ImageButton
-        android:id="@+id/fracture"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_column="1"
-        android:layout_row="4"
-        android:contentDescription="@string/fracture_image"
-        android:onClick="onClickMonsterDeck"
-        app:srcCompat="@drawable/encounterdeck_fracture"
-        android:background="@drawable/circular_button_bg"
-        android:layout_margin="4dp"
-        android:padding="4dp"
-        android:alpha="0.5"/>
+            android:id="@+id/fracture"
+            android:tag="image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:contentDescription="@string/fracture_image"
+            android:onClick="onClickMonsterDeck"
+            app:srcCompat="@drawable/encounterdeck_fracture"
+            android:background="@drawable/circular_button_bg"
+            android:layout_margin="4dp"
+            android:padding="4dp"
+            android:alpha="0.5"/>
 
         <ImageButton
             android:id="@+id/pickaxe"
+            android:tag="image_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="2"
@@ -270,6 +286,7 @@
 
         <ImageButton
             android:id="@+id/chain"
+            android:tag="image_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="0"
@@ -284,6 +301,7 @@
 
         <ImageButton
             android:id="@+id/map"
+            android:tag="image_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1"

@@ -7,6 +7,7 @@ import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -47,14 +48,13 @@ public class MainActivity extends AppCompatActivity {
         if (optionalDecks.contains(v)){
             gd.setColor(Color.TRANSPARENT);
             v.setAlpha((float) 1.0);
+            v.setBackground(gd);
         }else if (includedDecks.contains(v)){
             v.setAlpha((float) 1.0);
             gd.setColor(Color.BLACK);
             v.setBackground(gd);
         }else{
-            v.setAlpha((float) 0.5);
-            gd.setColor(Color.TRANSPARENT);
-            v.setBackground(gd);
+            clearVisual(v);
         }
     }
 
@@ -175,4 +175,33 @@ public class MainActivity extends AppCompatActivity {
         optionalDecks.clear();
     }
 
+    public void selectAll(View input){
+        ViewGroup grid = findViewById(R.id.button_grid);
+        ArrayList<View> deckButtons = getViewsByTag(grid, "image_button");
+        includedDecks.clear();
+        optionalDecks = deckButtons;
+        for (View deck : optionalDecks){
+            updateVisual(deck);
+        }
+
+    }
+
+
+    private static ArrayList<View> getViewsByTag(ViewGroup root, String tag){
+        ArrayList<View> views = new ArrayList<>();
+        final int childCount = root.getChildCount();
+        for (int i = 0; i < childCount; i++) {
+            final View child = root.getChildAt(i);
+            if (child instanceof ViewGroup) {
+                views.addAll(getViewsByTag((ViewGroup) child, tag));
+            }
+
+            final Object tagObj = child.getTag();
+            if (tagObj != null && tagObj.equals(tag)) {
+                views.add(child);
+            }
+
+        }
+        return views;
+    }
 }
