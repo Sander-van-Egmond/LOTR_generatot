@@ -6,7 +6,7 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
-    <string name="tot_the_river_title">To the River</string>
+    <string name="to_the_river_title">To the River</string>
     <string name="to_the_river_a">  Emerging from the forest you must now make your way to the river. As you leave the forest behind, you notice that you are being pursued and thus quicken your pace.\n\tSetup: Each player reveals 1 card from the top of the encounter deck, and adds it to the staging area.</string>
     <string name="to_the_river_b">  As you approach the riverbank, a fearsome Hill Troll emerges from behind a grouping of rocks, and attacks!\n\tWhen Revealed: Search the encounter deck for 1 Hill Troll (if one is not already in play), and place it in the staging area. Shuffle the encounter deck.\n\tPlayers cannot defeat this stage while any Hill Troll cards are in play.</string>
     <string name="to_the_river_points">8</string>

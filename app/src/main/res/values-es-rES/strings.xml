@@ -4,7 +4,7 @@
     <string name="second_activity">Segunda actividad</string>
     <string name="next">Siguiente</string>
     <string name="previous">Previa</string>
-    <string name="tot_the_river_title">Hacia el Río</string>
+    <string name="to_the_river_title">Hacia el Río</string>
     <string name="to_the_river_a"> Tras emerger del bosque, ahora debes encontrar el camino hacia el río. Al dejar el bosque atrás te das cuenta de que te están siguiendo y aprietas el paso.\n\tPreparación: Cada jugador descubre 1 carta de encima del mazo de encuentros y la añade al área de preparación.</string>
     <string name="to_the_river_b"> Al aproximarte a la ribera del río, un temible Trol de las Colinas surge tras un grupo de rocas y ¡se lanza al ataque!\n\tAl ser Revelada: Busca 1 Trol de las Colinas en el mazo de encuentros (si no hay uno ya en juego), y colócalo en el área de preparación. Baraja el mazo de encuentros.\n\tLos jugadores no pueden superar esta etapa mientras haya cartas de Trol de las Colinas en juego.</string>
     <string name="to_the_river_points">8</string>
