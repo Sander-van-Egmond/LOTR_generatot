@@ -195,7 +195,7 @@
     </string-array>
 
     <string-array name="to_the_river">
-        <item>@string/tot_the_river_title</item>
+        <item>@string/to_the_river_title</item>
         <item>@string/to_the_river_a</item>
         <item>@string/to_the_river_b</item>
         <item>@string/to_the_river_points</item>
