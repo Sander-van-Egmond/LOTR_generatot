@@ -12,13 +12,122 @@ object DeckStack {
     }
 
     private fun initializeDecks() {
-        var scenarios1 = ArrayList<Scenario>()
-        scenarios1.add(scenarios["to_the_river"]!!)
-        var scenarios2 = ArrayList<Scenario>()
-        scenarios2.add(scenarios["enchanted_vines"]!!)
-        var scenarios3 = ArrayList<Scenario>()
-
+        var scenarios1 = createScenarioSet(arrayListOf("to_the_river"))
+        var scenarios2 = createScenarioSet(arrayListOf("enchanted_vines"))
+        var scenarios3 = createScenarioSet(arrayListOf("daring_rescue", "treason" ))
         var encounterDeck = EncounterDeck("footprint", scenarios1, scenarios2, scenarios3)
+        encounterDecks[encounterDeck.symbol] = encounterDeck
+
+        scenarios1 = createScenarioSet(arrayListOf("general_quest"))
+        scenarios2 = createScenarioSet(arrayListOf("anduin_passage"))
+        scenarios3 = createScenarioSet(arrayListOf("ambush_on_the_shore"))
+        encounterDeck = EncounterDeck("river", scenarios1, scenarios2, scenarios3)
+        encounterDecks[encounterDeck.symbol] = encounterDeck
+
+        scenarios1 = createScenarioSet(arrayListOf("the_necromancers_tower"))
+        scenarios2 = createScenarioSet(arrayListOf("through_the_caverns", "deep_catacombs", "the_secret_tunnel"))
+        scenarios3 = createScenarioSet(arrayListOf("out_of_the_dungeons", "risen_nightmare", "an_ancient_evil"))
+        encounterDeck = EncounterDeck("tower", scenarios1, scenarios2, scenarios3)
+        encounterDecks[encounterDeck.symbol] = encounterDeck
+
+        scenarios1 = createScenarioSet(arrayListOf("orc_war_party", "goblin_gate"))
+        scenarios2 = createScenarioSet(arrayListOf("dark_woods", "elf_path"))
+        scenarios3 = createScenarioSet(arrayListOf("the_veil_of_the_lonely_mountain", "treason"))
+        encounterDeck = EncounterDeck("orc", scenarios1, scenarios2, scenarios3)
+        encounterDecks[encounterDeck.symbol] = encounterDeck
+
+
+        scenarios1 = createScenarioSet(arrayListOf("ancient_path", "foul_tower"))
+        scenarios2 = createScenarioSet(arrayListOf("twisted_caverns"))
+        scenarios3 = createScenarioSet(arrayListOf("final_stand"))
+        encounterDeck = EncounterDeck("spider", scenarios1, scenarios2, scenarios3)
+        encounterDecks[encounterDeck.symbol] = encounterDeck
+
+        scenarios1 = createScenarioSet(arrayListOf("general_quest"))
+        scenarios2 = createScenarioSet(arrayListOf("unhallowed"))
+        scenarios3 = createScenarioSet(arrayListOf("ambush_on_the_shore"))
+        encounterDeck = EncounterDeck("eye", scenarios1, scenarios2, scenarios3)
+        encounterDecks[encounterDeck.symbol] = encounterDeck
+
+        scenarios1 = createScenarioSet(arrayListOf("in_the_forest"))
+        scenarios2 = createScenarioSet(arrayListOf("unhallowed"))
+        scenarios3 = createScenarioSet(arrayListOf("ambush_on_the_shore"))
+        encounterDeck = EncounterDeck("tree", scenarios1, scenarios2, scenarios3)
+        encounterDecks[encounterDeck.symbol] = encounterDeck
+
+        scenarios1 = createScenarioSet(arrayListOf("the_wounded_eagle"))
+        scenarios2 = createScenarioSet(arrayListOf("radagasts_request"))
+        scenarios3 = createScenarioSet(arrayListOf("general_quest"))
+        encounterDeck = EncounterDeck("raven", scenarios1, scenarios2, scenarios3)
+        encounterDecks[encounterDeck.symbol] = encounterDeck
+
+        scenarios1 = createScenarioSet(arrayListOf("the_hills_of_emyn_muil"))
+        scenarios2 = createScenarioSet(arrayListOf("unhallowed"))
+        scenarios3 = createScenarioSet(arrayListOf("the_hills_of_emyn_muil_2"))
+        encounterDeck = EncounterDeck("hills", scenarios1, scenarios2, scenarios3)
+        encounterDecks[encounterDeck.symbol] = encounterDeck
+
+        scenarios1 = createScenarioSet(arrayListOf("prisoner"))
+        scenarios2 = createScenarioSet(arrayListOf("the_fate_of_balin"))
+        scenarios3 = createScenarioSet(arrayListOf("blocked_by_shadow"))
+        encounterDeck = EncounterDeck("spearman", scenarios1, scenarios2, scenarios3)
+        encounterDecks[encounterDeck.symbol] = encounterDeck
+
+        scenarios1 = createScenarioSet(arrayListOf("prisoner"))
+        scenarios2 = createScenarioSet(arrayListOf("the_fate_of_balin", "goblin_patrol_2", "goblin_patrol_3"))
+        scenarios3 = createScenarioSet(arrayListOf("a_way_up", "blocked_by_shadow"))
+        encounterDeck = EncounterDeck("goblin", scenarios1, scenarios2, scenarios3)
+        encounterDecks[encounterDeck.symbol] = encounterDeck
+
+        scenarios1 = createScenarioSet(arrayListOf("search_for_the_chamber"))
+        scenarios2 = createScenarioSet(arrayListOf("the_fate_of_balin"))
+        scenarios3 = createScenarioSet(arrayListOf("treason"))
+        encounterDeck = EncounterDeck("book", scenarios1, scenarios2, scenarios3)
+        encounterDecks[encounterDeck.symbol] = encounterDeck
+
+        scenarios1 = createScenarioSet(arrayListOf("general_quest"))
+        scenarios2 = createScenarioSet(arrayListOf("goblin_patrol_3"))
+        scenarios3 = createScenarioSet(arrayListOf("a_way_up"))
+        encounterDeck = EncounterDeck("torch", scenarios1, scenarios2, scenarios3)
+        encounterDecks[encounterDeck.symbol] = encounterDeck
+
+        scenarios1 = createScenarioSet(arrayListOf("general_quest"))
+        scenarios2 = createScenarioSet(arrayListOf("unhallowed"))
+        scenarios3 = createScenarioSet(arrayListOf("a_way_up", "blocked_by_shadow"))
+        encounterDeck = EncounterDeck("fracture", scenarios1, scenarios2, scenarios3)
+        encounterDecks[encounterDeck.symbol] = encounterDeck
+
+        scenarios1 = createScenarioSet(arrayListOf("general_quest"))
+        scenarios2 = createScenarioSet(arrayListOf("unhallowed"))
+        scenarios3 = createScenarioSet(arrayListOf("a_way_up", "blocked_by_shadow"))
+        encounterDeck = EncounterDeck("fracture", scenarios1, scenarios2, scenarios3)
+        encounterDecks[encounterDeck.symbol] = encounterDeck
+
+        scenarios1 = createScenarioSet(arrayListOf("entering_the_mines"))
+        scenarios2 = createScenarioSet(arrayListOf("goblin_patrol_1", "goblin_patrol_2", "goblin_patrol_3"))
+        scenarios3 = createScenarioSet(arrayListOf("a_way_up"))
+        encounterDeck = EncounterDeck("pickaxe", scenarios1, scenarios2, scenarios3)
+        encounterDecks[encounterDeck.symbol] = encounterDeck
+
+        scenarios1 = createScenarioSet(arrayListOf("presence_in_the_dark"))
+        scenarios2 = createScenarioSet(arrayListOf("unhallowed"))
+        scenarios3 = createScenarioSet(arrayListOf("escape_from_darkness"))
+        encounterDeck = EncounterDeck("map", scenarios1, scenarios2, scenarios3)
+        encounterDecks[encounterDeck.symbol] = encounterDeck
+
+        scenarios1 = createScenarioSet(arrayListOf("prisoner"))
+        scenarios2 = createScenarioSet(arrayListOf("goblin_patrol_2"))
+        scenarios3 = createScenarioSet(arrayListOf("blocked_by_shadow"))
+        encounterDeck = EncounterDeck("chain", scenarios1, scenarios2, scenarios3)
+        encounterDecks[encounterDeck.symbol] = encounterDeck
+    }
+
+    private fun createScenarioSet(scenarioStrings: ArrayList<String>): ArrayList<Scenario> {
+        val scenarioSet = ArrayList<Scenario>()
+        for (string: String in scenarioStrings) {
+            scenarioSet.add(scenarios[string]!!)
+        }
+        return scenarioSet
     }
 
     private fun initializeScenarios() {
