@@ -231,13 +231,13 @@ object DeckStack {
         scenarios["the_fate_of_balin"] = scenario
 
         scenario = QuestCard(R.string.goblin_patrol_title, R.string.goblin_patrol_a, R.string.goblin_patrol_b1, 11)
-        scenarios["the_goblin_patrol_1"] = scenario
+        scenarios["goblin_patrol_1"] = scenario
 
         scenario = QuestCard(R.string.goblin_patrol_title, R.string.goblin_patrol_a, R.string.goblin_patrol_b2, 11)
-        scenarios["the_goblin_patrol_2"] = scenario
+        scenarios["goblin_patrol_2"] = scenario
 
         scenario = QuestCard(R.string.goblin_patrol_title, R.string.goblin_patrol_a, R.string.goblin_patrol_b3, 11)
-        scenarios["the_goblin_patrol_3"] = scenario
+        scenarios["goblin_patrol_3"] = scenario
 
         // 3rd general quests
         scenario = QuestCard(R.string.treason_title, R.string.treason_a, R.string.treason_b, 0)
