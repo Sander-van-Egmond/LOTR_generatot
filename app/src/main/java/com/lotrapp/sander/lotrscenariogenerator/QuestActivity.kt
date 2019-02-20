@@ -5,22 +5,13 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.text.method.ScrollingMovementMethod
 import android.view.View
-import android.widget.ImageButton
 import android.widget.LinearLayout
-import android.widget.TextView
 import de.hdodenhof.circleimageview.CircleImageView
+import kotlinx.android.synthetic.main.activity_scenario.*
 
 class QuestActivity : AppCompatActivity() {
 
-    private var scenario: Int = 1
-    private var nextButton: ImageButton = findViewById(R.id.nextscenario_button)
-    private var previousButton: ImageButton =  findViewById(R.id.previousscenario_button)
-    private var setupText: TextView = findViewById(R.id.setup_text)
-    private var titleText: TextView = findViewById(R.id.title_text)
-    private var points: TextView = findViewById(R.id.quest_points)
-    private var progress: TextView = findViewById(R.id.progress_tv)
-
-    private var qpImage: CircleImageView = findViewById(R.id.qp_image)
+    private var scenario: Int = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,7 +22,7 @@ class QuestActivity : AppCompatActivity() {
 
 
 
-        setupText.movementMethod = ScrollingMovementMethod()
+        setup_text.movementMethod = ScrollingMovementMethod()
 
         val ll = findViewById<LinearLayout>(R.id.quest_symbols_ll)
         for (symbol in monsterSymbols) {
@@ -46,60 +37,60 @@ class QuestActivity : AppCompatActivity() {
         updateScenario()
     }
 
-    fun nextScenario(v: View) {
+    fun nextScenario(@Suppress("UNUSED_PARAMETER") v: View) {
         scenario += 1
         updateScenario()
     }
 
 
-    fun previousScenario(v: View) {
+    fun previousScenario(@Suppress("UNUSED_PARAMETER") v: View) {
         scenario -= 1
         updateScenario()
     }
 
 
     private fun updateScenario() {
-        if (scenario % 2 == 1) {
-            points.visibility = View.INVISIBLE
-            qpImage.visibility = View.INVISIBLE
-            setupText.text = Scenario.questCards[(scenario+1)/2].aSide.toString()
+        if (scenario % 2 == 0) {
+            quest_points.visibility = View.INVISIBLE
+            qp_image.visibility = View.INVISIBLE
+            setup_text.setText(Scenario.questCards[scenario/2].aSide)
         } else {
-            points.visibility = View.VISIBLE
-            qpImage.visibility = View.VISIBLE
-            setupText.text = Scenario.questCards[(scenario+1)/2].bSide.toString()
-            points.text = Scenario.victoryPoints[scenario/2].toString()
+            quest_points.visibility = View.VISIBLE
+            qp_image.visibility = View.VISIBLE
+            setup_text.setText(Scenario.questCards[scenario/2].bSide)
+            quest_points.text = Scenario.victoryPoints[scenario/2].toString()
         }
-        titleText.text = Scenario.questCards[(scenario+1)/2].title.toString()
+        title_text.setText(Scenario.questCards[scenario/2].title)
 
         when (scenario) {
+            0 -> {
+                previousscenario_button.isEnabled = false
+                previousscenario_button.visibility = View.INVISIBLE
+                progress_tv.setText(R.string.progress_1a)
+            }
             1 -> {
-                previousButton.isEnabled = false
-                previousButton.visibility = View.INVISIBLE
-                progress.setText(R.string.progress_1a)
+                previousscenario_button.isEnabled = true
+                previousscenario_button.visibility = View.VISIBLE
+                progress_tv.setText(R.string.progress_1b)
             }
             2 -> {
-                previousButton.isEnabled = true
-                previousButton.visibility = View.VISIBLE
-                progress.setText(R.string.progress_1b)
+                progress_tv.setText(R.string.progress_2a)
             }
             3 -> {
-                progress.setText(R.string.progress_2a)
+                progress_tv.setText(R.string.progress_2b)
             }
             4 -> {
-                progress.setText(R.string.progress_2b)
+                nextscenario_button.isEnabled = true
+                nextscenario_button.visibility = View.VISIBLE
+                progress_tv.setText(R.string.progress_3a)
             }
             5 -> {
-                nextButton.isEnabled = true
-                nextButton.visibility = View.VISIBLE
-                progress.setText(R.string.progress_3a)
-            }
-            6 -> {
-                nextButton.isEnabled = false
-                nextButton.visibility = View.INVISIBLE
-                progress.setText(R.string.progress_3b)
+                nextscenario_button.isEnabled = false
+                nextscenario_button.visibility = View.INVISIBLE
+                progress_tv.setText(R.string.progress_3b)
             }
         }
-        setupText.setTextIsSelectable(true)
+        setup_text.setTextIsSelectable(true)
     }
 
     fun onClickInfo(v: View) {

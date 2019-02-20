@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    fun generate(v: View) {
+    fun generate(@Suppress("UNUSED_PARAMETER") v: View) {
         when {
             optionalDecks.size + includedDecks.size < 3 -> Toast.makeText(applicationContext,
                     R.string.notEnoughToast,
@@ -92,7 +92,7 @@ class MainActivity : AppCompatActivity() {
                         chosenDecks.addAll(optionalDecks.subList(0, 3 - chosenDecks.size))
                     }
                 }
-                for (i in 1..3){
+                for (i in 0..2){
                     scenarioPicker(chosenDecks, i)
                 }
                 scenario.putStringArrayListExtra("monster_decks", viewToString(chosenDecks))
@@ -121,9 +121,9 @@ class MainActivity : AppCompatActivity() {
             val deck = v.contentDescription.toString()
 
             val subOptions = when (scenarioNumber) {
-                1 -> DeckStack.encounterDecks[deck]?.scenarios1
-                2 -> DeckStack.encounterDecks[deck]?.scenarios2
-                3 -> DeckStack.encounterDecks[deck]?.scenarios3
+                0 -> DeckStack.encounterDecks[deck]?.scenarios1
+                1 -> DeckStack.encounterDecks[deck]?.scenarios2
+                2 -> DeckStack.encounterDecks[deck]?.scenarios3
                 else -> null
             }
             subOptions?.shuffle()
@@ -135,9 +135,13 @@ class MainActivity : AppCompatActivity() {
             options.shuffle()
             options[0]
         }
-
-        Scenario.questCards[scenarioNumber] = chosenQuestCard
-        Scenario.victoryPoints[scenarioNumber] = generatePoints(chosenQuestCard.victoryPoints)
+        if (Scenario.questCards.lastIndex < scenarioNumber){
+            Scenario.questCards.add(chosenQuestCard)
+            Scenario.victoryPoints.add(generatePoints(chosenQuestCard.victoryPoints))
+        }else {
+            Scenario.questCards[scenarioNumber] = chosenQuestCard
+            Scenario.victoryPoints[scenarioNumber] = generatePoints(chosenQuestCard.victoryPoints)
+        }
     }
 
     private fun generatePoints(init: Int): Int {
@@ -151,7 +155,7 @@ class MainActivity : AppCompatActivity() {
         startActivity(i)
     }
 
-    fun deselectAll(input: View) {
+    fun deselectAll(@Suppress("UNUSED_PARAMETER") input: View) {
         for (v in includedDecks) {
             clearVisual(v)
         }
@@ -162,7 +166,7 @@ class MainActivity : AppCompatActivity() {
         optionalDecks.clear()
     }
 
-    fun selectAll(input: View) {
+    fun selectAll(@Suppress("UNUSED_PARAMETER") input: View) {
         val grid = findViewById<ViewGroup>(R.id.button_grid)
         val deckButtons = getViewsByTag(grid, "image_button")
         includedDecks.clear()

@@ -109,7 +109,7 @@ object DeckStack {
         encounterDeck = EncounterDeck("pickaxe", scenarios1, scenarios2, scenarios3)
         encounterDecks[encounterDeck.symbol] = encounterDeck
 
-        scenarios1 = createScenarioSet(arrayListOf("presence_in_the_dark"))
+        scenarios1 = createScenarioSet(arrayListOf("a_presence_in_the_dark"))
         scenarios2 = createScenarioSet(arrayListOf("unhallowed"))
         scenarios3 = createScenarioSet(arrayListOf("escape_from_darkness"))
         encounterDeck = EncounterDeck("map", scenarios1, scenarios2, scenarios3)
@@ -215,8 +215,11 @@ object DeckStack {
         scenario = QuestCard(R.string.a_presence_in_the_dark_title, R.string.a_presence_in_the_dark_a, R.string.a_presence_in_the_dark_b, 0)
         scenarios["a_presence_in_the_dark"] = scenario
 
+        scenario = QuestCard(R.string.a_presence_in_the_dark_title, R.string.a_presence_in_the_dark_a, R.string.a_presence_in_the_dark_b, 0)
+        scenarios["escape_from_darkness"] = scenario
+
         //all time general quests
-        scenario = QuestCard(R.string.general_quest_title, R.string.general_quest_a, R.string.general_quest_b, 8)
+        scenario = QuestCard(R.string.escape_from_the_darkness_title, R.string.blocked_by_shadow_a, R.string.escape_from_the_darkness_b, 4)
         scenarios["general_quest"] = scenario
 
         // 1st general quests
