@@ -111,7 +111,7 @@
     <string name="search_for_the_chamber_b">The runes of the book appear to hold a detailed record of the fledgling colony. But there is some Elvish script at the end which seems out of place. You begin to decipher the runes but are interrupted by a sound from the deep.\..\n\tWhen Revealed: Reveal 1 encounter card per player and add it to the staging area.\n\tWhen this stage is defeated: The final portion of the book tells a grim tale. Your family is slain when they were trapped in the mines. It seems as if there no survivors but you decide to press on. \n\tRemove Book of Mazarbul from the game.</string>
 
     <string name="entering_the_mines_title">Entering the Mines</string>
-    <string name="entering_the_mines_a">You have been sent to the mines to deliver a message to your allies. Although nobody has seen them for a while./../n/tSetup: Search the encounter deck for East-gate, First Hall and Bridge of Khazad-dûm. Put the East-gate into play as the active location, and put the First Hall and the Bridge of Khazad-dûm aside, out of play. Shuffle the encounter deck.</string>
+    <string name="entering_the_mines_a">You have been sent to the mines to deliver a message to your allies. Although nobody has seen them for a while.\..\n\tSetup: Search the encounter deck for East-gate, First Hall and Bridge of Khazad-dûm. Put the East-gate into play as the active location, and put the First Hall and the Bridge of Khazad-dûm aside, out of play. Shuffle the encounter deck.</string>
     <string name="entering_the_mines_b">The doors of the East-gate hang crooked on their hinges. The darkness inside the doorway is still and impenetrable, shutting the last beams of a sinking sun.\n\tWhen Revealed: Reveal 1 encounter card per player, and add it to the staging area.\n\tPlayers cannot advance to the next stage of the scenario unless Bridge of Khazad-dûm is in their victory display.</string>
 
     <string name="a_presence_in_the_dark_title">A Presence in the Dark</string>
@@ -160,7 +160,7 @@
     <string name="a_way_up_b">Heroes do not collect resources during the resource phase.</string>
 
     <string name="blocked_by_shadow_title">Search for an Exit</string>
-    <string name="blocked_by_shadow_a">As the presence draws near, doubt and fear surround you like a vast shadow. You must find daylight, you must escape.\..\n\tWhile this is the active quest, only click/flip to 2B at the beginning of the staging step.</string>
+    <string name="blocked_by_shadow_a">As the presence draws near, doubt and fear surround you like a vast shadow. You must find daylight, you must escape.\..\n\tWhile this is the active quest, only click/flip to the B side of this quest at the beginning of the staging step.</string>
     <string name="blocked_by_shadow_b">This is a dangerous part of the Mines, but is that light up ahead?\n\tWhen Revealed: Reveal 1 encounter card per player, and add it to the staging area.</string>
 
     <string name="progress_1a">1a</string>
